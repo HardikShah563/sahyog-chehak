@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    height: 300vh;
+li {
+    list-style-type: none;
+}
+
+.page {
+    height: 50vh;
 }

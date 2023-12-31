@@ -1,2 +1,152 @@
 /* all the css required to make footer bar should be here */
 /* create a media query for mobile view */
+:root {
+    --white: #ffffff;
+    --off-white: #f1f1f1;
+    --grey: #838383;
+    --black: #000000;
+    --matt-black: #171717;
+    --blue: #84c9ef;
+    --green: #606c5d;
+    --yellow: #FEC443;
+}
+
+/* Footer Section */
+.footer {
+    padding: 40px 10px 10px 10px;
+    background-color: var(--black);
+}
+
+.footer-sections {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto auto;
+}
+
+.foot-section {
+    min-width: 100px;
+    margin: 20px 0;
+}
+
+.foot-section>li>div {
+    margin: 20px 0;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.foot-section>.heading {
+    padding: 0 0 15px 0;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.social-media-icons {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.sm-icon {
+    width: 30px;
+}
+
+hr {
+    border: 0.5px solid var(--dark-grey);
+    width: 90%;
+    margin: auto auto;
+}
+
+.below-footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 90%;
+    margin: auto auto;
+    color: var(--white);
+}
+
+.below-footer-links>li>div {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.below-footer-links {
+    align-items: center;
+}
+
+.below-footer-section div {
+    font-size: 18px;
+    color: var(--white);
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.privacy-policy {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.privacy-policy li div {
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .foot-section {
+        min-width: 200px;
+        padding-left: 40px;
+    }
+
+    .footer-logo {
+        width: 200px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-sections {
+        justify-content: left;
+    }
+
+    .below-footer-links {
+        width: 100%;
+    }
+
+    .below-footer-links {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 10px 20px;
+    }
+
+    .below-footer-links {
+        padding: 10px 0px;
+    }
+
+    .foot-section {
+        padding-left: 0px;
+    }
+}
+
+.yellow-text {
+    color: var(--yellow);
+}
