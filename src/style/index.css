@@ -11,6 +11,18 @@ li {
     list-style-type: none;
 }
 
+.w-100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-space-btween {
+    justify-content: space-between;
+}
+
 .page {
     height: 50vh;
 }

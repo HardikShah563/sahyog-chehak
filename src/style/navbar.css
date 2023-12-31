@@ -26,6 +26,7 @@
 /* ---- navigation bar links ---- */
 .nav-items {
     display: flex;
+    width: 100%;
 }
 
 .logo {
@@ -71,6 +72,7 @@
 
 .nav-buttons {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -179,19 +181,15 @@ a hr {
 
     .nav-links {
         position: absolute;
-        z-index: 3;
         background-color: var(--matt-black);
         margin: 0 0;
         display: block;
-        top: 110px;
-        left: 0vw;
-        width: 98vw;
-        max-height: 80vh;
-        overflow: scroll;
+        top: 100px;
+        width: 100vw;
+        left: 0px;
         height: 0;
         transform: 200ms;
         overflow: hidden;
-        border-radius: 20px;
     }
 
     .nav-links.active {
