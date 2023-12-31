@@ -1,2 +1,270 @@
 /* all the css required to make navigation bar should be here */
 /* create a media query for mobile view */
+
+/* Variable CSS */
+:root {
+    --white: #ffffff;
+    --off-white: #f1f1f1;
+    --grey: #838383;
+    --black: #000000;
+    --matt-black: #171717;
+    --blue: #84c9ef;
+    --green: #606c5d;
+}
+
+/* ========== ========= Navbar CSS ======== ======== */
+
+/* ---- navigation bar css ---- */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 20px;
+    background-color: var(--black);
+}
+
+/* ---- navigation bar links ---- */
+.nav-items {
+    display: flex;
+}
+
+.logo {
+    height: 60px;
+}
+
+.white {
+    color: var(--white);
+}
+
+.nav-lines i {
+    color: var(--black);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition-duration: 500ms;
+    margin-left: 20px;
+}
+
+.nav-links li {
+    display: block;
+    padding: 0 10px;
+    color: var(--white);
+    transition-duration: 200ms;
+}
+
+.nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.nav-links li p,
+.nav-links li div {
+    padding: 20px 0px;
+    color: var(--white);
+    font-size: 16px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    display: flex;
+    height: fit-content;
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: var(--white);
+    font-weight: 600;
+    background-color: #262626;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: var(--black);
+}
+
+.dropdown .nav-button {
+    border: none;
+}
+
+.dropdown .nav-button div {
+    font-weight: 600;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    transform: translateX(-20px);
+    background-color: var(--white);
+    text-align: left;
+    min-width: 250px;
+    box-shadow: 6px 12px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+.dropdown-content div,
+.dropdown-content a {
+    color: var(--black);
+    font-weight: 600;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* navigation bar lines for collapsable nav bar */
+.nav-lines {
+    display: none;
+    margin: auto 0;
+}
+
+.Bar {
+    width: 20px;
+    height: 2px;
+    background-color: var(--white);
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+a hr {
+    width: 0%;
+    border: 0.5px solid transparent;
+    transition: 300ms ease-in-out;
+}
+
+.add-item {
+    border: 1px dashed var(--black);
+    border-radius: 8px;
+    padding: 0px;
+    margin: 5px;
+}
+
+.add-item div {
+    padding: 10px 0px !important;
+}
+
+.add-nav-item {
+    border: 2px dashed var(--white);
+}
+
+.login-hide {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    nav {
+        margin: 0 0;
+        padding: 20px 30px;
+        margin: auto auto;
+        justify-content: space-between;
+    }
+
+    .nav-lines {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        position: absolute;
+        z-index: 3;
+        background-color: var(--matt-black);
+        margin: 0 0;
+        display: block;
+        top: 110px;
+        left: 0vw;
+        width: 98vw;
+        max-height: 80vh;
+        overflow: scroll;
+        height: 0;
+        transform: 200ms;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .nav-links.active {
+        height: fit-content;
+        padding: 20px;
+        overflow: scroll;
+    }
+
+    .nav-links li {
+        justify-content: center;
+        text-align: left;
+        font-weight: 600;
+        padding-inline: 0px;
+        margin-inline: 20px;
+    }
+
+
+    .nav-links li p,
+    .nav-links li div {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 20px 0px;
+    }
+
+    .nav-links li:hover {
+        transform: scale(1);
+    }
+
+    .dropdown-content {
+        display: block;
+        position: relative;
+        transform: translateX(0);
+        background-color: transparent;
+        box-shadow: none;
+        text-align: left;
+        min-width: 250px;
+        border-left: 1px solid var(--white);
+        border-radius: 0px;
+        margin-left: 20px;
+    }
+
+    .dropdown-block {
+        display: block;
+    }
+
+    .dropdown-content div {
+        color: var(--white);
+    }
+
+    .login-hide {
+        display: block;
+    }
+
+    .login-display {
+        display: none;
+    }
+
+    .nav-button {
+        background-color: transparent;
+    }
+}
+
+/* -------- ScrollBar CSS -------- */
+/* width */
+::-webkit-scrollbar {
+    width: 5px !important;
+    border-radius: var(--radius-5);
+    overflow: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--primary-very-dark);
+    border-radius: var(--radius-10);
+}
