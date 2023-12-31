@@ -72,14 +72,6 @@ export default function Navbar() {
                         </div>
 
                         <div className="dropdown login-hide">
-                            <li className="nav-button" onClick={() => navigate("/login")}>
-                                <div>
-                                    Login
-                                </div>
-                            </li>
-                        </div>
-
-                        <div className="dropdown login-hide">
                             <li className="nav-button" onClick={() => navigate("/donate")}>
                                 <div>
                                     Donate
@@ -97,11 +89,6 @@ export default function Navbar() {
                 </div>
 
                 <div className="nav-buttons login-display">
-                    <li className="nav-button" onClick={() => navigate("/login")}>
-                        <div>
-                            Login
-                        </div>
-                    </li>
                     <li className="nav-button" onClick={() => navigate("/donate")}>
                         <div>
                             Donate
