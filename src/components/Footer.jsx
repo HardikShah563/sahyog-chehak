@@ -24,9 +24,9 @@ export default function Footer() {
                             alt="jalaram bhakt mandal logo"
                         />
                         <div className="social-media-icons">
-                            <FaFacebook />
-                            <FaTwitter />
-                            <FaLinkedin />
+                            <FaFacebook size={30} className="icon-dark" />
+                            <FaTwitter size={30} className="icon-dark" />
+                            <FaLinkedin size={30} className="icon-dark" />
                         </div>
                     </div>
 

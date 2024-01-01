@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 // importing pages
 import Layout from "../pages/Layout";
 import Home from "../pages/Home";
+import Donate from "../pages/Donate";
 
 const router = createBrowserRouter([
     {
@@ -12,8 +13,11 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home />
-            }, 
+                element: <Home />,
+            }, {
+                path: "/donate",
+                element: <Donate />,
+            },
             {
                 // your pages will go here, copy the syntax of <Home /> and follow the convention
             }

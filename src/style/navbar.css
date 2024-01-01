@@ -20,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: var(--black);
+    background-color: var(--primary-bg);
 }
 
 /* ---- navigation bar links ---- */
@@ -64,7 +64,8 @@
 .nav-links li p,
 .nav-links li div {
     padding: 20px 0px;
-    color: var(--white);
+    font-weight: 600;
+    color: var(--secondary-dark);
     font-size: 16px;
     transition: 200ms;
     cursor: pointer;
@@ -79,7 +80,7 @@
 .nav-button {
     display: flex;
     height: fit-content;
-    border: 1px solid var(--white);
+    border: 1px solid var(--secondary-dark);
     border-radius: 8px;
     padding: 8px 12px;
     color: var(--white);
@@ -89,7 +90,7 @@
 }
 
 .nav-button:hover {
-    background-color: var(--black);
+    background-color: var(--secondary-dark);
 }
 
 .dropdown .nav-button {
@@ -104,10 +105,10 @@
     display: none;
     position: absolute;
     transform: translateX(-20px);
-    background-color: var(--white);
+    background-color: var(--primary-bg);
     text-align: left;
     min-width: 250px;
-    box-shadow: 6px 12px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px 2px #00000020;
     z-index: 1;
     margin: 0 10px;
     border-radius: 8px;
@@ -167,11 +168,12 @@ a hr {
 }
 
 @media (max-width: 900px) {
-    nav {
+    .nav {
         margin: 0 0;
         padding: 20px 30px;
         margin: auto auto;
         justify-content: space-between;
+        background-color: var(--secondary-dark);
     }
 
     .nav-lines {
@@ -212,6 +214,7 @@ a hr {
         font-size: 16px;
         font-weight: 400;
         padding: 20px 0px;
+        color: var(--secondary-light);
     }
 
     .nav-links li:hover {

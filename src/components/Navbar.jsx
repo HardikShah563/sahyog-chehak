@@ -67,7 +67,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="nav-lines" onClick={() => { setShowNavbar(prevState => !prevState) }}>
-                    <FaBarsStaggered fill="white" size={30} />
+                    <FaBarsStaggered fill="black" size={30} />
                 </div>
             </nav >
         </>
