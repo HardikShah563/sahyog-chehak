@@ -1,0 +1,21 @@
+/* values component */
+.value-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-inline: 10px;
+    --size: 140px;
+    width: var(--size);
+    height: var(--size);
+    color: var(--secondary-dark);
+    /* border: 2px solid var(--primary-bg); */
+    border-radius: var(--radius-10);
+    box-shadow: 10px 10px 15px 8px var(--primary-bg);
+}
+
+.value-card-title {
+    font-size: 24px;
+    font-weight: 600;
+}
