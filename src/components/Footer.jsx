@@ -24,16 +24,16 @@ export default function Footer() {
                             alt="jalaram bhakt mandal logo"
                         />
                         <div className="social-media-icons">
-                            <FaFacebook size={30} className="icon-dark" />
-                            <FaTwitter size={30} className="icon-dark" />
-                            <FaLinkedin size={30} className="icon-dark" />
+                            <FaFacebook fill="grey" size={30} className="footer-icon" />
+                            <FaTwitter fill="grey" size={30} className="footer-icon" />
+                            <FaLinkedin fill="grey" size={30} className="footer-icon" />
                         </div>
                     </div>
 
                     <div
                         className="foot-section">
                         <li className="heading">
-                            <span className="yellow-text">About</span>
+                            <span className="title-text">About</span>
                         </li>
                         <li>
                             <div onClick={() => navigate("/vision-and-mission")}>Our Values and Mission</div>
@@ -63,7 +63,7 @@ export default function Footer() {
 
                     <div className="foot-section">
                         <li className="heading">
-                            <span className="yellow-text">Programs</span>
+                            <span className="title-text">Programs</span>
                         </li>
                         <li>
                             <div onClick={() => navigate("/sahyog-sangharsh")}>Sahyog Sangharsh</div>
@@ -77,14 +77,11 @@ export default function Footer() {
                         <li>
                             <div onClick={() => navigate("/sahyog-jhula")}>Sahyog Jhula</div>
                         </li>
-                        <li>
-                            <div onClick={() => navigate("/add-element")}>Sahyog Jhula</div>
-                        </li>
                     </div>
 
                     <div className="foot-section">
                         <li className="heading">
-                            <span className="yellow-text">Reports</span>
+                            <span className="title-text">Reports</span>
                         </li>
                         <li>
                             <div onClick={() => navigate("/reports")}>Annual Reports</div>
@@ -96,7 +93,7 @@ export default function Footer() {
 
                     <div className="foot-section">
                         <li className="heading">
-                            <span className="yellow-text">Other</span>
+                            <span className="title-text">Other</span>
                         </li>
                         <li>
                             <div onClick={() => navigate("/sangarsh-campaign")}>Sangarsh Campaign</div>
@@ -111,10 +108,10 @@ export default function Footer() {
                 </div>
                 <hr />
                 <div className="below-footer-links">
-                    <div className="below-footer-section privacy-policy">
-                        <li><div onclick={() => navigate("/")}><span className="yellow-text">Terms</span></div></li>
-                        <li><div onclick={() => navigate("/")}><span className="yellow-text">Privacy</span></div></li>
-                        <li><div onclick={() => navigate("/")}><span className="yellow-text">Policy</span></div></li>
+                    <div className="below-footer-section flex gap-20">
+                        <span onclick={() => navigate("/")}>Terms</span>
+                        <span onclick={() => navigate("/")}>Privacy</span>
+                        <span onclick={() => navigate("/")}>Policy</span>
                     </div>
 
                     <div className="below-footer-section">

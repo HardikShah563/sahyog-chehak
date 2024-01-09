@@ -20,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-dark);
 }
 
 /* ---- navigation bar links ---- */
@@ -31,14 +31,6 @@
 
 .logo {
     height: 60px;
-}
-
-.white {
-    color: var(--white);
-}
-
-.nav-lines i {
-    color: var(--black);
 }
 
 .nav-links {
@@ -61,11 +53,10 @@
     transform: scale(1.1);
 }
 
-.nav-links li p,
-.nav-links li div {
+.nav-name {
     padding: 20px 0px;
     font-weight: 600;
-    color: var(--secondary-dark);
+    color: var(--white);
     font-size: 16px;
     transition: 200ms;
     cursor: pointer;
@@ -132,14 +123,6 @@
 .nav-lines {
     display: none;
     margin: auto 0;
-}
-
-.Bar {
-    width: 20px;
-    height: 2px;
-    background-color: var(--white);
-    border-radius: 8px;
-    margin: 5px 0;
 }
 
 a hr {

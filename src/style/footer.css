@@ -1,23 +1,10 @@
 /* all the css required to make footer bar should be here */
 /* create a media query for mobile view */
-:root {
-    --white: #ffffff;
-    --off-white: #f1f1f1;
-    --grey: #838383;
-    --black: #000000;
-    --matt-black: #171717;
-    --blue: #84c9ef;
-    --green: #606c5d;
-    --yellow: #FEC443;
-    --primary: #f1f1f1;
-    --secondary-dark: #425058;
-    --secondary-light: #DCF764;
-}
 
 /* Footer Section */
 .footer {
     padding: 40px 10px 10px 10px;
-    background-color: var(--primary-bg);
+    background-color: var(--matt-black);
 }
 
 .footer-sections {
@@ -34,16 +21,19 @@
     margin: 20px 0;
 }
 
+.title-text {
+    color: var(--secondary-light);
+}
+
 .foot-section>li>div {
     margin: 20px 0;
-    color: var(--secondary-dark);
+    color: var(--white);
     cursor: pointer;
     font-weight: 800;
 }
 
 .foot-section>.heading {
     padding: 0 0 15px 0;
-    color: var(--secondary-dark);
     font-size: 22px;
     font-weight: 600;
 }
@@ -59,12 +49,8 @@
     margin-top: 30px;
 }
 
-.sm-icon {
-    width: 30px;
-}
-
 hr {
-    border: 0.5px solid var(--secondary-dark);
+    border: 0.5px solid var(--white);
     width: 90%;
     margin: auto auto;
 }
@@ -73,42 +59,15 @@ hr {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: var(--white);
     padding: 20px;
     width: 90%;
     margin: auto auto;
-    color: var(--secondary-dark);
     font-weight: 800;
 }
 
-.below-footer-links>li>div {
-    color: var(--secondary-dark);
-    font-size: 16px;
-    font-weight: 600;
-    padding: 0px;
-    cursor: pointer;
-}
-
-.below-footer-links {
-    align-items: center;
-}
-
-.below-footer-section div {
-    font-size: 18px;
-    color: var(--secondary-dark);
-    align-items: center;
-    margin: 10px;
-    cursor: pointer;
-}
-
-.privacy-policy {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
-
-.privacy-policy li div {
-    margin: 10px;
-    cursor: pointer;
+.footer-icon:hover {
+    fill: var(--white);
 }
 
 @media (max-width: 1000px) {

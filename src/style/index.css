@@ -27,12 +27,28 @@ li {
     width: 100%;
 }
 
+.w-60 {
+    width: 60%;
+}
+
+.margin-a-a {
+    margin: auto auto;
+}
+
+.margin-block-10 {
+    margin-block: 10px;
+}
+
 .margin-block-20 {
     margin-block: 20px;
 }
 
 .margin-block-50 {
     margin-block: 50px;
+}
+
+.margin-block-100 {
+    margin-block: 100px;
 }
 
 .padding-10 {
@@ -79,10 +95,23 @@ li {
     text-align: center;
 }
 
+.big-heading {
+    font-size: 48px;
+    color: var(--secondary-dark);
+}
+
 .heading {
     font-size: 36px;
     color: var(--secondary-dark);
-    font-weight: 800;
+}
+
+.small-heading {
+    font-size: 24px;
+    color: var(--secondary-dark);
+}
+
+.para-text {
+    font-size: 18px;
 }
 
 .page {
@@ -106,7 +135,15 @@ li {
     border: 1px solid var(--primary-bg);
 }
 
+.img {
+    width: 100%;
+}
+
 @media (max-width: 600px) {
+    .w-60 {
+        width: 90%;
+    }
+
     .heading {
         font-size: 24px;
     }

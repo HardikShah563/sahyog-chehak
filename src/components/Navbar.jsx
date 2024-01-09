@@ -13,10 +13,6 @@ export default function Navbar() {
     // to control navigation between the pages
     const navigate = useNavigate();
     const [showNavBar, setShowNavbar] = useState(false);
-    let iterate = 0;
-    // const showNavBar = () => {
-    //     document.querySelector(".nav-links").classList.toggle("active");
-    // }
 
     return (
         <>
@@ -24,7 +20,8 @@ export default function Navbar() {
                 <div className="nav-items">
                     <img
                         src={
-                            process.env.PUBLIC_URL + "/assets/logo-sahyog-small.png"
+                            process.env.PUBLIC_URL + 
+                            "/assets/logo-sahyog-small.png"
                         }
                         className="logo"
                     ></img>
@@ -34,7 +31,7 @@ export default function Navbar() {
                             {data.navigationLinks.map((nav) => (
                                 <div className="dropdown">
                                     <li>
-                                        <p>{nav.name} {nav.isDropdown && (<MdKeyboardArrowDown />)} </p>
+                                        <p className="nav-name">{nav.name} {nav.isDropdown && (<MdKeyboardArrowDown />)} </p>
                                     </li>
                                     {nav.isDropdown && (
                                         <div className="dropdown-content">
@@ -48,7 +45,7 @@ export default function Navbar() {
 
                             <div className="dropdown login-hide">
                                 <li className="nav-button" onClick={() => navigate("/donate")}>
-                                    <div>
+                                    <div className="nav-name">
                                         Donate
                                     </div>
                                 </li>
@@ -67,7 +64,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="nav-lines" onClick={() => { setShowNavbar(prevState => !prevState) }}>
-                    <FaBarsStaggered fill="black" size={30} />
+                    <FaBarsStaggered fill="white" size={30} />
                 </div>
             </nav >
         </>
