@@ -13,7 +13,7 @@ export default function JoinUs() {
                     <h1 className="txt-ctr heading">
                         Join Us In Our Cause
                     </h1>
-                    <p className="para-50 txt-ctr margin-block-20 donation-text">
+                    <p className="para-50 txt-ctr margin-block-20 para-text">
                         Become a driving force for positive change by joining our esteemed group. Your valuable contribution, whether through volunteering your time or partnering with us, holds immense significance. Together, we can effect meaningful change and make a positive impact on the world. Join our mission, and let us collaboratively create a lasting difference.
                     </p>
                 </div>

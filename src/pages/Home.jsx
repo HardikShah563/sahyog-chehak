@@ -21,7 +21,7 @@ export default function Home() {
                     <div className="main-section margin-block-50">
                         <h1 className="big-heading">Sahyog Chehak</h1>
                         <h1 className="small-heading margin-block-10">
-                            Women.Childen.Change.Communities
+                            Women . Childen . Change . Communities
                         </h1>
                         <p className="para-text">A world where women and children can realise their potential and drive positive change in their communities.</p>
 

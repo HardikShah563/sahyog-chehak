@@ -81,7 +81,7 @@
 }
 
 .nav-button:hover {
-    background-color: var(--secondary-dark);
+    color: var(--secondary-light);
 }
 
 .dropdown .nav-button {
