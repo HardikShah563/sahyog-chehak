@@ -112,6 +112,7 @@ li {
 
 .para-text {
     font-size: 18px;
+    font-weight: 600;
 }
 
 .page {
@@ -139,13 +140,19 @@ li {
     width: 100%;
 }
 
+@media (max-width: 1200px) {
+    .big-heading {
+        font-size: 36px;
+    }
+}
+
 @media (max-width: 600px) {
     .w-60 {
         width: 90%;
     }
 
     .heading {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .para-50 {

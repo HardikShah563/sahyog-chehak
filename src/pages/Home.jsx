@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 // importing components
 import AboutUs from "../components/AboutUs";
 import Values from "../components/Values";
+import VisionMission from "../components/VisionMission";
 import AreasOfWork from "../components/AreasOfWork";
 import JoinUs from "../components/JoinUs";
 // importing icons
@@ -24,7 +25,7 @@ export default function Home() {
                         </h1>
                         <p className="para-text">A world where women and children can realise their potential and drive positive change in their communities.</p>
 
-                        <div className="flex gap-10 margin-block-20">
+                        <div className="flex gap-10 margin-block-20 main-btn">
                             <div className="rounded-btn-light">
                                 Donate Us <GoHeartFill />
                             </div>
@@ -85,6 +86,10 @@ export default function Home() {
 
                 <div className="margin-block-100">
                     <Values />
+                </div>
+
+                <div className="margin-block-100">
+                    <VisionMission />
                 </div>
 
                 <div className="margin-block-100">
