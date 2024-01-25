@@ -5,8 +5,13 @@ import "../style/donate.css";
 // importing icons
 import { MdError } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
+// importing data
+import data from "../data.json";
 
 export default function Donation() {
+    // the data for the donation section from the json file
+    const donation = data.donation;
+
     const [formData, setFormData] = useState({
         name: "",
         nameError: "",
@@ -31,7 +36,7 @@ export default function Donation() {
     }
 
     function contactCheck() {
-        if(!formData.nameError) {
+        if (!formData.nameError) {
             setFormData(prevFormData => {
                 return {
                     ...prevFormData,
@@ -39,7 +44,7 @@ export default function Donation() {
                 }
             });
         }
-        if(!formData.phoneError) {
+        if (!formData.phoneError) {
             setFormData(prevFormData => {
                 return {
                     ...prevFormData,
@@ -47,7 +52,7 @@ export default function Donation() {
                 }
             });
         }
-        if(formData.phoneError.length != 10) {
+        if (formData.phoneError.length != 10) {
             setFormData(prevFormData => {
                 return {
                     ...prevFormData,
@@ -55,7 +60,7 @@ export default function Donation() {
                 }
             });
         }
-        if(!formData.emailError) {
+        if (!formData.emailError) {
             setFormData(prevFormData => {
                 return {
                     ...prevFormData,
@@ -65,9 +70,9 @@ export default function Donation() {
         }
     }
 
-    function amountCheck() {}
+    function amountCheck() { }
 
-    function paymentCheck() {}
+    function paymentCheck() { }
 
     const [step, setStep] = useState(1);
 
@@ -140,42 +145,20 @@ export default function Donation() {
                     </div>
 
                     <div className="flex gap-10 flex-wrap justify-ctr">
-                        <div className="donation-card">
-                            <div className="flex justify-space-btween align-ctr">
-                                <h1 className="heading">500 Rs</h1>
-                                <IoIosArrowForward className="donation-arrow" size={20} />
+                        {donation.left.donationOptions.map((option, index) => (
+                            <div className="donation-card" key={index}>
+                                <div className="flex justify-space-btween align-ctr">
+                                    <h1 className="heading">{option.amount}</h1>
+                                    <IoIosArrowForward className="donation-arrow" size={20} />
+                                </div>
+                                <p className="donation-text">Proceed with this plan</p>
                             </div>
-                            <p className="donation-text">Proceed with this plan</p>
-                        </div>
-
-                        <div className="donation-card">
-                            <div className="flex justify-space-btween align-ctr">
-                                <h1 className="heading">999 Rs</h1>
-                                <IoIosArrowForward className="donation-arrow" size={20} />
-                            </div>
-                            <p className="donation-text">Proceed with this plan</p>
-                        </div>
-
-                        <div className="donation-card">
-                            <div className="flex justify-space-btween align-ctr">
-                                <h1 className="heading">1499 Rs</h1>
-                                <IoIosArrowForward className="donation-arrow" size={20} />
-                            </div>
-                            <p className="donation-text">Proceed with this plan</p>
-                        </div>
-
-                        <div className="donation-card">
-                            <div className="flex justify-space-btween align-ctr">
-                                <h1 className="heading">2999 Rs</h1>
-                                <IoIosArrowForward className="donation-arrow" size={20} />
-                            </div>
-                            <p className="donation-text">Proceed with this plan</p>
-                        </div>
+                        ))}
                     </div>
                 </div>
 
                 <div className="donation-box-inner">
-                    <h1 className="txt-ctr heading">Flexible Donation Options</h1>
+                    <h1 className="txt-ctr heading">{donation.right.title}</h1>
 
                     <div className="donation-form margin-block-20">
                         <div className="stages flex">

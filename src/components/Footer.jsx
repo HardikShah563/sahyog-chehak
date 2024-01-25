@@ -3,13 +3,15 @@ import { useNavigate } from "react-router-dom";
 // importing stylesheet
 import "../style/footer.css";
 // importing icons
-import { FaFacebook } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import getIconFromIconName from "../config/icons";
+// import data
+import data from "../data.json";
 
 export default function Footer() {
     // to control navigation between the pages
     const navigate = useNavigate();
+    // 
+    const footer = data.footer;
 
     return (
         <>
@@ -19,14 +21,23 @@ export default function Footer() {
                         <img
                             className="footer-logo"
                             src={
-                                process.env.PUBLIC_URL + "/assets/logo-sahyog-small.png"
+                                process.env.PUBLIC_URL +
+                                "/assets/" +
+                                footer.logo
                             }
-                            alt="jalaram bhakt mandal logo"
+                            alt="footer-logo"
                         />
+                        {/* social media icons */}
                         <div className="social-media-icons">
-                            <FaFacebook fill="grey" size={30} className="footer-icon" />
-                            <FaTwitter fill="grey" size={30} className="footer-icon" />
-                            <FaLinkedin fill="grey" size={30} className="footer-icon" />
+                            {footer.socialMedia.map((icon, index) => (
+                                <a
+                                    key={index}
+                                    target="_blank"
+                                    href={icon.link}
+                                >
+                                    {getIconFromIconName(icon.icon, 30, "footer-icon", "grey")}
+                                </a>
+                            ))}
                         </div>
                     </div>
 

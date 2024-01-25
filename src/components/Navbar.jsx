@@ -1,18 +1,20 @@
 // importing from react
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // importing stylesheet
 import "../style/navbar.css";
 // importing icons
+import getIconFromIconName from "../config/icons.js";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { MdKeyboardArrowDown } from "react-icons/md";
 // importing data
-import data from "../data/data.js";
+import data from "../data.json";
 
 export default function Navbar() {
     // to control navigation between the pages
     const navigate = useNavigate();
     const [showNavBar, setShowNavbar] = useState(false);
+    const navbar = data.navbar;
 
     return (
         <>
@@ -20,15 +22,16 @@ export default function Navbar() {
                 <div className="nav-items">
                     <img
                         src={
-                            process.env.PUBLIC_URL + 
-                            "/assets/logo-sahyog-small.png"
+                            process.env.PUBLIC_URL +
+                            "/assets/" +
+                            navbar.logo
                         }
                         className="logo"
                     ></img>
 
                     <div className="w-100 flex justify-space-btween">
                         <div className={`nav-links ${showNavBar && "active"}`}>
-                            {data.navigationLinks.map((nav) => (
+                            {navbar.navigationLinks.map((nav) => (
                                 <div className="dropdown">
                                     <li>
                                         <p className="nav-name">{nav.name} {nav.isDropdown && (<MdKeyboardArrowDown />)} </p>

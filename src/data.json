@@ -1,0 +1,222 @@
+{
+    "companyName": "Sahyog Chehak",
+    "smallLogo": "smallLogo.png",
+    "largeLogo": "largeLogo.png",
+    "navbar": {
+        "logo": "logo-sahyog-small.png",
+        "navigationLinks": [
+            {
+                "name": "About",
+                "isDropdown": true,
+                "dropdown": [
+                    {
+                        "name": "Team",
+                        "link": "/team"
+                    },
+                    {
+                        "name": "How we began",
+                        "link": "/how-we-began"
+                    },
+                    {
+                        "name": "Photo Gallery",
+                        "link": "/photos"
+                    },
+                    {
+                        "name": "Partners & Supporters",
+                        "link": "/partners&supporters"
+                    },
+                    {
+                        "name": "Stories of Change",
+                        "link": "/stories"
+                    }
+                ]
+            },
+            {
+                "name": "Programs",
+                "isDropdown": true,
+                "dropdown": [
+                    {
+                        "name": "Sahyog Sangharsh",
+                        "link": "/sahyog-sangharsh"
+                    },
+                    {
+                        "name": "Sahyog Roshan",
+                        "link": "/sahyog-roshan"
+                    },
+                    {
+                        "name": "Sahyog Scholarship and Mentorship Program",
+                        "link": "/sahyog-scholarship-and-mentorship-program"
+                    },
+                    {
+                        "name": "Sahyog Jhula",
+                        "link": "/sahyog-jhula"
+                    }
+                ]
+            },
+            {
+                "name": "Finances",
+                "isDropdown": false,
+                "link": "/finances"
+            },
+            {
+                "name": "Sangarsh Campaign",
+                "isDropdown": false,
+                "link": "/sangarsh-campaign"
+            }
+        ]
+    },
+    "footer": {
+        "logo": "logo-sahyog-small.png",
+        "socialMedia": [
+            {
+                "icon": "FaFacebook",
+                "link": "",
+                "name": "facebook"
+            },
+            {
+                "icon": "FaTwitter",
+                "link": "",
+                "name": "twitter"
+            },
+            {
+                "icon": "FaLinkedin",
+                "link": "",
+                "name": "linkedin"
+            }
+        ],
+        "footerLinks": []
+    },
+    "home": {
+        "main": {
+            "title": "Sahyog Chehak",
+            "subTitle": "Women . Childen . Change . Communities",
+            "paragraph": "A world where women and children can realise their potential and drive positive change in their communities.",
+            "buttons": [
+                {
+                    "text": "Donate Us",
+                    "icon": "GoHeartFill",
+                    "type": "light"
+                },
+                {
+                    "text": "Volunteer",
+                    "icon": "BiSolidDonateHeart",
+                    "type": "dark"
+                }
+            ],
+            "carousel": [
+                {
+                    "subTitle": "image 1",
+                    "imageURL": "logo-sahyog-small.png"
+                },
+                {
+                    "subTitle": "image 2",
+                    "imageURL": "logo-sahyog-small.png"
+                },
+                {
+                    "subTitle": "image 3",
+                    "imageURL": "logo-sahyog-small.png"
+                }
+            ]
+        },
+        "about": {
+            "title": "About Us",
+            "paragraph": "Sahyog is an initiative of Chehak Trust. We at Sahyog are committed to a community-based model of social change, responsive to the expressed and felt needs of women and children. We strongly believe that education is the cornerstone of social change and work for sustainable change in women and children from marginalized communities by providing them with enrichment education, special education, life skills and access to vocational opportunities"
+        },
+        "values": {
+            "title": "Our Values",
+            "values": [
+                {
+                    "title": "Solidarity",
+                    "icon": "FaPeopleGroup",
+                    "size": "50"
+                },
+                {
+                    "title": "Integrity",
+                    "icon": "GoLaw",
+                    "size": "50"
+                },
+                {
+                    "title": "Learning",
+                    "icon": "FaBookOpenReader",
+                    "size": "50"
+                },
+                {
+                    "title": "Freedom",
+                    "icon": "GiFreedomDove",
+                    "size": "50"
+                }
+            ]
+        },
+        "vision": {
+            "title": "Our Vision",
+            "paragraph": "A world where women and children can realise their potential and drive positive change in their communities.",
+            "imageURL": "vision.png"
+        },
+        "mission": {
+            "title": "Our Mission",
+            "paragraph": "We work for sustainable change in women and children from marginalised communities by providing them with enrichment education, special education, life skills and access to vocational opportunities.",
+            "imageURL": "mission.png"
+        },
+        "areasOfWork": {
+            "title": "Our Areas of Work",
+            "areas": [
+                {
+                    "subTitle": "Empowering girls & women",
+                    "imageURL": "area1.png"
+                },
+                {
+                    "subTitle": "Disability Intervension",
+                    "imageURL": "area2.png"
+                },
+                {
+                    "subTitle": "Enrichment Education",
+                    "imageURL": "area3.png"
+                }
+            ]
+        },
+        "joinUs": {
+            "title": "Join Us In Our Cause",
+            "paragraph": "Become a driving force for positive change by joining our esteemed group. Your valuable contribution, whether through volunteering your time or partnering with us, holds immense significance. Together, we can effect meaningful change and make a positive impact on the world. Join our mission, and let us collaboratively create a lasting difference.",
+            "buttons": [
+                {
+                    "text": "Donate Us",
+                    "icon": "GoHeartFill",
+                    "type": "light"
+                },
+                {
+                    "text": "Volunteer",
+                    "icon": "BiSolidDonateHeart",
+                    "type": "dark"
+                },
+                {
+                    "text": "Partner With Us",
+                    "icon": "FaHandshakeSimple",
+                    "type": "light"
+                }
+            ]
+        }
+    },
+    "donation": {
+        "left": {
+            "title": "Popular Donation Options",
+            "paragraph": "",
+            "donationOptions": [
+                {
+                    "amount": "499 Rs"
+                },
+                {
+                    "amount": "999 Rs"
+                },
+                {
+                    "amount": "1499 Rs"
+                },
+                {
+                    "amount": "2999 Rs"
+                }
+            ]
+        },
+        "right": {
+            "title": "Flexible Donation Options"
+        }
+    }
+}

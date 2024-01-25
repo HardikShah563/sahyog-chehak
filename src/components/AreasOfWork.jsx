@@ -1,53 +1,34 @@
+// importing data
+import data from "../data.json";
+
 export default function AreasOfWork() {
+    // the data for the areas of work section from the json file
+    const areas = data.home.areasOfWork;
+
     return (
         <>
             <div>
                 <h1 className="heading txt-ctr">
-                    Our Areas of Work
+                    {areas.title}
                 </h1>
                 <div className="flex justify-ctr gap-20 margin-block-50 area-images">
-                    <div className="areas-img-div">
-                        <img
-                            className="img"
-                            src={
-                                process.env.PUBLIC_URL +
-                                "/assets/areasofwork1.png"
-                            }
-                            alt="areas of work image 1"
-                        />
-                        
-                        <h1 className="small-heading txt-ctr">
-                            Empowering girls & women
-                        </h1>
-                    </div>
-                    <div className="areas-img-div">
-                        <img
-                            className="img"
-                            src={
-                                process.env.PUBLIC_URL +
-                                "/assets/areasofwork1.png"
-                            }
-                            alt="areas of work image 1"
-                        />
+                    {areas.areas.map((area) => (
+                        <div className="areas-img-div">
+                            <img
+                                className="img"
+                                src={
+                                    process.env.PUBLIC_URL +
+                                    "/assets/" +
+                                    area.imageURL
+                                }
+                                alt={area.subTitle}
+                            />
 
-                        <h1 className="small-heading txt-ctr">
-                            Disability Intervension
-                        </h1>
-                    </div>
-                    <div className="areas-img-div">
-                        <img
-                            className="img"
-                            src={
-                                process.env.PUBLIC_URL +
-                                "/assets/areasofwork1.png"
-                            }
-                            alt="areas of work image 1"
-                        />
-
-                        <h1 className="small-heading txt-ctr">
-                            Enrichment Education
-                        </h1>
-                    </div>
+                            <h1 className="small-heading txt-ctr">
+                                {area.subTitle}
+                            </h1>
+                        </div>
+                    ))}
                 </div>
             </div>
         </>
