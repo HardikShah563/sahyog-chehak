@@ -26,8 +26,8 @@
                         "link": "/partners&supporters"
                     },
                     {
-                        "name": "Stories of Change",
-                        "link": "/stories"
+                        "name": "Impact",
+                        "link": "/impact"
                     }
                 ]
             },
@@ -195,6 +195,52 @@
                 }
             ]
         }
+    },
+    "trustees": {
+        "title": "Our Trustees",
+        "subTitle": "Sahyog, an initiative of Chehak Trust is governed by the following Board of Trustees",
+        "trustees": [
+            {
+                "imageURL": "",
+                "title": "NEHA MADHIWALLA",
+                "subTitle": "Research Scientist, Public Health Trust of India",
+                "paragraph": "Neha is the Managing Trustee and the founder of Sahyog. She has a Masters in Social Work from Tata Institute of Social Sciences. She has worked in social research since 1997 and been involved in life-skills training and curriculum development since 2002."
+            },
+            {
+                "imageURL": "",
+                "title": "BEENA CHOKSI",
+                "subTitle": "Educational Consultant",
+                "paragraph": "Beena has a Masters in Social Work from College of Social Work, Mumbai and a PhD in Education from the University of Illinois at Urbana-Champaign. She was a post-doctoral fellow at the Homi Bhabha Centre for Science Education.  She has worked on the professional development of teachers in formal and non-formal settings such as Shishuvan, Udayachal Primary School and Aseema."
+            },
+            {
+                "imageURL": "",
+                "title": "PRIYA AGRAWAL",
+                "subTitle": "Founder Director, Antarang Foundation",
+                "paragraph": "Priya founded Antarang Foundation in 2012 to help young adults from socially and economically vulnerable backgrounds manage their transition from education to employment. Prior to setting up Antarang Foundation, she spent 11 years in the Social Sector leading organisations like SNEHA and The Akanksha Foundation as COO. Priya has a Masters in Management from the SP Jain Institute of Management and Research. Priya is an Ashoka Fellow, a Dasra Social Impact Leadership Fellow and an Unlimited India Growth Challenge Fellow. "
+            },
+            {
+                "imageURL": "",
+                "title": "SURABHI SHARMA",
+                "subTitle": "Independent Filmmaker",
+                "paragraph": "Surabhi has been making documentaries since 2000. Her key concern has been documenting cities in transition through the lens of labour, music and migration, and most recently reproductive labour. Her films have been screened and awarded at international film festivals, museums and universities."
+            }
+        ]
+    },
+    "impact": {
+        "title": "Impact",
+        "paragraph": "How Sahyog have been impacting lives of several households and indivisuals",
+        "stories": [
+            {
+                "title": "Asma's Story of Change",
+                "short": "Asma (name changed) has an intellectual disability and is supported by her grandmother who works in a thread cutting unit. When Asma's father passed away, her mother remarried leaving Asma in the care of her grandmother who lived with Asma's uncle and aunt. The couple saw Asma as a liability and treated her shabbily.",
+                "full": "Asma (name changed) has an intellectual disability and is supported by her grandmother who works in a thread cutting unit. When Asma's father passed away, her mother remarried leaving Asma in the care of her grandmother who lived with Asma's uncle and aunt. The couple saw Asma as a liability and treated her shabbily. \n\n In December 2014, Asma's grandmother came to know about Sangharsh while watching them perform a street play in the community. Hopeful, she brought 16-year-old Asma to Sangharsh and enrolled her. When Asma began attending the centre she looked unkempt, was aggressive and unwilling to share things with others. She cried a lot as she missed her family and banged her hands against the walls. She would occasionally experience epileptic fits. She would get abusive and talk to herself at times. \n\n The Sangharsh team took her for assessment to Jai Vakeel, following which the psychiatrist recommended medicines for her aggressive behaviour and epilepsy. Currently, she is under the treatment of Dr. Shah (Consulting Psychiatrist at Sangharsh). \n\n Over the course of the last two years we have seen a dramatic change in Asma. She has calmed down considerably, is more understanding and looks happier. She comes to the centre regularly with a huge grin on her face. She is now eager to help others and enjoys learning. \n\n Asma has become confident and even surprised us by her ability to apply classroom teaching to real life situations. The children had been taken for an exposure visit to the local police station as part of the theme 'Our Helpers'. They came to know about the functioning of the police station and were introduced to the police personnel on duty. Asma had been facing issues with her relatives. One night the family refused to let her and her grandmother into the house. Remembering the police station visit she decided to approach the police for assistance. She came across a police patrol car on her way and approached them for help. The Police personnel took her to the Police station, where she bravely shared what had happened with her. She was escorted back by two women constables to her uncle's place.  The constables warned the uncle and aunt about mistreating Asma and took a photograph of Asma, her Aunt and grandmother together. The constables assured Asma she could approach them anytime if a similar incident occured in future. \n\n The progress made by Asma made the team confident to integrate her in NADE's (The National Association of Disabled Enterprises) vocational training centre She has been visiting NADE once a week for half a day since February 2016. At NADE she was trained in painting, plugging and paper bag making which have also helped in enhancing her capacity to sit in one place and concentrate on a given task. She has been able to travel quite well using public transport but needs to be escorted until the time she is able to undertake the journey independently.  Asma is now on the road to self-reliance."
+            },
+            {
+                "title": "Nishat's Story of Change",
+                "short": "Nishat ( name changed ) was born in her native village in Uttar Pradesh. She contracted double pneumonia at birth which resulted in convulsions and later an inability to walk. When she was about 6 yrs old, her family decided to migrate to Mumbai for better treatment.",
+                "full": "Nishat ( name changed ) was born in her native village in Uttar Pradesh. She contracted double pneumonia at birth which resulted in convulsions and later an inability to walk. When she was about 6 yrs old, her family decided to migrate to Mumbai for better treatment. Nishat's brother Mansur, a year older than her, had the same neurological disorder as her. Before they could move to Mumbai, the father had a fatal accident. \n\n Mustering tremendous courage, Nishat's mother came to Mumbai and rented a small room for herself, Nishat, and Mansur in Narayan Nagar in Ghatkopar which was closer to her maternal home. Treatment and therapy was sought for both children. With therapy and medication, Nishat began walking by the age of seven. Her seizures too were brought under control. The mother enrolled Nishat in a local private school and the school authorities were supportive. \n\n In 2013, Nishat and her mother faced a second blow when Mansur fell ill and succumbed to his illness. Nishat was devastated since she was close to her brother. Her disability was becoming severe and more visible. She was losing control over her movements and her speech began to slur. Friends started avoiding her and she became an object of ridicule in her school. This prompted her mother to discontinue her schooling from Std.7 but it proved to be a huge setback for Nishat who enjoyed studies. In 2015, when Nishat's mother took up a part-time job as a Child Health Worker in Sahyog's Sankalp project (on early childhood development and disability) she would lock Nishat in the house when she left for work, to protect her from ridicule and harassment by neighbors. To minimise Nishat's isolated existence, having her attend Sangharsh a couple of days a week was suggested to the mother—and she agreed. At Sangharsh, Nishat began to meet and interact with peers/children her age. Sahyog began to support expenses for medicines that were prescribed by a pediatric neurologist to control her seizures and tremors. She began coming to Sangharsh regularly and liked being with other children. Nishat's mental health began improving. Her confidence returned and she started going out and interacting with people. She participated enthusiastically in Sangharsh's Annual Day performance, and spoke in front of an audience. Her mother began to ask her to do household chores like buying provisions from the market. \n\n In the meantime, a vocational training centre was identified for Nishat to encourage her in her journey towards independence. She along with another Sangharsh student visited the centre regularly accompanied by a community volunteer. However, as the training centre was unable to offer her tasks to match her abilities, she stopped going. \n\n Nishat repeatedly expressed the desire to study and appear for the Std.10 Board exam. A search for a tutor was kept up till a suitable one was found. In August 2016, a young college student from a nearby community was identified and she took on the challenge to tutor Nishat who was returning to studies after gap of more than 3 years. Nishat continued receiving support and encouragement at Sangharsh during this trying period. The daughter of one of Sangharsh's volunteers offered to be her writer for the board examination and spent time with Nishat in solving exam papers as part of the preparation. Nishat's persistence, determination as well as the faith, support and encouragement from those who believed in her yielded results and she cleared the SSC examination in 2017 with 54%. \n\n Since 3rd of July 2017 she has been enrolled at ADAPT Skill Development Centre. Here, she is enrolled in a vocational class and during the week also participates in a variety of activities: yoga, dance therapy and computers. She is also working towards her next goal which is preparing for the Std. 12 Board exam. Her mother has been offered a full time job at the centre in the tailoring unit and so mother and daughter set out for work together. With the determination that Nishat has, we are as confident as her that she will make an independent life for herself—with a little help from friends and well-wishers."
+            }
+        ]
     },
     "donation": {
         "left": {

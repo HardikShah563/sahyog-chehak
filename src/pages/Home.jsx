@@ -25,7 +25,9 @@ export default function Home() {
                 <div className="main flex justify-space-btween">
                     {/* left section for the text */}
                     <div className="main-section margin-block-50">
-                        <h1 className="big-heading">{home.main.title}</h1>
+                        <h1 className="big-heading">
+                            {home.main.title}
+                        </h1>
                         <h1 className="small-heading margin-block-10">
                             {home.main.subTitle}
                         </h1>
