@@ -21,7 +21,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="">
+            <div>
                 <div className="main flex justify-space-btween">
                     {/* left section for the text */}
                     <div className="main-section margin-block-50">
@@ -35,7 +35,7 @@ export default function Home() {
 
                         <div className="flex gap-10 margin-block-20 main-btn">
                             {home.main.buttons.map((button) => (
-                                <div className={`rounded-btn-${button.type}`}>
+                                <div className={`${button.type}-button`}>
                                     {button.text} {getIconFromIconName(button.icon)}
                                 </div>
                             ))}

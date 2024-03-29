@@ -12,8 +12,13 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: all 100ms ease;
+}
+
+@font-face {
+    font-family: BobbyJones;
+    src: url(../../public/BobbyJones.otf);
 }
 
 body {
@@ -138,6 +143,14 @@ li {
     margin-inline: auto;
 }
 
+.color-light-green {
+    color: var(--secondary-light);
+}
+
+.color-dark-green {
+    color: var(--secondary-dark);
+}
+
 .icon-dark {
     color: var(--secondary-dark);
 }
@@ -152,6 +165,36 @@ li {
 
 .img {
     width: 100%;
+}
+
+.light-button,
+.dark-button {
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid var(--secondary-dark);
+    cursor: pointer;
+}
+
+.light-button {
+    background-color: var(--secondary-light);
+}
+
+.dark-button {
+    color: var(--primary);
+    background-color: var(--secondary-dark);
+}
+
+.hover-light-green:hover {
+    color: var(--secondary-light);
+}
+
+.hover-dark-green:hover {
+    color: var(--secondary-dark);
 }
 
 @media (max-width: 1200px) {
@@ -171,6 +214,7 @@ li {
 }
 
 @media (max-width: 600px) {
+
     .w-60,
     .w-80 {
         width: 95%;
@@ -192,5 +236,11 @@ li {
 
     .para-50 {
         width: 85%;
+    }
+
+    .light-button,
+    .dark-button {
+        padding: 7.5px 10px;
+        font-size: 16px;
     }
 }

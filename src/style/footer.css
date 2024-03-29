@@ -36,6 +36,7 @@
     padding: 0 0 15px 0;
     font-size: 22px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .footer-logo {
@@ -58,6 +59,7 @@ hr {
 .below-footer-links {
     display: flex;
     justify-content: space-between;
+    text-transform: uppercase;
     flex-wrap: wrap;
     color: var(--white);
     padding: 20px;

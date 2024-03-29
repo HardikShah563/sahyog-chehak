@@ -120,14 +120,13 @@ export default function Footer() {
                 <hr />
                 <div className="below-footer-links">
                     <div className="below-footer-section flex gap-20">
-                        <span onclick={() => navigate("/")}>Terms</span>
-                        <span onclick={() => navigate("/")}>Privacy</span>
-                        <span onclick={() => navigate("/")}>Policy</span>
+                        <span className="hover-light-green cur" onclick={() => navigate("/")}>Terms</span>
+                        <span className="hover-light-green cur" onclick={() => navigate("/")}>Privacy</span>
+                        <span className="hover-light-green cur" onclick={() => navigate("/")}>Policy</span>
                     </div>
 
-                    <div className="below-footer-section">
-                        <span>@2023&nbsp;</span>
-                        <span>|&nbsp;All Rights Reserved by Chehak Trust</span>
+                    <div>
+                        © <span className="color-light-green">{(new Date().getFullYear())}</span>&nbsp;|&nbsp;<span className="color-light-green">Chehak Trust</span>&nbsp;All Rights Reserved
                     </div>
                 </div>
             </footer>

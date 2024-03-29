@@ -20,14 +20,14 @@ export default function JoinUs() {
                     <h1 className="txt-ctr heading">
                         {join.title}
                     </h1>
-                    <p className="para-50 txt-ctr margin-block-20 para-text">
+                    <p className="txt-ctr margin-block-20 para-text">
                         {join.paragraph}
                     </p>
                 </div>
 
                 <div className="flex justify-ctr gap-10">
                     {join.buttons.map((button) => (
-                        <div className={`rounded-btn-${button.type}`}>
+                        <div className={`${button.type}-button`}>
                             {button.text} {getIconFromIconName(button.icon)}
                         </div>
                     ))}

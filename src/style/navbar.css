@@ -21,6 +21,7 @@
     align-items: center;
     padding: 20px;
     background-color: var(--secondary-dark);
+    text-transform: uppercase;
 }
 
 /* ---- navigation bar links ---- */
@@ -69,19 +70,7 @@
 }
 
 .nav-button {
-    display: flex;
-    height: fit-content;
-    border: 1px solid var(--secondary-dark);
-    border-radius: 8px;
-    padding: 8px 12px;
-    color: var(--white);
-    font-weight: 600;
-    background-color: #262626;
     cursor: pointer;
-}
-
-.nav-button:hover {
-    color: var(--secondary-light);
 }
 
 .dropdown .nav-button {
@@ -166,6 +155,7 @@ a hr {
 
     .nav-links {
         position: absolute;
+        z-index: 2;
         background-color: var(--matt-black);
         margin: 0 0;
         display: block;

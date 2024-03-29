@@ -57,7 +57,7 @@ export default function Navbar() {
 
                         <div className="nav-buttons">
                             <div className="nav-buttons login-display">
-                                <li className="nav-button" onClick={() => navigate("/donate")}>
+                                <li className="light-button nav-button" onClick={() => navigate("/donate")}>
                                     <div>
                                         Donate
                                     </div>
