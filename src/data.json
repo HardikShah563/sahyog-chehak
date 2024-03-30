@@ -78,6 +78,10 @@
                     {
                         "name": "Impact",
                         "link": "/impact"
+                    },
+                    {
+                        "name": "Stories of change",
+                        "link": "/stories-of-change"
                     }
                 ]
             }
@@ -102,7 +106,84 @@
                 "name": "linkedin"
             }
         ],
-        "footerLinks": []
+        "footerLinks": [
+            {
+                "title": "Who are we",
+                "children": [
+                    {
+                        "name": "Team",
+                        "link": "/team"
+                    },
+                    {
+                        "name": "How we began",
+                        "link": "/how-we-began"
+                    },
+                    {
+                        "name": "Photo Gallery",
+                        "link": "/photos"
+                    },
+                    {
+                        "name": "Partners & Supporters",
+                        "link": "/partners&supporters"
+                    }
+                ]
+            },
+            {
+                "title": "What we do",
+                "children": [
+                    {
+                        "name": "Sahyog Sangharsh",
+                        "link": "/team"
+                    },
+                    {
+                        "name": "Sahyog Roshan",
+                        "link": "/sahyog-roshan"
+                    },
+                    {
+                        "name": "Sahyog Scholarship and Mentorship Program",
+                        "link": "/sahyog-scholarship-and-mentorship-program"
+                    },
+                    {
+                        "name": "Sahyog Jhula",
+                        "link": "/sahyog-jhula"
+                    }
+                ]
+            },
+            {
+                "title": "Get Involved",
+                "children": [
+                    {
+                        "name": "Finances",
+                        "link": "/finances"
+                    },
+                    {
+                        "name": "Join Us",
+                        "link": "/"
+                    },
+                    {
+                        "name": "Partner With Us",
+                        "link": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Latest",
+                "children": [
+                    {
+                        "name": "Sangarsh Campaign",
+                        "link": "/sangarsh-campaign"
+                    },
+                    {
+                        "name": "Impact",
+                        "link": "/impact"
+                    },
+                    {
+                        "name": "Stories of change",
+                        "link": "/stories-of-change"
+                    }
+                ]
+            }
+        ]
     },
     "home": {
         "main": {
@@ -168,33 +249,37 @@
             "values": [
                 {
                     "title": "Solidarity",
+                    "subTitle": "We're dedicated to personal and community growth, standing together for progress",
                     "icon": "FaPeopleGroup",
-                    "size": "50"
+                    "size": "100"
                 },
                 {
                     "title": "Integrity",
+                    "subTitle": "We're honest and accountable, valuing trust in our actions and partnerships",
                     "icon": "GoLaw",
-                    "size": "50"
+                    "size": "100"
                 },
                 {
                     "title": "Learning",
+                    "subTitle": "We think learning is vital, fostering growth through ongoing education and skill-building",
                     "icon": "FaBookOpenReader",
-                    "size": "50"
+                    "size": "100"
                 },
                 {
                     "title": "Freedom",
+                    "subTitle": "We support freedom of thought and action, promoting respect and innovation",
                     "icon": "GiFreedomDove",
-                    "size": "50"
+                    "size": "100"
                 }
             ]
         },
         "vision": {
-            "title": "Our Vision",
+            "title": "Vision",
             "paragraph": "A world where women and children can realise their potential and drive positive change in their communities.",
             "imageURL": "vision.png"
         },
         "mission": {
-            "title": "Our Mission",
+            "title": "Mission",
             "paragraph": "We work for sustainable change in women and children from marginalised communities by providing them with enrichment education, special education, life skills and access to vocational opportunities.",
             "imageURL": "mission.png"
         },

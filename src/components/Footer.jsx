@@ -41,91 +41,26 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div
-                        className="foot-section">
-                        <li className="heading">
-                            <span className="title-text">About</span>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/vision-and-mission")}>Our Values and Mission</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/values")}>Our Values</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/our-trestees")}>Our Trustees</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/how-we-began")}>How we began</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/photo-gallery")}>Photo Gallery</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/our-team")}>Our Team</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/our-partners-and-supporters")}>Our Partners and Supporters</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/stories-of-change")}>Stories of Change</div>
-                        </li>
-                    </div>
-
-                    <div className="foot-section">
-                        <li className="heading">
-                            <span className="title-text">Programs</span>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/sahyog-sangharsh")}>Sahyog Sangharsh</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/sahyog-roshan")}>Sahyog Roshan</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/sahyog-scholarship-and-mentorship-program")}>Sahyog Scholarship Mentorship Program</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/sahyog-jhula")}>Sahyog Jhula</div>
-                        </li>
-                    </div>
-
-                    <div className="foot-section">
-                        <li className="heading">
-                            <span className="title-text">Reports</span>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/reports")}>Annual Reports</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/financials")}>Financials</div>
-                        </li>
-                    </div>
-
-                    <div className="foot-section">
-                        <li className="heading">
-                            <span className="title-text">Other</span>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/sangarsh-campaign")}>Sangarsh Campaign</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/covid-19-relief")}>Covid-19 Relief</div>
-                        </li>
-                        <li>
-                            <div onClick={() => navigate("/donate")}>Donate Now</div>
-                        </li>
-                    </div>
+                    {footer.footerLinks.map((footerDiv) => (
+                        <div className="foot-section">
+                            <li className="heading">
+                                <span className="title-text">{footerDiv.title}</span>
+                            </li>
+                            {footerDiv.children.map((child) => (
+                                <div className="footer-links" onClick={() => navigate(child.link)}>{child.name}</div>
+                            ))}
+                        </div>
+                    ))}
                 </div>
                 <hr />
                 <div className="below-footer-links">
-                    <div className="below-footer-section flex gap-20">
+                    <div className="below-footer-section flex gap-20 margin-block-10">
                         <span className="hover-light-green cur" onclick={() => navigate("/")}>Terms</span>
                         <span className="hover-light-green cur" onclick={() => navigate("/")}>Privacy</span>
                         <span className="hover-light-green cur" onclick={() => navigate("/")}>Policy</span>
                     </div>
 
-                    <div>
+                    <div className="margin-block-10">
                         © <span className="color-light">{(new Date().getFullYear())}</span>&nbsp;|&nbsp;<span className="color-light">Chehak Trust</span>&nbsp;All Rights Reserved
                     </div>
                 </div>

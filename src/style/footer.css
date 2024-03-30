@@ -25,11 +25,15 @@
     color: var(--secondary-light);
 }
 
-.foot-section>li>div {
+.footer-links {
     margin: 20px 0;
-    color: var(--white);
+    color: var(--primary);
     cursor: pointer;
     font-weight: 800;
+}
+
+.footer-links:hover {
+    color: var(--secondary-light);
 }
 
 .foot-section>.heading {
@@ -93,9 +97,7 @@ hr {
     }
 
     .below-footer-links {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        width: 90%;
     }
 }
 

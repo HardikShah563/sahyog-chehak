@@ -9,16 +9,18 @@ export default function Values() {
         <>
             <div className="w-90 margin-a-a">
                 <h1 className="big-heading txt-ctr margin-block-50">
-                    {/* {values.title} */}
                     {values.title}
                 </h1>
 
-                <div className="flex justify-ctr gap-20 flex-wrap">
+                <div className="values">
                     {values.values.map((value) => (
                         <div className="value-card">
                             {getIconFromIconName(value.icon, value.size)}
                             <div className="value-card-title">
                                 {value.title}
+                            </div>
+                            <div className="value-card-subtitle">
+                                {value.subTitle}
                             </div>
                         </div>
                     ))}

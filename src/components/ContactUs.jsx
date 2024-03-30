@@ -36,6 +36,7 @@ export default function ContactUs() {
     }
     return (
         <>
+            <h1 className="big-heading txt-ctr">Contact Us</h1>
             <div className="w-40 margin-a-a">
                 <form onSubmit={handleSubmit}>
                     <div className="input-div">
@@ -76,11 +77,9 @@ export default function ContactUs() {
                         {formData.messageError && <div className="error">{formData.messageError}</div>}
                     </div>
 
-                    <div className="input-div">
-                        <button className="submit-btn flex gap-5 align-ctr">
-                            Send Message {getIconFromIconName("IoIosArrowForward")}
-                        </button>
-                    </div>
+                    <button className="light-button margin-a-a">
+                        Send Message {getIconFromIconName("IoIosArrowForward")}
+                    </button>
                 </form>
             </div>
         </>

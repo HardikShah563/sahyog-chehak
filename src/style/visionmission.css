@@ -1,0 +1,41 @@
+.visionmission {
+    display: flex;
+    margin: auto auto;
+    height: max-content;
+}
+
+.vision-box, .mission-box {
+    width: 50%;
+    height: max-content;
+}
+
+.vision-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.visionmission .img-div {
+    height: 200px;
+    height: 100%;
+    border: 1px solid var(--secondary-dark);
+}
+
+@media (max-width: 900px) {
+    .visionmission {
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .visionmission {
+        flex-direction: column;
+    }
+
+    .vision-box {
+        flex-direction: column-reverse;
+    }
+    
+    .vision-box, .mission-box {
+        width: 100%;
+    }
+}
