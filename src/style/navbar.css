@@ -20,8 +20,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: var(--secondary-dark);
+    background-color: var(--matt-black);
+    position: sticky;
+    top: 0px;
     text-transform: uppercase;
+    z-index: 100;
 }
 
 /* ---- navigation bar links ---- */
@@ -85,13 +88,12 @@
     display: none;
     position: absolute;
     transform: translateX(-20px);
-    background-color: var(--primary-bg);
+    background-color: var(--primary);
     text-align: left;
     min-width: 250px;
-    box-shadow: 5px 5px 10px 2px #00000020;
+    box-shadow: 0px 0px 10px #17171750;
     z-index: 1;
     margin: 0 10px;
-    border-radius: 8px;
 }
 
 .dropdown-content div,
@@ -145,7 +147,6 @@ a hr {
         padding: 20px 30px;
         margin: auto auto;
         justify-content: space-between;
-        background-color: var(--secondary-dark);
     }
 
     .nav-lines {
@@ -164,11 +165,11 @@ a hr {
         left: 0px;
         height: 0;
         transform: 200ms;
-        overflow: hidden;
+        overflow: scroll;
     }
 
     .nav-links.active {
-        height: fit-content;
+        height: 80vh;
         padding: 20px;
         overflow: scroll;
     }
@@ -226,18 +227,4 @@ a hr {
     .nav-button {
         background-color: transparent;
     }
-}
-
-/* -------- ScrollBar CSS -------- */
-/* width */
-::-webkit-scrollbar {
-    width: 5px !important;
-    border-radius: var(--radius-5);
-    overflow: hidden;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: var(--primary-very-dark);
-    border-radius: var(--radius-10);
 }

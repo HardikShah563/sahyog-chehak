@@ -22,7 +22,7 @@ export default function Home() {
     return (
         <>
             <div>
-                <div className="main flex justify-space-btween">
+                <div className="main w-90">
                     {/* left section for the text */}
                     <div className="main-section margin-block-50">
                         <h1 className="big-heading">
@@ -31,46 +31,51 @@ export default function Home() {
                         <h1 className="small-heading margin-block-10">
                             {home.main.subTitle}
                         </h1>
-                        <p className="para-text">{home.main.paragraph}</p>
+                        <p className="para-text margin-block-20">{home.main.paragraph}</p>
 
-                        <div className="flex gap-10 margin-block-20 main-btn">
+                        <div className="flex justify-ctr gap-10 margin-block-20 main-btn">
                             {home.main.buttons.map((button) => (
                                 <div className={`${button.type}-button`}>
-                                    {button.text} {getIconFromIconName(button.icon)}
+                                    {button.text}
+                                    {getIconFromIconName(button.icon)}
                                 </div>
                             ))}
                         </div>
                     </div>
-
-                    {/* right section for the carousel */}
-                    <Carousel
-                        autoPlay
-                        emulateTouch
-                        infiniteLoop
-                        interval={5000}
-                        showArrows={false}
-                        showStatus={false}
-                        showIndicators={true}
-                        showThumbs={false}
-                        className="txt-ctr main-carousel"
-                    >
-                        {home.main.carousel.map((carouselEl) => (
-                            <div>
-                                <img
-                                    src={
-                                        process.env.PUBLIC_URL +
-                                        "/assets/" +
-                                        carouselEl.imageURL
-                                    }
-                                    alt={carouselEl.subTitle}
-                                />
-                            </div>
-                        ))}
-                    </Carousel>
                 </div>
+
+                {/* right section for the carousel */}
+                <Carousel
+                    autoPlay
+                    emulateTouch
+                    infiniteLoop
+                    interval={5000}
+                    showArrows={false}
+                    showStatus={false}
+                    showIndicators={true}
+                    showThumbs={false}
+                    className="w-90 margin-a-a main-carousel"
+                >
+                    {home.main.carousel.map((carouselEl) => (
+                        <img
+                            src={
+                                process.env.PUBLIC_URL +
+                                "/assets/" +
+                                carouselEl.imageURL
+                            }
+                            alt={carouselEl.subTitle}
+                            className="img"
+                        />
+                    ))}
+                </Carousel>
+
 
                 <div className="margin-block-100">
                     <AboutUs />
+                </div>
+
+                <div className="margin-block-100">
+                    <AreasOfWork />
                 </div>
 
                 <div className="margin-block-100">
@@ -79,10 +84,6 @@ export default function Home() {
 
                 <div className="margin-block-100">
                     <VisionMission />
-                </div>
-
-                <div className="margin-block-100">
-                    <AreasOfWork />
                 </div>
 
                 <div className="margin-block-100">

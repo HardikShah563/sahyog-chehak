@@ -15,17 +15,17 @@ export default function JoinUs() {
 
     return (
         <>
-            <div className="join-us">
-                <div className="margin-block-20 padding-10">
-                    <h1 className="txt-ctr heading">
+            <div className="join-us w-90 margin-a-a">
+                <div className="">
+                    <h1 className="heading txt-ctr">
                         {join.title}
                     </h1>
-                    <p className="txt-ctr margin-block-20 para-text">
+                    <p className="para-text margin-a-a margin-block-20 txt-ctr">
                         {join.paragraph}
                     </p>
                 </div>
 
-                <div className="flex justify-ctr gap-10">
+                <div className="margin-block-50 flex justify-ctr gap-10">
                     {join.buttons.map((button) => (
                         <div className={`${button.type}-button`}>
                             {button.text} {getIconFromIconName(button.icon)}

@@ -1,8 +1,9 @@
 :root {
     --primary: #f1f1f1;
-    --primary-bg: #F1F2EE;
-    --secondary-dark: #425058;
-    --secondary-light: #DCF764;
+    --primary-bg: #dddddd;
+    --secondary-dark: #171717;
+    --secondary-light: #FEC443;
+    --secondary-light-hover: #feb518;
     /* radius */
     --radius-5: 5px;
     --radius-10: 10px;
@@ -13,7 +14,11 @@
     box-sizing: border-box;
     margin: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    transition: all 100ms ease;
+    transition: all 200ms ease;
+}
+
+::selection {
+    background-color: var(--secondary-light);
 }
 
 @font-face {
@@ -43,6 +48,10 @@ li {
 
 .w-80 {
     width: 80%;
+}
+
+.w-90 {
+    width: 90%;
 }
 
 .margin-a-a {
@@ -117,6 +126,8 @@ li {
 .big-heading {
     font-size: 48px;
     color: var(--secondary-dark);
+    text-transform: uppercase;
+    letter-spacing: -1px;
 }
 
 .heading {
@@ -143,11 +154,11 @@ li {
     margin-inline: auto;
 }
 
-.color-light-green {
+.color-light {
     color: var(--secondary-light);
 }
 
-.color-dark-green {
+.color-dark {
     color: var(--secondary-dark);
 }
 
@@ -176,17 +187,26 @@ li {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    border: 1px solid var(--secondary-dark);
     cursor: pointer;
 }
 
 .light-button {
-    background-color: var(--secondary-light);
+    border: 1.5px solid var(--secondary-dark);
+    /* background-color: var(--secondary-light); */
+}
+
+.light-button:hover {
+    background-color: var(--primary-bg);
 }
 
 .dark-button {
-    color: var(--primary);
-    background-color: var(--secondary-dark);
+    color: var(--secondary-dark);
+    background-color: var(--secondary-light);
+    border: 2px solid var(--secondary-light);
+}
+
+.dark-button:hover {
+    background-color: var(--secondary-light-hover);
 }
 
 .hover-light-green:hover {
@@ -214,6 +234,9 @@ li {
 }
 
 @media (max-width: 600px) {
+    .w-90 {
+        width: 95%;
+    }
 
     .w-60,
     .w-80 {
@@ -221,7 +244,7 @@ li {
     }
 
     .heading {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .small-heading {
@@ -229,7 +252,7 @@ li {
     }
 
     .para-text {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
         text-align: justify;
     }

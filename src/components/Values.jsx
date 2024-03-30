@@ -7,8 +7,8 @@ export default function Values() {
     const values = data.home.values;
     return (
         <>
-            <div>
-                <h1 className="heading txt-ctr margin-block-50">
+            <div className="w-90 margin-a-a">
+                <h1 className="big-heading txt-ctr margin-block-50">
                     {/* {values.title} */}
                     {values.title}
                 </h1>

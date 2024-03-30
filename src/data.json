@@ -6,7 +6,7 @@
         "logo": "logo-sahyog-small.png",
         "navigationLinks": [
             {
-                "name": "About",
+                "name": "Who are we",
                 "isDropdown": true,
                 "dropdown": [
                     {
@@ -24,15 +24,11 @@
                     {
                         "name": "Partners & Supporters",
                         "link": "/partners&supporters"
-                    },
-                    {
-                        "name": "Impact",
-                        "link": "/impact"
                     }
                 ]
             },
             {
-                "name": "Programs",
+                "name": "What we do",
                 "isDropdown": true,
                 "dropdown": [
                     {
@@ -54,14 +50,36 @@
                 ]
             },
             {
-                "name": "Finances",
-                "isDropdown": false,
-                "link": "/finances"
+                "name": "Get Involved",
+                "isDropdown": true,
+                "dropdown": [
+                    {
+                        "name": "Finances",
+                        "link": "/finances"
+                    },
+                    {
+                        "name": "Join Us",
+                        "link": "/"
+                    },
+                    {
+                        "name": "Partner With Us",
+                        "link": "/"
+                    }
+                ]
             },
             {
-                "name": "Sangarsh Campaign",
-                "isDropdown": false,
-                "link": "/sangarsh-campaign"
+                "name": "Latest",
+                "isDropdown": true,
+                "dropdown": [
+                    {
+                        "name": "Sangarsh Campaign",
+                        "link": "/sangarsh-campaign"
+                    },
+                    {
+                        "name": "Impact",
+                        "link": "/impact"
+                    }
+                ]
             }
         ]
     },
@@ -106,24 +124,47 @@
             "carousel": [
                 {
                     "subTitle": "image 1",
-                    "imageURL": "logo-sahyog-small.png"
+                    "imageURL": "carousel1.png"
                 },
                 {
                     "subTitle": "image 2",
-                    "imageURL": "logo-sahyog-small.png"
+                    "imageURL": "carousel2.png"
                 },
                 {
                     "subTitle": "image 3",
-                    "imageURL": "logo-sahyog-small.png"
+                    "imageURL": "carousel3.png"
                 }
             ]
         },
         "about": {
-            "title": "About Us",
-            "paragraph": "Sahyog is an initiative of Chehak Trust. We at Sahyog are committed to a community-based model of social change, responsive to the expressed and felt needs of women and children. We strongly believe that education is the cornerstone of social change and work for sustainable change in women and children from marginalized communities by providing them with enrichment education, special education, life skills and access to vocational opportunities"
+            "title": "An initiative of Chehak Trust committed to social change",
+            "paragraph": "We are responsive to the expressed and felt needs of women and children. We strongly believe that education is the cornerstone of social change and work for sustainable change in women and children from marginalized communities by providing them with enrichment education, special education, life skills and access to vocational opportunities"
+        },
+        "areasOfWork": {
+            "title": "Our Areas of Work",
+            "areas": [
+                {
+                    "title": "Jhula",
+                    "subTitle": "Empowering girls & women",
+                    "imageURL": "area1.png",
+                    "link": "/sahyog-jhula"
+                },
+                {
+                    "title": "Sangharsh",
+                    "subTitle": "Disability Intervension",
+                    "imageURL": "area2.png",
+                    "link": "/sahyog-sangharsh"
+                },
+                {
+                    "title": "Roshan",
+                    "subTitle": "Enrichment Education",
+                    "imageURL": "area3.png",
+                    "link": "/sahyog-roshan"
+                }
+            ]
         },
         "values": {
-            "title": "Our Values",
+            "title": "We believe in",
             "values": [
                 {
                     "title": "Solidarity",
@@ -157,41 +198,19 @@
             "paragraph": "We work for sustainable change in women and children from marginalised communities by providing them with enrichment education, special education, life skills and access to vocational opportunities.",
             "imageURL": "mission.png"
         },
-        "areasOfWork": {
-            "title": "Our Areas of Work",
-            "areas": [
-                {
-                    "subTitle": "Empowering girls & women",
-                    "imageURL": "area1.png"
-                },
-                {
-                    "subTitle": "Disability Intervension",
-                    "imageURL": "area2.png"
-                },
-                {
-                    "subTitle": "Enrichment Education",
-                    "imageURL": "area3.png"
-                }
-            ]
-        },
         "joinUs": {
             "title": "Join Us In Our Cause",
             "paragraph": "Become a driving force for positive change by joining our esteemed group. Your valuable contribution, whether through volunteering your time or partnering with us, holds immense significance. Together, we can effect meaningful change and make a positive impact on the world. Join our mission, and let us collaboratively create a lasting difference.",
             "buttons": [
                 {
-                    "text": "Donate Us",
-                    "icon": "GoHeartFill",
-                    "type": "light"
-                },
-                {
                     "text": "Volunteer",
                     "icon": "BiSolidDonateHeart",
-                    "type": "dark"
+                    "type": "light"
                 },
                 {
                     "text": "Partner With Us",
                     "icon": "FaHandshakeSimple",
-                    "type": "light"
+                    "type": "dark"
                 }
             ]
         }

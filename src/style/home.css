@@ -1,23 +1,16 @@
 /* very first - main component (in Home.jsx page) */
 .main {
-    width: 80%;
     margin: auto auto;
-    gap: 40px;
+    text-align: center;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.main-section {
-    width: 400px;
-    margin-block: 100px !important;
-}
-
 .main-carousel {
-    width: 50%;
-    min-width: 200px;
-    border-radius: var(--radius-10);
+    width: 100%;
 }
 
 .photo-text-box {
@@ -77,24 +70,6 @@
     font-weight: 600;
 }
 
-.area-images {
-    flex-wrap: wrap;
-}
-
-.areas-img-div {
-    width: 300px;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.areas-img-div .img {
-    min-height: 200px;
-    border: 1px solid var(--secondary-dark);
-    border-radius: var(--radius-10);
-}
-
 /* impact card */
 .impact-card {
     background-color: var(--primary-bg);
@@ -107,10 +82,6 @@
 @media (max-width: 1100px) {
     .main {
         width: 95%;
-    }
-
-    .main-carousel {
-        width: 40%;
     }
 }
 
@@ -130,17 +101,16 @@
         justify-content: center;
     }
 
-    .main-carousel {
-        width: 80%;
-        margin: 50px auto 0px auto;
-    }
-
     .photo-text-box {
         width: 95%;
     }
 }
 
 @media (max-width: 700px) {
+    .main, .main-carousel {
+        margin-block: 50px !important;
+    }
+
     .photo-text-box .flex {
         min-height: 300px;
         flex-wrap: wrap;

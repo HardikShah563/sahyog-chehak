@@ -126,7 +126,7 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        © <span className="color-light-green">{(new Date().getFullYear())}</span>&nbsp;|&nbsp;<span className="color-light-green">Chehak Trust</span>&nbsp;All Rights Reserved
+                        © <span className="color-light">{(new Date().getFullYear())}</span>&nbsp;|&nbsp;<span className="color-light">Chehak Trust</span>&nbsp;All Rights Reserved
                     </div>
                 </div>
             </footer>
