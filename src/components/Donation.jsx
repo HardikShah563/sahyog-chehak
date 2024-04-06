@@ -137,7 +137,7 @@ export default function Donation() {
 
     return (
         <>
-            <div className="donation-box margin-block-50 flex">
+            <div className="donation-box w-90 margin-block-50 flex">
                 <div className="donation-box-inner">
                     <div>
                         <h1 className="txt-ctr heading">Popular Donation Options</h1>

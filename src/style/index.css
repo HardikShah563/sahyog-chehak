@@ -21,11 +21,6 @@
     background-color: var(--secondary-light);
 }
 
-@font-face {
-    font-family: BobbyJones;
-    src: url(../../public/BobbyJones.otf);
-}
-
 body {
     overflow-x: hidden !important;
 }
@@ -80,6 +75,10 @@ li {
 
 .flex {
     display: flex;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 .justify-ctr {
@@ -145,6 +144,11 @@ li {
     font-weight: 600;
 }
 
+.paragraph-div {
+    display: flex;
+    gap: 20px;
+}
+
 .page {
     height: 50vh;
 }
@@ -172,6 +176,10 @@ li {
 
 .bg-hr {
     border: 1px solid var(--primary-bg);
+}
+
+.dark-hr {
+    border: 2px solid var(--secondary-dark);
 }
 
 .img {
@@ -205,7 +213,7 @@ li {
     border: 2px solid var(--secondary-light);
 }
 
-.dark-button:hover {
+.dark-button:hover, .dark-button:active {
     background-color: var(--secondary-light-hover);
 }
 
@@ -215,6 +223,10 @@ li {
 
 .hover-dark-green:hover {
     color: var(--secondary-dark);
+}
+
+.logo-img {
+    width: 250px;
 }
 
 @media (max-width: 1200px) {
@@ -230,6 +242,15 @@ li {
 
     .grid-2 {
         grid-template-columns: repeat(1, 100%);
+    }
+
+    .paragraph-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .paragraph-div.row-reverse {
+        /* flex-direction: column-reverse; */
     }
 }
 

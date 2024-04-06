@@ -16,10 +16,10 @@ export default function Donate() {
             </div>
 
             <div className="flex justify-ctr gap-10">
-                <div className="rounded-btn-light">
+                <div className="light-button">
                     Donate Us <GoHeartFill />
                 </div>
-                <div className="rounded-btn-dark">
+                <div className="dark-button">
                     Volunteer <BiSolidDonateHeart />
                 </div>
             </div>

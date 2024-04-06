@@ -346,6 +346,78 @@
             }
         ]
     },
+    "sangharsh": {
+        "logo": "/assets/logo-sangharsh.png",
+        "title": "",
+        "quote": {
+            "statement": "My disability exists not because I use a wheelchair, but because the broader environment isn't accessible",
+            "saidBy": "Stella Young"
+        },
+        "paragraph": [
+            {
+                "title": "About Sangharsh",
+                "text": "Sahyog Sangharsh is all about helping kids with disabilities right from the start. They teach people in the community about disabilities, give special education and help kids get better at things they find tricky. They even help them join regular schools or get jobs. The center is like a cozy place for kids with hearing problems, learning issues, autism, or trouble moving around. They get to learn, play, and do fun stuff while also getting therapy to help them do everyday things better. It's all about making sure every kid gets a fair chance to learn and grow.",
+                "imageURL": "",
+                "imagePosition": "left"
+            },
+            {
+                "title": "How we began",
+                "text": "Sangharsh started in Jari Mari in 2003 to help kids with disabilities go to school and get support from their community. But in 2011, they moved to Kaju Pada because they saw that kids there needed help too. They realized that many kids in Kaju Pada couldn't easily get to Sangharsh in Jari Mari. So, they did a survey and found 45 kids with disabilities in Ashok Nagar. In 2013, they moved again to Narayan Nagar, a bigger place in Ghatkopar, to help even more kids. They just wanted to be closer to the kids who needed them most.",
+                "imageURL": "",
+                "imagePosition": "right"
+            }
+        ],
+        "photographs": {
+            "title": "Highlights from Sanghash",
+            "images": [
+                {
+                    "url": "sangharsh1.png",
+                    "label": "Medical Intervension"
+                },
+                {
+                    "url": "sangharsh2.png",
+                    "label": "Home Based Intervention"
+                },
+                {
+                    "url": "sangharsh3.png",
+                    "label": "Skill Developement"
+                },
+                {
+                    "url": "sangharsh4.png",
+                    "label": "Therapy Sessions"
+                },
+                {
+                    "url": "sangharsh5.png",
+                    "label": "Financial Assistance"
+                },
+                {
+                    "url": "sangharsh6.png",
+                    "label": "Field Trips"
+                }
+            ]
+        },
+        "aim": {
+            "title": "We aim at providing",
+            "cards": [
+                {
+                    "title": "Assessment",
+                    "paragraph": "Children are professionally assessed for an accurate diagnosis of their disability"
+                },
+                {
+                    "title": "Special Education",
+                    "paragraph": "Based on their disabilities, we make a plan to teach them reading, math, and talking skills"
+                },
+                {
+                    "title": "Reintegration and Placements",
+                    "paragraph": "Special schools and vocational/ employment generation programmes are identified for reintegration and placement"
+                },
+                {
+                    "title": "Occupational Therapy/ Physiotherapy",
+                    "paragraph": "Children are referred to therapy centres to improve the functioning of their musculoskeletal system"
+                }
+            ]
+        }
+    },
     "donation": {
         "left": {
             "title": "Popular Donation Options",

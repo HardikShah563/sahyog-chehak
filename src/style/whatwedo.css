@@ -1,0 +1,46 @@
+/* SANGHARSH */
+
+.yt-iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.highlights {}
+
+.whatwedo-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.whatwedo-img {
+    margin: 40px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.whatwedo-img .img {
+    overflow: hidden;
+}
+
+.whatwedo-img .img:hover {
+    scale: 1.1;
+}
+
+@media (max-width: 600px) {
+    .yt-iframe {
+        width: 90vw;
+        height: 220px;
+    }
+
+    .whatwedo-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .whatwedo-img {
+        margin: 10px 5px 0px 5px;
+    }
+
+    .whatwedo-label {
+        font-size: 12px;
+    }
+}

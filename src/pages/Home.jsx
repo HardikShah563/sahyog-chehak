@@ -14,6 +14,7 @@ import ContactUs from "../components/ContactUs";
 import getIconFromIconName from "../config/icons";
 // importing data
 import data from "../data.json";
+import Donation from "../components/Donation";
 
 export default function Home() {
     // the data for the home page from the json file
@@ -88,6 +89,10 @@ export default function Home() {
 
                 <div className="margin-block-100">
                     <JoinUs />
+                </div>
+
+                <div className="margin-block-100">
+                    <Donation />
                 </div>
 
                 <div className="margin-block-100">
