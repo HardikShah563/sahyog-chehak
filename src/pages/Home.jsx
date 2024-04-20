@@ -80,11 +80,11 @@ export default function Home() {
                 </div>
 
                 <div className="margin-block-100">
-                    <Values />
+                    <VisionMission />
                 </div>
 
                 <div className="margin-block-100">
-                    <VisionMission />
+                    <Values />
                 </div>
 
                 <div className="margin-block-100">

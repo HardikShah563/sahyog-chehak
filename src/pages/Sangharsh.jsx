@@ -33,7 +33,8 @@ export default function Sangharsh() {
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen
                 ></iframe>
             </div>
 
@@ -42,31 +43,14 @@ export default function Sangharsh() {
                     Highlights
                 </h1>
                 <div className="highlights">
-                    <b className="w-100 txt-ctr">
-                        <h1>4:1</h1>
-                        student teacher ratio
-                    </b>
-
-                    <div className="divider"></div>
-
-                    <b className="w-100 txt-ctr">
-                        <h1>50+</h1>
-                        Students mainstreamed into special schools and vocational training
-                    </b>
-
-                    <div className="divider"></div>
-
-                    <b className="w-100 txt-ctr">
-                        <h1>Women</h1>
-                        driven community
-                    </b>
-
-                    <div className="divider"></div>
-
-                    <b className="w-100 txt-ctr">
-                        <h1>Therapeutic</h1>
-                        environment
-                    </b>
+                    {sangharsh.highlights.map((highlight) => (
+                        <>
+                            <b className="w-100 txt-ctr highlight">
+                                <h1>{highlight.h1}</h1>
+                                {highlight.text}
+                            </b>
+                        </>
+                    ))}
                 </div>
             </div>
 

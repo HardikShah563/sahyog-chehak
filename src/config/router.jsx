@@ -11,6 +11,7 @@ import Donate from "../pages/Donate";
 
 // what we do pages
 import Sangharsh from "../pages/Sangharsh";
+import Roshan from "../pages/Roshan";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,12 @@ const router = createBrowserRouter([
                 element: <Sangharsh />
             }, {
                 path: "/sahyog-roshan",
+                element: <Roshan />
+            }, {
+                path: "/sahyog-scholarship-and-mentorship-program",
+                element: <Sangharsh />
+            }, {
+                path: "/sahyog-jhula",
                 element: <Sangharsh />
             }, {
                 // your pages will go here, copy the syntax of <Home /> and follow the convention
