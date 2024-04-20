@@ -229,6 +229,11 @@ li {
     width: 250px;
 }
 
+.divider {
+    border: 0.5px solid var(--secondary-dark);
+    margin-block: 10px;
+}
+
 @media (max-width: 1200px) {
     .big-heading {
         font-size: 36px;

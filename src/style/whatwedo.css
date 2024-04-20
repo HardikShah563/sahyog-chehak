@@ -1,11 +1,26 @@
 /* SANGHARSH */
 
 .yt-iframe {
-    width: 560px;
-    height: 315px;
+    width: 740px;
+    height: 415px;
 }
 
-.highlights {}
+.highlights {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-light);
+}
+
+.highlights b {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
 
 .whatwedo-div {
     display: grid;
@@ -25,10 +40,38 @@
     scale: 1.1;
 }
 
+.para-img {
+    width: 400px;
+}
+
 @media (max-width: 600px) {
     .yt-iframe {
         width: 90vw;
         height: 220px;
+    }
+
+    .highlights {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px auto;
+    }
+
+    .highlights b {
+        margin: 0px;
+        min-height: 120px;
+        border: 1px solid var(--secondary-dark);
+    }
+
+    .highlights b {
+        font-size: 12px;
+    }
+
+    .highlights b h1 {
+        font-size: 32px;
+    }
+
+    .highlights div {
+        display: none;
     }
 
     .whatwedo-div {
@@ -42,5 +85,9 @@
 
     .whatwedo-label {
         font-size: 12px;
+    }
+
+    .between-para div:nth-child(2) {
+        display: none;
     }
 }

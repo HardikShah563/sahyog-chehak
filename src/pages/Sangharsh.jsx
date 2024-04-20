@@ -37,48 +37,74 @@ export default function Sangharsh() {
                 ></iframe>
             </div>
 
-            {/* <div className="about-us w-90 margin-block-20">
-                <h1 className="small-heading txt-ctr">
-                    {sangharsh.quote.saidBy}
-                </h1>
-                <div className="para-text margin-a-a margin-block-20 txt-ctr">
-                    {sangharsh.quote.statement}
-                </div>
-            </div> */}
-
             <div className="margin-block-50">
                 <h1 className="heading txt-ctr">
                     Highlights
                 </h1>
-                <div className="flex">
-                    <div>4:1 student teacher ratio</div>
-                    <div>50+ Students mainstreamed into special schools and vocational training</div>
-                    <div>Women driven community</div>
-                    <div>Therapeutic environment</div>
+                <div className="highlights">
+                    <b className="w-100 txt-ctr">
+                        <h1>4:1</h1>
+                        student teacher ratio
+                    </b>
+
+                    <div className="divider"></div>
+
+                    <b className="w-100 txt-ctr">
+                        <h1>50+</h1>
+                        Students mainstreamed into special schools and vocational training
+                    </b>
+
+                    <div className="divider"></div>
+
+                    <b className="w-100 txt-ctr">
+                        <h1>Women</h1>
+                        driven community
+                    </b>
+
+                    <div className="divider"></div>
+
+                    <b className="w-100 txt-ctr">
+                        <h1>Therapeutic</h1>
+                        environment
+                    </b>
                 </div>
             </div>
 
-            <div className="w-90 margin-a-a margin-block-50">
-                {sangharsh.paragraph.map((para) => (
-                    <div className="margin-block-20">
-                        <h1 className="heading margin-block-10">{para.title}</h1>
-                        <div className={`paragraph-div margin-block-10 ${para.imagePosition === "right" && "row-reverse"}`}>
-                            <div>
-                                <div className="para-text">{para.text}</div>
-                            </div>
-                            <div>
+            <div className="margin-block-50">
+                <div className="w-90 margin-a-a margin-block-20">
+                    <h1 className="heading txt-ctr margin-block-20">{sangharsh.paragraph1.title}</h1>
+                    <div className={`paragraph-div margin-block-10`}>
+                        <div>
+                            <div className="para-text">{sangharsh.paragraph1.text}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="w-90 margin-a-a whatwedo-div between-para">
+                    {sangharsh.betweenParaImages.map((photo) => (
+                        <div>
+                            <div className="whatwedo-img">
                                 <img
                                     src={
                                         process.env.PUBLIC_URL +
-                                        para.imageURL
+                                        `/assets/${photo.url}`
                                     }
-                                    alt="para-img"
-                                    className="para-img"
+                                    alt={photo.url}
+                                    className="img"
                                 />
                             </div>
                         </div>
+                    ))}
+                </div>
+
+                <div className="w-90 margin-a-a margin-block-20">
+                    <h1 className="heading txt-ctr margin-block-20">{sangharsh.paragraph2.title}</h1>
+                    <div className={`paragraph-div margin-block-10`}>
+                        <div>
+                            <div className="para-text">{sangharsh.paragraph2.text}</div>
+                        </div>
                     </div>
-                ))}
+                </div>
             </div>
 
             <div className="margin-block-50">
