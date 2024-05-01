@@ -6,6 +6,7 @@ import Layout from "../pages/Layout";
 import Home from "../pages/Home";
 import Impact from "../pages/Impact";
 import Donate from "../pages/Donate";
+import Error from "../pages/Error";
 // what are we pages
 // import Team from "../pages/Team";
 
@@ -44,6 +45,9 @@ const router = createBrowserRouter([
                 element: <Sangharsh />
             }, {
                 // your pages will go here, copy the syntax of <Home /> and follow the convention
+            }, {
+                path: "/*",
+                element: <Error />
             }
         ],
     }

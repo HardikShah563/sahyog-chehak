@@ -77,6 +77,10 @@ li {
     display: flex;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
 .row-reverse {
     flex-direction: row-reverse;
 }
@@ -234,6 +238,10 @@ li {
     margin-block: 10px;
 }
 
+.error-logo {
+    /* width: 200px; */
+}
+
 @media (max-width: 1200px) {
     .big-heading {
         font-size: 36px;
@@ -262,6 +270,10 @@ li {
 @media (max-width: 600px) {
     .w-90 {
         width: 95%;
+    }
+
+    .w-40 {
+        width: 80vw;
     }
 
     .w-60,

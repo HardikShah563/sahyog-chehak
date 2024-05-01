@@ -29,7 +29,7 @@ export default function Navbar() {
                         className="logo"
                     ></img>
 
-                    <div className="w-100 flex justify-space-btween">
+                    <div className="w-100 flex justify-space-btween" onClick={() => {setShowNavbar(false)}}>
                         <div className={`nav-links ${showNavBar && "active"}`}>
                             {navbar.navigationLinks.map((nav) => (
                                 <div className="dropdown">
@@ -67,7 +67,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="nav-lines" onClick={() => { setShowNavbar(prevState => !prevState) }}>
-                    <FaBarsStaggered fill="white" size={30} />
+                    <FaBarsStaggered fill="white" size={20} />
                 </div>
             </nav >
         </>
