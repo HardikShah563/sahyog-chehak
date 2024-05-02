@@ -10,6 +10,9 @@ import Error from "../pages/Error";
 // what are we pages
 // import Team from "../pages/Team";
 import AboutUs from "../pages/AboutUs";
+import Team from "../pages/Team";
+import Photos from "../pages/Photos";
+import Partners from "../pages/Partners";
 // what we do pages
 import Sangharsh from "../pages/Sangharsh";
 import Roshan from "../pages/Roshan";
@@ -47,14 +50,14 @@ const router = createBrowserRouter([
                 path: "/about-us",
                 element: <AboutUs />
             }, {
-                path: "",
-                element: ""
+                path: "/team",
+                element: <Team />
             }, {
-                path: "",
-                element: ""
+                path: "/photos",
+                element: <Photos />
             }, {
-                path: "",
-                element: ""
+                path: "/partners&supporters",
+                element: <Partners />
             }, {
                 path: "",
                 element: ""

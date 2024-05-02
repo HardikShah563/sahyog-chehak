@@ -105,84 +105,6 @@
                 "link": "",
                 "name": "linkedin"
             }
-        ],
-        "footerLinks": [
-            {
-                "title": "Who are we",
-                "children": [
-                    {
-                        "name": "About Us",
-                        "link": "/about-us"
-                    },
-                    {
-                        "name": "Team",
-                        "link": "/team"
-                    },
-                    {
-                        "name": "Photo Gallery",
-                        "link": "/photos"
-                    },
-                    {
-                        "name": "Partners & Supporters",
-                        "link": "/partners&supporters"
-                    }
-                ]
-            },
-            {
-                "title": "What we do",
-                "children": [
-                    {
-                        "name": "Sahyog Sangharsh",
-                        "link": "/team"
-                    },
-                    {
-                        "name": "Sahyog Roshan",
-                        "link": "/sahyog-roshan"
-                    },
-                    {
-                        "name": "Sahyog Scholarship and Mentorship Program",
-                        "link": "/sahyog-scholarship-and-mentorship-program"
-                    },
-                    {
-                        "name": "Sahyog Umang",
-                        "link": "/sahyog-umang"
-                    }
-                ]
-            },
-            {
-                "title": "Get Involved",
-                "children": [
-                    {
-                        "name": "Finances",
-                        "link": "/finances"
-                    },
-                    {
-                        "name": "Join Us",
-                        "link": "/"
-                    },
-                    {
-                        "name": "Partner With Us",
-                        "link": "/"
-                    }
-                ]
-            },
-            {
-                "title": "Latest",
-                "children": [
-                    {
-                        "name": "Sangarsh Campaign",
-                        "link": "/sangarsh-campaign"
-                    },
-                    {
-                        "name": "Impact",
-                        "link": "/impact"
-                    },
-                    {
-                        "name": "Stories of change",
-                        "link": "/stories-of-change"
-                    }
-                ]
-            }
         ]
     },
     "home": {
@@ -192,7 +114,7 @@
             "paragraph": "A world where women and children can realise their potential and drive positive change in their communities.",
             "buttons": [
                 {
-                    "text": "Donate Us",
+                    "text": "Donate",
                     "icon": "GoHeartFill",
                     "type": "light"
                 },
@@ -601,6 +523,60 @@
                         "text": "Parents are like co teacher in facilitating the skills of the children, we recognize the value in building our parents capacity. Along with the regular parents meeting, there are sessions organized focusing on behavioral issues faces, stress, financial management and future planning etc. Caregivers module has been developed to help the family understand about the disability and learn how to create a home environment conducive for learning."
                     }
                 ]
+            }
+        ]
+    },
+    "team": {
+        "title": "Team"
+    },
+    "photoGallery": {
+        "title": "Glimpse of work at Sahyog",
+        "photos": [
+            {
+                "imageURL": "",
+                "imageTitle": ""
+            },
+            {
+                "imageURL": "",
+                "imageTitle": ""
+            },
+            {
+                "imageURL": "",
+                "imageTitle": ""
+            },
+            {
+                "imageURL": "",
+                "imageTitle": ""
+            }
+        ]
+    },
+    "partners": {
+        "title": "Our Supporters and Promotters",
+        "subTitle": "",
+        "partners": [
+            {
+                "title": "Institutional Supporters",
+                "logoCount": 15,
+                "logoInitial": "insti",
+                "logoExtension": ".png"
+            },
+            {
+                "title": "Partners",
+                "logoCount": 0,
+                "logoInitial": "part",
+                "logoExtension": ".png"
+            },
+            {
+                "title": "Collaborators",
+                "logoCount": 0,
+                "logoInitial": "part",
+                "logoExtension": ".png"
+            }
+        ],
+        "institutionalSupporters": [
+            {
+                "imageURL": "",
+                "imageTitle": ""
             }
         ]
     },

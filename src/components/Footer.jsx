@@ -11,6 +11,7 @@ export default function Footer() {
     // to control navigation between the pages
     const navigate = useNavigate();
     // 
+    const navbar = data.navbar;
     const footer = data.footer;
 
     return (
@@ -41,12 +42,12 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {footer.footerLinks.map((footerDiv) => (
+                    {navbar.navigationLinks.map((footerDiv) => (
                         <div className="foot-section">
                             <li className="heading">
-                                <span className="title-text">{footerDiv.title}</span>
+                                <span className="title-text">{footerDiv.name}</span>
                             </li>
-                            {footerDiv.children.map((child) => (
+                            {footerDiv.dropdown.map((child) => (
                                 <div className="footer-links" onClick={() => navigate(child.link)}>{child.name}</div>
                             ))}
                         </div>
