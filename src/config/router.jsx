@@ -38,10 +38,10 @@ const router = createBrowserRouter([
                 path: "/sahyog-roshan",
                 element: <Roshan />
             }, {
-                path: "/sahyog-scholarship-and-mentorship-program",
+                path: "/sahyog-mentorship-and-skill-building",
                 element: <Sangharsh />
             }, {
-                path: "/sahyog-jhula",
+                path: "/sahyog-umang",
                 element: <Sangharsh />
             }, {
                 // your pages will go here, copy the syntax of <Home /> and follow the convention

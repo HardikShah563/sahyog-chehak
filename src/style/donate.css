@@ -27,7 +27,6 @@
     width: 80%;
     margin-inline: auto;
     padding: 20px 40px;
-    border-radius: var(--radius-20);
     background-color: var(--primary-bg);
 }
 
@@ -36,32 +35,39 @@
     padding-inline: 10px;
 }
 
+.donation-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
 .donation-card {
     padding: 20px;
     background-color: var(--white);
-    border-radius: var(--radius-20);
 }
 
 .donation-arrow {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding: 5px;
+    font-size: 24px;
     color: var(--secondary-dark);
     border-radius: var(--radius-20);
     background-color: var(--secondary-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .donation-text {
     padding-top: 10px;
-    font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .donation-form {
     min-width: 300px;
     padding: 20px;
     background-color: var(--white);
-    border-radius: var(--radius-10);
 }
 
 .stages {
@@ -76,11 +82,8 @@
 
     .donation-card {
         padding: 10px;
-        border-radius: var(--radius-10);
     }
-}
 
-@media (max-width: 850px) {
     .donation-box {
         padding: 10px;
         gap: 50px;

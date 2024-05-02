@@ -76,11 +76,11 @@ export default function Home() {
                 </div>
 
                 <div className="margin-block-100">
-                    <AreasOfWork />
+                    <VisionMission />
                 </div>
 
                 <div className="margin-block-100">
-                    <VisionMission />
+                    <AreasOfWork />
                 </div>
 
                 <div className="margin-block-100">

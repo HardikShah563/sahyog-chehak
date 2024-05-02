@@ -15,7 +15,16 @@ export default function Values() {
                 <div className="values">
                     {values.values.map((value) => (
                         <div className="value-card">
-                            {getIconFromIconName(value.icon, value.size)}
+                            {/* {getIconFromIconName(value.icon, value.size)} */}
+                            <img
+                                src={
+                                    process.env.PUBLIC_URL
+                                    + "/assets/"
+                                    + value.imageURL
+                                }
+                                alt={value.title}
+                                width={150}
+                            />
                             <div className="value-card-title">
                                 {value.title}
                             </div>

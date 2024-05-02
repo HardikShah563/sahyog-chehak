@@ -34,14 +34,14 @@
 }
 
 .value-card-title {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
 .value-card-subtitle {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* impact card */
@@ -83,8 +83,12 @@
         width: 95%;
     }
 
+    .value-card-title {
+        font-size: 28px;
+    }
+
     .value-card-subtitle {
-        font-size: 14px;
+        font-size: 20px;
     }
 }
 

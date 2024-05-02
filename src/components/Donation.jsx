@@ -140,18 +140,17 @@ export default function Donation() {
             <div className="donation-box w-90 margin-block-50 flex">
                 <div className="donation-box-inner">
                     <div>
-                        <h1 className="txt-ctr heading">Popular Donation Options</h1>
-                        <p className="txt-ctr margin-block-20">Thank you for considering a donation to Sahyog Chehak. Your Support is instrumental in furthering our mission to provide care, nourishment, and protection to our beloved children while promoting a harmonious way of life deeply rooted in our cultural heritage.</p>
+                        <h1 className="txt-ctr heading">Contribute to the Cause</h1>
+                        <p className="para-text txt-ctr margin-block-20">Your donation to Sahyog Chehak supports our mission of caring for, nourishing, and protecting children while promoting cultural heritage.</p>
                     </div>
 
-                    <div className="flex gap-10 flex-wrap justify-ctr">
+                    <div className="donation-options margin-block-50">
                         {donation.left.donationOptions.map((option, index) => (
                             <div className="donation-card" key={index}>
                                 <div className="flex justify-space-btween align-ctr">
-                                    <h1 className="heading">{option.amount}</h1>
-                                    <IoIosArrowForward className="donation-arrow" size={20} />
+                                    <h1 className="small-heading">{option.title}</h1>
+                                    <IoIosArrowForward className="donation-arrow cur" size={20} />
                                 </div>
-                                <p className="donation-text">Proceed with this plan</p>
                             </div>
                         ))}
                     </div>

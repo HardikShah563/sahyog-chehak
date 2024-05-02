@@ -40,12 +40,12 @@
                         "link": "/sahyog-roshan"
                     },
                     {
-                        "name": "Sahyog Scholarship and Mentorship Program",
-                        "link": "/sahyog-scholarship-and-mentorship-program"
+                        "name": "Sahyog Mentorship & Skill Building",
+                        "link": "/sahyog-mentorship-and-skill-building"
                     },
                     {
-                        "name": "Sahyog Jhula",
-                        "link": "/sahyog-jhula"
+                        "name": "Sahyog Umang",
+                        "link": "/sahyog-umang"
                     }
                 ]
             },
@@ -144,8 +144,8 @@
                         "link": "/sahyog-scholarship-and-mentorship-program"
                     },
                     {
-                        "name": "Sahyog Jhula",
-                        "link": "/sahyog-jhula"
+                        "name": "Sahyog Umang",
+                        "link": "/sahyog-umang"
                     }
                 ]
             },
@@ -225,10 +225,10 @@
             "title": "Our Areas of Work",
             "areas": [
                 {
-                    "title": "Jhula",
+                    "title": "Umang",
                     "subTitle": "Empowering girls & women",
                     "imageURL": "area1.png",
-                    "link": "/sahyog-jhula"
+                    "link": "/sahyog-umang"
                 },
                 {
                     "title": "Sangharsh",
@@ -251,24 +251,28 @@
                     "title": "Solidarity",
                     "subTitle": "We're dedicated to personal and community growth, standing together for progress",
                     "icon": "FaPeopleGroup",
+                    "imageURL": "solidarity.png",
                     "size": "100"
                 },
                 {
                     "title": "Integrity",
                     "subTitle": "We're honest and accountable, valuing trust in our actions and partnerships",
                     "icon": "GoLaw",
+                    "imageURL": "integrity.png",
                     "size": "100"
                 },
                 {
                     "title": "Learning",
                     "subTitle": "We think learning is vital, fostering growth through ongoing education and skill-building",
                     "icon": "FaBookOpenReader",
+                    "imageURL": "learning.png",
                     "size": "100"
                 },
                 {
                     "title": "Freedom",
                     "subTitle": "We support freedom of thought and action, promoting respect and innovation",
                     "icon": "GiFreedomDove",
+                    "imageURL": "freedom.png",
                     "size": "100"
                 }
             ]
@@ -556,16 +560,22 @@
             "paragraph": "",
             "donationOptions": [
                 {
-                    "amount": "499 Rs"
+                    "title": "Educate"
                 },
                 {
-                    "amount": "999 Rs"
+                    "title": "Books"
                 },
                 {
-                    "amount": "1499 Rs"
+                    "title": "Medicine"
                 },
                 {
-                    "amount": "2999 Rs"
+                    "title": "Events"
+                },
+                {
+                    "title": "Sports"
+                },
+                {
+                    "title": "Others"
                 }
             ]
         },

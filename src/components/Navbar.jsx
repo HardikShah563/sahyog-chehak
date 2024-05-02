@@ -26,7 +26,8 @@ export default function Navbar() {
                             "/assets/" +
                             navbar.logo
                         }
-                        className="logo"
+                        className="logo cur"
+                        onClick={() => {navigate("/")}}
                     ></img>
 
                     <div className="w-100 flex justify-space-btween" onClick={() => {setShowNavbar(false)}}>

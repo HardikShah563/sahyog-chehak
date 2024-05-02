@@ -17,7 +17,7 @@ export default function JoinUs() {
         <>
             <div className="join-us w-90 margin-a-a">
                 <div className="">
-                    <h1 className="heading txt-ctr">
+                    <h1 className="big-heading txt-ctr">
                         {join.title}
                     </h1>
                     <p className="para-text margin-a-a margin-block-20 txt-ctr">

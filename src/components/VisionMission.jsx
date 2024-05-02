@@ -10,7 +10,7 @@ export default function VisionMission() {
 
     return (
         <>
-            <div className="w-60 margin-a-a flex gap-20 visionmission">
+            <div className="margin-a-a visionmission">
                 <div className="vision-box">
                     <img
                         src={
