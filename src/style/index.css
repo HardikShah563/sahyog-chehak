@@ -127,6 +127,10 @@ li {
     text-align: center;
 }
 
+.txt-justify {
+    text-align: justify;
+}
+
 .big-heading {
     font-size: 48px;
     color: var(--secondary-dark);
@@ -147,6 +151,10 @@ li {
 .para-text {
     font-size: 18px;
     font-weight: 600;
+}
+
+.font-normal {
+    font-weight: 400;
 }
 
 .gray-text {

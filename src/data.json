@@ -10,12 +10,12 @@
                 "isDropdown": true,
                 "dropdown": [
                     {
-                        "name": "Team",
-                        "link": "/team"
+                        "name": "About Us",
+                        "link": "/about-us"
                     },
                     {
-                        "name": "How we began",
-                        "link": "/how-we-began"
+                        "name": "Team",
+                        "link": "/team"
                     },
                     {
                         "name": "Photo Gallery",
@@ -111,12 +111,12 @@
                 "title": "Who are we",
                 "children": [
                     {
-                        "name": "Team",
-                        "link": "/team"
+                        "name": "About Us",
+                        "link": "/about-us"
                     },
                     {
-                        "name": "How we began",
-                        "link": "/how-we-began"
+                        "name": "Team",
+                        "link": "/team"
                     },
                     {
                         "name": "Photo Gallery",
@@ -553,6 +553,56 @@
                 }
             ]
         }
+    },
+    "aboutUs": {
+        "sections": [
+            {
+                "title": "How We Began",
+                "paragraph": [
+                    {
+                        "title": "",
+                        "text": "Sangharsh was set up in the Jari Mari community Kurla, in May 2003 to encourage an inclusive view of education and support community-based rehabilitation work.  In 2011, Sangharsh moved to Kaju Pada which is situated atop a hill in the Kurla-Ghatkopar area. We realized that those residing in the settlements in and around Kaju Pada were finding it difficult to access the services provided by Sangharsh as it was located in Jari Mari."
+                    },
+                    {
+                        "title": "",
+                        "text": "In a survey of 500 households in the Ashok Nagar settlement of Kaju Pada, in 2012 we moved to a bigger space, at Narayan Nagar Ghatkopar, the survey led to an increase of young adults between the age group of 13 to 20 years with varied forms of disability. Most of these young adults had spent a considerable amount of their years with no formal education or socialization. This paved the need to adopt a policy of Zero rejection knowing, that these families had no resources for educating their children. This Sahyog Sangharsh became a center in a community that was accessible. Recognizing the gaps in current services catering to an older group of adults with disabilities, the team began to strengthen their relationship with the Government agency working in the field."
+                    },
+                    {
+                        "title": "",
+                        "text": "Within seven years, the number of children and young adults coming to the center increased, we also noticed a reduction in the ages of the children being referred to the center to below 6 years. Sahyog Sangharsh began to expand in services, bringing in a team of medical experts & professionals, the activities geared towards the spirit of Inclusion and community engagement with collaboration with other like-minded organizations in the field of disability rehabilitation. In 2020, the center moved into two new locations at Asalpha, Ghatkopar, and Bailbazaar, Kurla to accommodate the multifaceted needs of the disabilities."
+                    }
+                ]
+            },
+            {
+                "title": "What we do",
+                "paragraph": [
+                    {
+                        "title": "Early Childhood Development",
+                        "text": "We recognize the need for early identification of children with disabilities. Initiation of satellite centers in the community libraries where we are reaching out to children between the ages of 0 to 3 years. The program is geared towards enabling families to provide responsive caregiving and creating a stimulating environment for their child’s development. The focus is on the Caregivers by mentoring them and helping them in this journey."
+                    },
+                    {
+                        "title": "Awareness & Sensitization of the Society",
+                        "text": "It is not only the family but the society at large that is responsible for the social upbringing of the person with a disabiltiy. At times, myths and misoners about disability influence the attitude and the response of the people making it difficult for them to look at the disability as part of the society and not apart. Our sensitization sessions engage the community stakeholders to look at a person with a disability through a rights perspective and realize the world we envisioned is for every person to be respected, accepted, and included."
+                    },
+                    {
+                        "title": "Inclusion",
+                        "text": "The spirit of Inclusion guides the Sangharsh programs, we believe this can only become a reality when practiced consciously. At Sangharsh, efforts are made to create such platforms for inclusion through the Meljhol Inclusive Camps, On-the-job apprenticeship and employment opportunities in the community, and mainstreaming children in schools where both children with and without disabilities are studying together."
+                    },
+                    {
+                        "title": "Remediation & Pre-vocational",
+                        "text": "School readiness program is offered to children between the ages of 3 to 10 years. Through play and experiential learning, the children are prepared for mainstreaming concepts of pre-academics. The interaction with other children and inclusive activities prepare them for socializing. An individual Education plan is made for each child and is reviewed on a biannual basis by the teachers. Mobility orientation visits are organized for adolescents and young adults with a special session on functional literacy, lifeskills, and pre-vocational skills. On-the-job training has been introduced to prepare the young adults for exposure to working industries available along with the Sangharsh apprenticeship program which is preparing them for long-term employment."
+                    },
+                    {
+                        "title": "Therapeutic services",
+                        "text": "Sahyog Sangharsh has onboard a multidisciplinary team of Doctors and professionals, providing, in-house assessments, consultation, and therapy. We wanted to create a center that provided all the services for disability rehabilitation under one roof. Having an in-house team has augmented the remediation teaching at the center. Therapy, medical support, assisted devices, and remediation have led to an overall impact on the progress of the child. The families are encouraged to pursue getting the disability certification and linked to schemes like Niramaya Health insurance for medical support. Camps held in the year for monitoring health - routine blood check, eye and dental."
+                    },
+                    {
+                        "title": "Caregivers Capacity Building",
+                        "text": "Parents are like co teacher in facilitating the skills of the children, we recognize the value in building our parents capacity. Along with the regular parents meeting, there are sessions organized focusing on behavioral issues faces, stress, financial management and future planning etc. Caregivers module has been developed to help the family understand about the disability and learn how to create a home environment conducive for learning."
+                    }
+                ]
+            }
+        ]
     },
     "donation": {
         "left": {

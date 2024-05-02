@@ -9,7 +9,7 @@ import Donate from "../pages/Donate";
 import Error from "../pages/Error";
 // what are we pages
 // import Team from "../pages/Team";
-
+import AboutUs from "../pages/AboutUs";
 // what we do pages
 import Sangharsh from "../pages/Sangharsh";
 import Roshan from "../pages/Roshan";
@@ -43,6 +43,21 @@ const router = createBrowserRouter([
             }, {
                 path: "/sahyog-umang",
                 element: <Sangharsh />
+            }, {
+                path: "/about-us",
+                element: <AboutUs />
+            }, {
+                path: "",
+                element: ""
+            }, {
+                path: "",
+                element: ""
+            }, {
+                path: "",
+                element: ""
+            }, {
+                path: "",
+                element: ""
             }, {
                 // your pages will go here, copy the syntax of <Home /> and follow the convention
             }, {
