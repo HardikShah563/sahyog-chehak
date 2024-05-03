@@ -4,6 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import "../style/home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // importing components
+import HomePartners from "../components/HomePartners";
 import AboutUs from "../components/AboutUs";
 import Values from "../components/Values";
 import VisionMission from "../components/VisionMission";
@@ -70,6 +71,9 @@ export default function Home() {
                     ))}
                 </Carousel>
 
+                <div className="margin-bottom-100">
+                    <HomePartners />
+                </div>
 
                 <div className="margin-block-100">
                     <AboutUs />

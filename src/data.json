@@ -139,6 +139,9 @@
                 }
             ]
         },
+        "homePartners": {
+            "title": ""
+        },
         "about": {
             "title": "An initiative of Chehak Trust committed to social change",
             "paragraph": "We are responsive to the expressed and felt needs of women and children. We strongly believe that education is the cornerstone of social change and work for sustainable change in women and children from marginalized communities by providing them with enrichment education, special education, life skills and access to vocational opportunities"
@@ -527,7 +530,201 @@
         ]
     },
     "team": {
-        "title": "Team"
+        "teamArray": [
+            {
+                "name": "Trustees",
+                "array": [
+                    {
+                        "title": "Neha Madhiwala",
+                        "subTitle": "Founder Trustee Research Scientist, Public Health Trust of India",
+                        "paragraph": "Neha is the Managing Trustee and the founder of Sahyog. She has a Masters in Social Work from Tata Institute of Social Sciences. She has worked in social research since 1997 and been involved in life-skills training and curriculum development since 2002.",
+                        "imageURL": ""
+                    },
+                    {
+                        "title": "Beena Choksi",
+                        "subTitle": "Trustee, Educational Consultant",
+                        "paragraph": "Beena has a Masters in Social Work from College of Social Work, Mumbai and a PhD in Education from the University of Illinois at Urbana-Champaign. She was a post-doctoral fellow at the Homi Bhabha Centre for Science Education.  She has worked on the professional development of teachers in formal and non-formal settings such as Shishuvan, Udayachal Primary School and Aseema.",
+                        "imageURL": ""
+                    },
+                    {
+                        "title": "Surabhi Sharma",
+                        "subTitle": "Trustee & Independent Filmmaker",
+                        "paragraph": "Surabhi has been making documentaries since 2000. Her key concern has been documenting cities in transition through the lens of labour, music and migration, and most recently reproductive labour. Her films have been screened and awarded at international film festivals, museums and universities.",
+                        "imageURL": ""
+                    },
+                    {
+                        "title": "Priya Agrawal",
+                        "subTitle": "Founder Director, Antarang Foundation",
+                        "paragraph": "Priya founded Antarang Foundation in 2012 to help young adults from socially and economically vulnerable backgrounds manage their transition from education to employment. Prior to setting up Antarang Foundation, she spent 11 years in the Social Sector leading organisations like SNEHA and The Akanksha Foundation as COO. Priya has a Masters in Management from the SP Jain Institute of Management and Research. Priya is an Ashoka Fellow, a Dasra Social Impact Leadership Fellow and an Unlimited India Growth Challenge Fellow.",
+                        "imageURL": ""
+                    },
+                    {
+                        "title": "Sonal Gandhi",
+                        "subTitle": "Trustee, Education Enthusiast",
+                        "paragraph": "Sonal, a Computer Science graduate from Shri Bhagubhai Mafatlal Polytechnic, holds a Microsoft Certified Professional designation. With experience as a lecturer in Computer Technology and as an IT Manager at a leading Electrical company, she brings a wealth of knowledge and expertise to the table. Passionate about education and community engagement, Sonal has been dedicated to teaching underprivileged children from a young age. Since 2017, she has been actively involved with Sahyog Sangharsh as a volunteer, where she played a pivotal role in shaping our local networking and collaboration strategies. Additionally, Sonal has served as a mentor to our scholarship recipients, embodying our commitment to empowering the next generation.",
+                        "imageURL": ""
+                    }
+                ]
+            },
+            {
+                "name": "Team",
+                "array": [
+                    {
+                        "title": "Ruvina Fernandes",
+                        "subTitle": "Community Coordinator",
+                        "paragraph": "Ruvina joined Sahyog in 2013 as Umang Coordinator, overseeing a skills training program for young women in Gautam Nagar, Govandi, and Chikuwadi, Mankhurd communities. With previous experience at Childline India Foundation and International Justice Mission, she holds a BA and a Post Graduate Diploma in Special Education, currently pursuing her Masters in Social Work. As Community Coordinator, Ruvina plays a pivotal role in grounding Sahyog’s initiatives, mentoring Sangharsh and Sankalp teams, and contributing to organizational development.",
+                        "email": "ruvina@sahyogchehak.org.in",
+                        "imageURL": "ruvina.jpg"
+                    },
+                    {
+                        "title": "Swati Gije",
+                        "subTitle": "Administration Head",
+                        "paragraph": "Swati Gije joined the team in 2008 and attends to Sahyog’s accounts-related and administrative tasks efficiently and briskly.  She has steadily developed her computer skills. Whether it is from banks, the auditor, or the Charity Commissioner’s Office, Swati is the one we depend upon for answers to our queries. Swati has completed her SYBCom and has picked up many skills on the job.",
+                        "email": "swati@sahyogchehak.org.in",
+                        "imageURL": "swati.jpg"
+                    },
+                    {
+                        "title": "Jabin Khan",
+                        "subTitle": "Sr Programme Assistant ( Accounts and Communication)",
+                        "paragraph": "Jabin, a former student of Sahyog School, joined as a teacher in 2007 and now serves as a Senior Programme Assistant (Accounts and Communication). Meticulously managing accounts, documentation, and media-related tasks, she energetically assists with day-to-day operations and outreach work. Jabin has completed a Basic Counseling Certificate Course and Paraprofessional course from Nirmala Niketan College of Social Work. She also completed her BA through distance education.",
+                        "email": "jabin@sahyogchehak.org.in",
+                        "imageURL": "jabin.jpg"
+                    },
+                    {
+                        "title": "Sandhya Maghade",
+                        "subTitle": "Centre Head",
+                        "paragraph": "Sandhya Maghade, with a BA and MSW, joined Sahyog Sangharsh in 2011 as a Social Worker. In 2013, she completed the rigorous Child Development Aide course at Ummeed, enhancing her ability to work with children with disabilities. Sandhya now heads Sangharsh, supervising center-based and home-based interventions. She also leads community-based programs for creating inclusive communities. Currently, she is in her 3rd year of the LLB course.",
+                        "email": "sandhya@sahyogchehak.org.in",
+                        "imageURL": "sandhya.jpg"
+                    },
+                    {
+                        "title": "Ganesh Kharat",
+                        "subTitle": "Special Educator",
+                        "paragraph": "Ganesh Kharat has a BA in Economics and a B.Ed and M.Ed in Special Education from the Ali Yavar Jung Institute for the Hearing Impaired. He joined the team in 2015 and works in the area of remedial education and rehabilitation of children attending Sahyog Sangharsh. He teaches vocational and functional skills to older children with special needs. His patient, gentle and firm interactions with them make him a good role model at this critical stage of their development.",
+                        "email": "ganesh@sahyogchehak.org.in",
+                        "imageURL": "ganesh.jpg"
+                    },
+                    {
+                        "title": "Asiya Shaikh",
+                        "subTitle": "Senior Programme Assistant",
+                        "paragraph": "Aasiya, a scholarship student from the first batch of Sahyog School in Jari Mari, has been integral to Sahyog Sangharsh for 13 years. She completed the Child Development Aide course in 2011 and now serves as a Senior Programme Assistant. Aasiya spearheads home-based therapy initiatives, guides speech therapy, and manages teaching responsibilities. She holds certificates in Basic Counseling and Paraprofessional courses from Nirmala Niketan, College of Social Work, and has completed her BA through distance education.",
+                        "email": "aasiya@sahyogchehak.org.in",
+                        "imageURL": "asiya.jpg"
+                    },
+                    {
+                        "title": "Gulshan Khan",
+                        "subTitle": "Special Educator",
+                        "paragraph": "Gulshan joined the Umang program in 2011 at our Dindoshi center, displaying a natural inclination for working with children with disabilities. In 2012, she enrolled in the Child Development Aid (CDA) Course at Ummeed Child Development Center. By 2013, she established the Early Intervention Center at Dindoshi, which she led for two years. Although the center closed in 2015, Gulshan began assisting the Sangharsh team. She pursued a two-year Diploma in Special Education Deaf Blind from the Helen Keller Institute (2016-2018) and now works as a special educator at the Sangharsh center.",
+                        "email": "gulshan@sahyogchehak.org.in",
+                        "imageURL": "gulshan.jpg"
+                    },
+                    {
+                        "title": "Zahida Shaikh",
+                        "subTitle": "Junior Programme Assistant",
+                        "paragraph": "Zahida is an alumnus of the Sahyog School and completed Class 10 through National Open Schooling in 2006. As a mother of 2 young children, Zahida first worked from home, tutoring neighbourhood children. Once her children began to go to school, she decided to step out of the house and was drawn to the work carried out in Sahyog Sangharsh. She joined in 2014 and works with the older children, teaching them vocational and functional skills. Zahida’s firm and focused manner instills a confidence in the older girls and they feel comfortable sharing their personal concerns with her.",
+                        "email": "zahida@sahyogchehak.org.in",
+                        "imageURL": "zahida.jpg"
+                    },
+                    {
+                        "title": "Heena Shaikh",
+                        "subTitle": "Jr Prog Assistant",
+                        "paragraph": "Hina got acquainted with Sahyog in 2011 through the Umang program, she later joined the EIC center as a student volunteer and showed an interest in pursuing a career in working with children with disabilities. After the EIC center closed down she enrolled for Child Development Aid (CDA) Course-Ummeed Child Development Center in 2016. Hina worked with Muskaan ngo for a few years as a teacher before joining the Sangharsh team back in 2021. Hina teaches the primary section children. Her years of working outside the community has helped her develop a professional attitude and maturity in dealing with complex situations.",
+                        "email": "hina@sahyogchehak.org.in",
+                        "imageURL": "heena.jpg"
+                    },
+                    {
+                        "title": "Saba khan",
+                        "subTitle": "Senior Programme Assistant",
+                        "paragraph": "Saba was a student of the Sahyog School in Dindoshi and graduated from the first batch of Umang in 2012. She began working in Sahyog in the same year and helped to set up the communty-based library programme, Roshan. Four years later, Saba is a Senior Programme Assitant and an integral part of Roshan where she reads stories to young children, conducts book-based activities and is involved in adminstration and outreach as well. She is a port in the storm for many children who share their concerns and confidences with her. Saba has completed her BA and is working to improve her skills as a library educator.",
+                        "email": "saba@sahyogchehak.org.in",
+                        "imageURL": "saba.jpg"
+                    },
+                    {
+                        "title": "Bilquis Shaikh",
+                        "subTitle": "Library Educator",
+                        "paragraph": "Bilquis joined as a teacher in the Sahyog School in 2002 and for almost a decade taught English, Business Studies and Economics to students appearing for their Class 10 exam. Her passion and perseverance to learn and teach English won her the opportunity to conduct spoken English classes for young women from the community in 2011. Since 2013 she has nurtured the growth of the Sahyog Roshan Library and now as Library Educator, handles the day to day operations of the community–based and mobile library with vigour and creativity. Bilquis can be trusted to venture into unknown territory and emerge successfully, eagerly awaiting the next adventure.",
+                        "email": "bilquis@sahyogchehak.org.in",
+                        "imageURL": "bilquis.jpg"
+                    },
+                    {
+                        "title": "Pooja Giri",
+                        "subTitle": "Jr Prog Assistant",
+                        "paragraph": "Pooja was a leader of the Self help group in the community and would participate actively in the women’s program organized by Sahyog. She therefore got acquainted with Sahyog’s program as a beneficiary  and later joined the Sahyog team in 2017, as a community health worker in the Sankalp Early Childhood and Disability program. Pooja had the skill to forge local networks and identify resources in the community with her connections through the self help groups. She began showing  interest in the Roshan community  library program and was taken onboard as a program assistant. Her journey from home maker to full time working women has been inspiring to other women in the community.",
+                        "email": "pooja@sahyogchehak.org.in",
+                        "imageURL": "pooja.jpg"
+                    },
+                    {
+                        "title": "Shivani Singh",
+                        "subTitle": "Programme Coordinator",
+                        "paragraph": "Shivani graduated with a BSc (Home Science) from Smt.P.N.Doshi College for Women in June 2017. Her association with Sahyog began in 2016 during her final year of studies. She actively participated in skill-building and career preparedness programs organized by Sahyog at her college. Shivani's interest in the social sector grew when she volunteered to escort two adolescents from Sangharsh, Sahyog's community-based rehabilitation program, to a vocational training center for a month. In August 2017, she joined Sahyog as Coordinator for the Scholarship-Mentorship program, offering intensive support to high school and junior college students.",
+                        "email": "shivani@sahyogchehak.org.in",
+                        "imageURL": "shivani.jpg"
+                    },
+                    {
+                        "title": "Gulistan Shaikh",
+                        "subTitle": "Paraworker, Sangharsh",
+                        "paragraph": "Gulistan joined the Sangharsh team in August 2022 as a Paraworker. Her introduction to Sahyog began during her tenure at a doctor's clinic near the old center, where she frequently engaged with the team and observed their activities. This exposure ignited her passion for joining the Sahyog Sangharsh program. Tasked with nurturing pre-primary children at the Sangharsh Satellite & Community centers, Gulistan's serene demeanor and affectionate approach profoundly impact both the children and young mothers. Leveraging her passion for drawing, she crafts educational materials for the centers. Currently pursuing the Child Developmental Aid course with Ummeed Child Development Centre, we anticipate her ability to support children, especially those with disabilities, will further enrich.",
+                        "email": "",
+                        "imageURL": "gulistan.jpg"
+                    },
+                    {
+                        "title": "Ummulwara Mohammad Jabir Siddiqui",
+                        "subTitle": "Paraworker, Sangharsh",
+                        "paragraph": "Ummul became a valued member of the Sangharsh team in September 2022, assuming the role of Paraworker. Focused on nurturing pre-primary children at the Sangharsh Satellite & Community centres, she brings prior experience in running tutorial classes from her home. Transitioning from an academic background, Ummul has demonstrated remarkable growth in her skills and perspective, particularly in her interactions with children with disabilities. With her HSC qualification already in hand, she is currently pursuing the Child Developmental Aid course with Ummeed Child Development Centre, a decision aimed at strengthening her knowledge base in early childhood development.",
+                        "email": "",
+                        "imageURL": "ummulwara.jpg"
+                    },
+                    {
+                        "title": "Rukshana Shaukat Ali Shaikh",
+                        "subTitle": "Paraworker, Sangharsh",
+                        "paragraph": "Rukhsana joined the Sahyog Sangharsh team in January 2023 initially on a trial basis. Despite lacking prior work experience, she quickly adapted to her role within a month. Rukhsana's innate nurturing demeanour and soft-spoken nature have facilitated strong connections with both the children and their parents. Diligent and conscientious, she approaches her responsibilities with sincerity and a willingness to learn. Having completed her SSC, she is currently enrolled in the Child Developmental Aid course at Ummeed Child Development Centre, demonstrating her commitment to furthering her understanding in the field. Rukhsana finds joy in her studies, eager to enhance her knowledge and skills.",
+                        "email": "",
+                        "imageURL": "rukshana.jpg"
+                    },
+                    {
+                        "title": "Alfiya Rafique Khan",
+                        "subTitle": "Part time Paraworker, Sangharsh",
+                        "paragraph": "Alfiya became a part-time volunteer with the Sangharsh team starting from July 2023. Currently pursuing her 10th grade through correspondence, Alfiya receives support from Sahyog for her studies. Her fascination with the Sangharsh program blossomed after witnessing the dedicated efforts of the teachers with the children. Despite being the youngest member of the team, Alfiya has demonstrated remarkable resilience and maturity in her interactions with both the children and their caregivers. We are delighted to welcome her into our Sahyog family.",
+                        "email": "",
+                        "imageURL": "alfiya.jpg"
+                    },
+                    {
+                        "title": "Shankar Dilip Sakat",
+                        "subTitle": "Outreach Coordinator",
+                        "paragraph": "Shankar joined the Sangharsh team in June 2023, taking on the role of Outreach Coordinator. With a background in grassroots organizations such as Asha Mahila Sanstha MDACS project, FPA, and Niramaya Health Foundation, he brings a wealth of experience in community outreach. Shankar has played a pivotal role in facilitating sessions with ANC and PNC workers on Early Childhood Disability Identification & Sensitization, fostering strong liaisons with government agencies. His dynamic leadership has been evident in spearheading outreach efforts in the newly operational community centers in Ghatkopar and Kurla. Through consistent engagement, he has strengthened relationships with existing stakeholders within these communities. We are confident that his expertise will enhance the visibility of Sahyog and establish crucial linkages for all our community programs.",
+                        "email": "",
+                        "imageURL": "shankar.jpg"
+                    }
+                ]
+            }
+        ],
+        "team": [
+            {
+                "title": "Neha Madhiwala",
+                "subTitle": "Founder Trustee Research Scientist, Public Health Trust of India",
+                "paragraph": "Neha is the Managing Trustee and the founder of Sahyog. She has a Masters in Social Work from Tata Institute of Social Sciences. She has worked in social research since 1997 and been involved in life-skills training and curriculum development since 2002."
+            },
+            {
+                "title": "Beena Choksi",
+                "subTitle": "Trustee, Educational Consultant",
+                "paragraph": "Beena has a Masters in Social Work from College of Social Work, Mumbai and a PhD in Education from the University of Illinois at Urbana-Champaign. She was a post-doctoral fellow at the Homi Bhabha Centre for Science Education.  She has worked on the professional development of teachers in formal and non-formal settings such as Shishuvan, Udayachal Primary School and Aseema."
+            },
+            {
+                "title": "Surabhi Sharma",
+                "subTitle": "Trustee & Independent Filmmaker",
+                "paragraph": "Surabhi has been making documentaries since 2000. Her key concern has been documenting cities in transition through the lens of labour, music and migration, and most recently reproductive labour. Her films have been screened and awarded at international film festivals, museums and universities."
+            },
+            {
+                "title": "Priya Agrawal",
+                "subTitle": "Founder Director, Antarang Foundation",
+                "paragraph": "Priya founded Antarang Foundation in 2012 to help young adults from socially and economically vulnerable backgrounds manage their transition from education to employment. Prior to setting up Antarang Foundation, she spent 11 years in the Social Sector leading organisations like SNEHA and The Akanksha Foundation as COO. Priya has a Masters in Management from the SP Jain Institute of Management and Research. Priya is an Ashoka Fellow, a Dasra Social Impact Leadership Fellow and an Unlimited India Growth Challenge Fellow."
+            },
+            {
+                "title": "Sonal Gandhi",
+                "subTitle": "Trustee, Education Enthusiast",
+                "paragraph": "Sonal, a Computer Science graduate from Shri Bhagubhai Mafatlal Polytechnic, holds a Microsoft Certified Professional designation. With experience as a lecturer in Computer Technology and as an IT Manager at a leading Electrical company, she brings a wealth of knowledge and expertise to the table. Passionate about education and community engagement, Sonal has been dedicated to teaching underprivileged children from a young age. Since 2017, she has been actively involved with Sahyog Sangharsh as a volunteer, where she played a pivotal role in shaping our local networking and collaboration strategies. Additionally, Sonal has served as a mentor to our scholarship recipients, embodying our commitment to empowering the next generation."
+            }
+        ]
     },
     "photoGallery": {
         "title": "Glimpse of work at Sahyog",

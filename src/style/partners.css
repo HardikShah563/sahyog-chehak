@@ -18,9 +18,43 @@
     height: 50px;
 }
 
+.team-members {
+    width: 80%;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    padding: 20px;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 250px;
+    max-width: 30%;
+}
+
+.team-detail {
+    text-align: justify;
+}
+
 @media (max-width: 1200px) {
     .partner-logos {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team-members {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 95%;
+    }
+
+    .team-member {
+        max-width: 100%;
     }
 }
 
@@ -28,9 +62,14 @@
     .partner-logos {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .team-members {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .investor-title {
         font-size: 20px;
     }
@@ -43,5 +82,14 @@
 
     .partner-logo {
         height: 60px;
+    }
+
+    .team-members {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .team-member {
+        border: none;
     }
 }
