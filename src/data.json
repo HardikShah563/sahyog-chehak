@@ -140,11 +140,18 @@
             ]
         },
         "homePartners": {
-            "title": ""
+            "title": "Supporters in our cause",
+            "logos": [
+                "home5.png",
+                "home1.png",
+                "home3.png",
+                "home2.png",
+                "home4.png"
+            ]
         },
         "about": {
             "title": "An initiative of Chehak Trust committed to social change",
-            "paragraph": "We are responsive to the expressed and felt needs of women and children. We strongly believe that education is the cornerstone of social change and work for sustainable change in women and children from marginalized communities by providing them with enrichment education, special education, life skills and access to vocational opportunities"
+            "paragraph": "Chehak Trust embodies a community-driven approach to fostering social transformation, particularly addressing the needs of women and children. Our core belief centres around the pivotal role of education as the catalyst for meaningful change"
         },
         "areasOfWork": {
             "title": "Our Areas of Work",

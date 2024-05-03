@@ -94,6 +94,10 @@ li {
     justify-content: space-between;
 }
 
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
 .justify-right {
     justify-content: right;
 }
@@ -207,6 +211,8 @@ li {
 .dark-button {
     padding: 15px 20px;
     font-size: 20px;
+    text-decoration: none;
+    color: var(--secondary-dark);
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -249,6 +255,10 @@ li {
 .divider {
     border: 0.5px solid var(--secondary-dark);
     margin-block: 10px;
+}
+
+.home-partners {
+    height: 100px;
 }
 
 @media (max-width: 1200px) {
@@ -309,6 +319,10 @@ li {
     .dark-button {
         padding: 7.5px 10px;
         font-size: 16px;
+    }
+
+    .home-partners {
+        height: 60px;
     }
 
     .error-logo {
