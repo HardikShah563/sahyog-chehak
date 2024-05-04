@@ -832,6 +832,16 @@
             }
         ]
     },
+    "finances": {
+        "title": "Finances",
+        "subTitle": "Chehak Trust is registered under the Bombay Public Trust Act, 1950 (Reg. No E-21112 – Mum) and under the Foreign Contributions Regulation Act for receipt of foreign donations (Registration No- 083781240)",
+        "reports": [
+            {
+                "reportTitle": "",
+                "reportDriveLink": ""
+            }
+        ]
+    },
     "donation": {
         "left": {
             "title": "Popular Donation Options",

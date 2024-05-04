@@ -8,15 +8,18 @@ import Impact from "../pages/Impact";
 import Donate from "../pages/Donate";
 import Error from "../pages/Error";
 // what are we pages
-// import Team from "../pages/Team";
 import AboutUs from "../pages/AboutUs";
 import Team from "../pages/Team";
 import Partners from "../pages/Partners";
+
 // what we do pages
 import Sangharsh from "../pages/Sangharsh";
 import Roshan from "../pages/Roshan";
 import SAM from "../pages/SAM";
 import Umang from "../pages/Umang";
+
+// get involved
+import Finances from "../pages/Finances";
 
 const router = createBrowserRouter([
     {
@@ -57,8 +60,8 @@ const router = createBrowserRouter([
                 path: "/partners&supporters",
                 element: <Partners />
             }, {
-                path: "",
-                element: ""
+                path: "/finances",
+                element: <Finances />
             }, {
                 // your pages will go here, copy the syntax of <Home /> and follow the convention
             }, {
