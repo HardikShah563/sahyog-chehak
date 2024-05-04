@@ -45,9 +45,9 @@ export default function Join() {
                     </h1>
                 </div>
 
-                <div className="volunteer-role">
+                <div className="grid-2">
                     {join.volunteerRole.map((role) => (
-                        <div className="volunteer-role-div">
+                        <div className="getinvolved-div">
                             <h1 className="small-heading txt-ctr">
                                 {role.title}
                             </h1>

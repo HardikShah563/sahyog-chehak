@@ -1,26 +1,27 @@
-.volunteer-role {
+.grid-2 {
     width: 90%;
-    margin: auto auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
 
-.volunteer-role-div {
+.getinvolved-div {
     background-color: var(--primary);
     padding: 20px;
 }
 
-.volunteer-role-div .small-heading {
+.getinvolved-div .small-heading {
     text-transform: uppercase;
     width: fit-content;
     margin: auto auto;
     padding: 5px 10px;
+    text-align: center;
     background-color: var(--secondary-light);
 }
 
 @media (max-width: 800px) {
-    .volunteer-role {
+    .grid-2 {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
     }
