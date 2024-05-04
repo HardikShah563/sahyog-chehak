@@ -11,12 +11,12 @@ import Error from "../pages/Error";
 // import Team from "../pages/Team";
 import AboutUs from "../pages/AboutUs";
 import Team from "../pages/Team";
-import Photos from "../pages/Photos";
 import Partners from "../pages/Partners";
 // what we do pages
 import Sangharsh from "../pages/Sangharsh";
 import Roshan from "../pages/Roshan";
 import SAM from "../pages/SAM";
+import Umang from "../pages/Umang";
 
 const router = createBrowserRouter([
     {
@@ -46,16 +46,13 @@ const router = createBrowserRouter([
                 element: <SAM />
             }, {
                 path: "/sahyog-umang",
-                element: <Sangharsh />
+                element: <Umang />
             }, {
                 path: "/about-us",
                 element: <AboutUs />
             }, {
                 path: "/team",
                 element: <Team />
-            }, {
-                path: "/photos",
-                element: <Photos />
             }, {
                 path: "/partners&supporters",
                 element: <Partners />

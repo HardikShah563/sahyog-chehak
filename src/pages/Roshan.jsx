@@ -15,17 +15,25 @@ export default function Roshan() {
     const roshan = data.roshan;
     return (
         <>
-            <div className="flex justify-ctr margin-block-20">
-                <img
-                    src={
-                        process.env.PUBLIC_URL
-                        + "/assets/"
-                        + roshan.logo
-                    }
-                    alt="roshan logo"
-                    className="logo-img"
-                />
-            </div>
+            {roshan.logo ? (
+                <div className="flex justify-ctr margin-block-20">
+                    <img
+                        src={
+                            process.env.PUBLIC_URL
+                            + "/assets/"
+                            + roshan.logo
+                        }
+                        alt="roshan logo"
+                        className="logo-img"
+                    />
+                </div>
+            ) : (
+                <div className="margin-block-50">
+                    <h1 className="big-heading txt-ctr">
+                        {roshan.title}
+                    </h1>
+                </div>
+            )}
 
             <div className="flex justify-ctr margin-block-50">
                 <iframe
