@@ -283,7 +283,7 @@
         ]
     },
     "sangharsh": {
-        "logo": "/assets/logo-sangharsh.png",
+        "logo": "logo-sangharsh.png",
         "title": "",
         "highlights": [
             {
@@ -355,23 +355,28 @@
             "title": "We aim at providing",
             "cards": [
                 {
+                    "imageURL": "sangharsh_aim1.png",
                     "title": "Assessment",
-                    "paragraph": "Children are professionally assessed for an accurate diagnosis of their disability"
+                    "subTitle": "Children are professionally assessed for an accurate diagnosis of their disability"
                 },
                 {
+                    "imageURL": "sangharsh_aim2.png",
                     "title": "Special Education",
-                    "paragraph": "Based on their disabilities, we make a plan to teach them reading, math, and talking skills"
+                    "subTitle": "Based on their disabilities, we make a plan to teach them reading, math, and talking skills"
                 },
                 {
+                    "imageURL": "sangharsh_aim3.png",
                     "title": "Reintegration and Placements",
-                    "paragraph": "Special schools and vocational/ employment generation programmes are identified for reintegration and placement"
+                    "subTitle": "Special schools and vocational/ employment generation programmes are identified for reintegration and placement"
                 },
                 {
+                    "imageURL": "sangharsh_aim4.png",
                     "title": "Occupational Therapy/ Physiotherapy",
-                    "paragraph": "Children are referred to therapy centres to improve the functioning of their musculoskeletal system"
+                    "subTitle": "Children are referred to therapy centres to improve the functioning of their musculoskeletal system"
                 }
             ]
-        }
+        },
+        "footerURL": "sangharsh_footer.png"
     },
     "roshan": {
         "logo": "logo-roshan.png",
@@ -400,13 +405,13 @@
         },
         "betweenParaImages": [
             {
-                "url": "sahyog-para-1.png"
+                "url": "roshan-para-1.png"
             },
             {
-                "url": "sahyog-para-2.png"
+                "url": "roshan-para-2.png"
             },
             {
-                "url": "sahyog-para-3.png"
+                "url": "roshan-para-3.png"
             }
         ],
         "whatWeDo": [
@@ -429,6 +434,94 @@
             {
                 "title": "Training & Capacity Building",
                 "text": "The Roshan team shares its years of experiential learning to build the capacity of other organizations and home librarians, focusing on logistical knowledge, cultivating a love for reading, and empowering the community to create enriching library experiences for children."
+            }
+        ],
+        "paragraph2": {
+            "title": "How we began",
+            "text": "Roshan Library began its innings in 2013, in the most unlikely of spaces: a room next to a butcher’s shop in a slum rehabilitation community in Goregaon. Over a period of three years, setting up a welcoming library with attractive books, conducting book-based activities, and carrying out outreach activities succeeded in the community understanding the purpose of a library as well as recognising the value books brought to the lives of their children. The day a few parents removed prized objects from their sole showcase and replaced them with books, we dared to believe that we had carved a special space for books in their hearts. In 2016, when Sahyog took a tough decision to exit the Goregaon community, we left knowing that the children coming to Roshan had built a strong and joyful relationship with books and reading was much more than an academic chore. The work of Bookworm Trust in Goa has inspired us to expand the scope of our work in Ghatkopar by starting a mobile library and planning the library-in-school model.  The Roshan Library programme has taken root and is growing steadily."
+        },
+        "photographs": {
+            "title": "Highlights from Sanghash",
+            "images": [
+                {
+                    "url": "roshan1.png",
+                    "label": "Label 1"
+                },
+                {
+                    "url": "roshan2.png",
+                    "label": "Label 2"
+                },
+                {
+                    "url": "roshan3.png",
+                    "label": "Label 3"
+                },
+                {
+                    "url": "roshan4.png",
+                    "label": "Label 4"
+                },
+                {
+                    "url": "roshan5.png",
+                    "label": "Label 5"
+                },
+                {
+                    "url": "roshan6.png",
+                    "label": "Label 6"
+                }
+            ]
+        },
+        "footerURL": "roshan_footer.png"
+    },
+    "scholarship_mentorship": {
+        "title": "Sahyog Scholarship and Mentorship Program (SAM)",
+        "imageURL": [
+            "sam1.png",
+            "sam2.png",
+            "sam3.png"
+        ],
+        "aboutUs": {
+            "title": "",
+            "paragraph": [
+                "Our experience of conducting life skills with adolescent girls and young women from low-income communities has led us to believe that both scholarship and mentorship are vital to support girls’ secondary and higher education. Financial assistance is necessary to ensure that despite socio-economic struggles of the family, a girl will complete secondary education and pursue higher education. Similarly, personalized guidance and support to deal with academic and personal challenges play an important role in girls developing confident, well-rounded personalities. This can be achieved through mentorship.",
+                "Sahyog has therefore initiated a Scholarship-Mentorship Programme since June 2017. Through this programme, we are supporting a cohort of 25 girls belonging to the Narayan Nagar Community. These include 10 girls pursuing Junior College, 12 pursuing Secondary School, and 3 pursuing Graduation/professional courses. For the Mentorship Programme offered to the Junior College students, we have partnered with Mentor Together, which has been working in this field since 2009.",
+                "For this group, the mentoring involves a one-to-one interaction based on a curriculum created by Mentor Together, which has 53 sessions spread over a period of 1 year focusing on work skills. The mentors are all women who have achieved academic success, have varied interests, and work experience. The school-going mentees are mentored in-house through fortnightly group mentoring sessions covering life skills. Exposure visits to enhance learning and workshops on relevant topics like gender also form an important part of the program."
+            ]
+        },
+        "footerURL": "sam_footer.png"
+    },
+    "umang": {
+        "logo": "logo-sangharsh.png",
+        "title": "",
+        "highlights": [
+            {
+                "h1": "4:1",
+                "text": "student teacher ratio"
+            },
+            {
+                "h1": "50+",
+                "text": "Students mainstreamed into special schools and vocational training"
+            },
+            {
+                "h1": "Women",
+                "text": "driven community"
+            },
+            {
+                "h1": "Therapeutic",
+                "text": "environment"
+            }
+        ],
+        "paragraph1": {
+            "title": "About Sangharsh",
+            "text": "Sahyog Sangharsh is all about helping kids with disabilities right from the start. They teach people in the community about disabilities, give special education and help kids get better at things they find tricky. They even help them join regular schools or get jobs. The center is like a cozy place for kids with hearing problems, learning issues, autism, or trouble moving around. They get to learn, play, and do fun stuff while also getting therapy to help them do everyday things better. It's all about making sure every kid gets a fair chance to learn and grow."
+        },
+        "betweenParaImages": [
+            {
+                "url": "sahyog-para-1.png"
+            },
+            {
+                "url": "sahyog-para-2.png"
+            },
+            {
+                "url": "sahyog-para-3.png"
             }
         ],
         "paragraph2": {
@@ -464,27 +557,7 @@
                 }
             ]
         },
-        "aim": {
-            "title": "We aim at providing",
-            "cards": [
-                {
-                    "title": "Assessment",
-                    "paragraph": "Children are professionally assessed for an accurate diagnosis of their disability"
-                },
-                {
-                    "title": "Special Education",
-                    "paragraph": "Based on their disabilities, we make a plan to teach them reading, math, and talking skills"
-                },
-                {
-                    "title": "Reintegration and Placements",
-                    "paragraph": "Special schools and vocational/ employment generation programmes are identified for reintegration and placement"
-                },
-                {
-                    "title": "Occupational Therapy/ Physiotherapy",
-                    "paragraph": "Children are referred to therapy centres to improve the functioning of their musculoskeletal system"
-                }
-            ]
-        }
+        "footerURL": "umang_footer.png"
     },
     "aboutUs": {
         "sections": [

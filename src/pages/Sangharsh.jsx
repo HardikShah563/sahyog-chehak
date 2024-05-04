@@ -9,17 +9,16 @@ import { FaStar } from "react-icons/fa6";
 import data from "../data.json";
 
 export default function Sangharsh() {
-    useEffect(() => {
-        // window.scrollTo(0, 0);
-    }, []);
     const sangharsh = data.sangharsh;
+
     return (
         <>
             <div className="flex justify-ctr margin-block-20">
                 <img
                     src={
-                        process.env.PUBLIC_URL +
-                        "/assets/logo-sangharsh.png"
+                        process.env.PUBLIC_URL
+                        + "/assets/"
+                        + sangharsh.logo
                     }
                     alt="sangharsh logo"
                     className="logo-img"
@@ -33,7 +32,7 @@ export default function Sangharsh() {
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" 
+                    referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen
                 ></iframe>
             </div>
@@ -91,6 +90,34 @@ export default function Sangharsh() {
                 </div>
             </div>
 
+            <div className="w-90 margin-a-a margin-block-50">
+                <h1 className="heading txt-ctr margin-block-50">
+                    {sangharsh.aim.title}
+                </h1>
+
+                <div className="whatwedo-aims">
+                    {sangharsh.aim.cards.map((card) => (
+                        <div className="txt-ctr margin-a-a">
+                            <img
+                                src={
+                                    process.env.PUBLIC_URL
+                                    + "/assets/"
+                                    + card.imageURL
+                                }
+                                alt={card.imageURL}
+                                height={200}
+                            />
+                            <h1 className="small-heading">
+                                {card.title}
+                            </h1>
+                            <h4 className="w-80 margin-a-a margin-block-10">
+                                {card.subTitle}
+                            </h4>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
             <div className="margin-block-50">
                 <hr className="dark-hr" />
                 <div className="w-90 margin-a-a margin-block-20">
@@ -142,9 +169,6 @@ export default function Sangharsh() {
                 </div>
             </div>
 
-
-
-
             <div className="about-us w-90 margin-block-50">
                 <h1 className="small-heading txt-ctr margin-block-20">
                     "I have never taken my handicap as an excuse, in fact it has become my strength."
@@ -160,7 +184,18 @@ export default function Sangharsh() {
                 </div>
             </div>
 
-            <div className="margin-block-50"></div>
+            <div className="margin-block-50">.</div>
+
+            <div className="flex justify-ctr">
+                <img
+                    src={process.env.PUBLIC_URL
+                        + "/assets/"
+                        + sangharsh.footerURL
+                    }
+                    alt="footer image"
+                    className="footer-img"
+                />
+            </div>
         </>
     );
 };

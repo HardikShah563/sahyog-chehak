@@ -16,6 +16,7 @@ import Partners from "../pages/Partners";
 // what we do pages
 import Sangharsh from "../pages/Sangharsh";
 import Roshan from "../pages/Roshan";
+import SAM from "../pages/SAM";
 
 const router = createBrowserRouter([
     {
@@ -42,7 +43,7 @@ const router = createBrowserRouter([
                 element: <Roshan />
             }, {
                 path: "/sahyog-mentorship-and-skill-building",
-                element: <Sangharsh />
+                element: <SAM />
             }, {
                 path: "/sahyog-umang",
                 element: <Sangharsh />
