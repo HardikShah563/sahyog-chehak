@@ -1,3 +1,5 @@
+// importing from react
+import { useNavigate } from "react-router-dom";
 // importing stylesheets
 import "../style/form.css";
 import "../style/donate.css";
@@ -8,6 +10,8 @@ import { BiSolidDonateHeart } from "react-icons/bi";
 import Donation from "../components/Donation";
 
 export default function Donate() {
+    const navigate = useNavigate();
+
     return (
         <>
             <div className="margin-block-20 padding-10">
@@ -15,9 +19,9 @@ export default function Donate() {
             </div>
 
             <div className="flex justify-ctr">
-                <div className="dark-button">
+                <button className="dark-button" onClick={() => {navigate("/join-us")}}>
                     Volunteer <BiSolidDonateHeart />
-                </div>
+                </button>
             </div>
 
             <Donation />

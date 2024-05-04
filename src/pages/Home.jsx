@@ -1,4 +1,5 @@
 // importing from react
+import { useNavigate } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 // importing stylesheets
 import "../style/home.css";
@@ -20,6 +21,8 @@ import Donation from "../components/Donation";
 export default function Home() {
     // the data for the home page from the json file
     const home = data.home;
+    // creates an object of router
+    const navigate = useNavigate();
 
     return (
         <>
@@ -37,10 +40,10 @@ export default function Home() {
 
                         <div className="flex justify-ctr gap-10 margin-block-20 main-btn">
                             {home.main.buttons.map((button) => (
-                                <div className={`${button.type}-button`}>
+                                <button className={`${button.type}-button`} onClick={() => {navigate(button.link)}}>
                                     {button.text}
                                     {getIconFromIconName(button.icon)}
-                                </div>
+                                </button>
                             ))}
                         </div>
                     </div>

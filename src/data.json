@@ -59,7 +59,7 @@
                     },
                     {
                         "name": "Partner With Us",
-                        "link": "/partner"
+                        "link": "/partner-with-us"
                     }
                 ]
             },
@@ -108,12 +108,14 @@
                 {
                     "text": "Donate",
                     "icon": "GoHeartFill",
-                    "type": "light"
+                    "type": "light",
+                    "link": "/donate"
                 },
                 {
                     "text": "Volunteer",
                     "icon": "BiSolidDonateHeart",
-                    "type": "dark"
+                    "type": "dark",
+                    "link": "/join-us"
                 }
             ],
             "carousel": [
@@ -924,6 +926,9 @@
                 ]
             }
         ]
+    },
+    "partnerWithUs": {
+        "title": ""
     },
     "donation": {
         "left": {

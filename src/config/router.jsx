@@ -22,6 +22,7 @@ import Umang from "../pages/Umang";
 import Finances from "../pages/Finances";
 import Join from "../pages/Join";
 import StoriesOfChange from "../pages/StoriesOfChange";
+import Partner from "../pages/Partner";
 
 const router = createBrowserRouter([
     {
@@ -70,6 +71,9 @@ const router = createBrowserRouter([
             }, {
                 path: "/stories-of-change",
                 element: <StoriesOfChange />
+            }, {
+                path: "/partner-with-us",
+                element: <Partner />
             }, {
                 // your pages will go here, copy the syntax of <Home /> and follow the convention
             }, {
