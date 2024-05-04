@@ -4,6 +4,7 @@ import * as goIcons from "react-icons/go";
 import * as biIcons from "react-icons/bi";
 import * as giIcons from "react-icons/gi";
 import * as ioIcons from "react-icons/io";
+import * as luIcons from "react-icons/lu";
 
 function getIconFromIconName(iconName, iconSize, iconClassName, iconFill) {
     if (iconName === "GoHeartFill") {
@@ -41,6 +42,15 @@ function getIconFromIconName(iconName, iconSize, iconClassName, iconFill) {
     }
     else if (iconName === "FaLinkedin") {
         return <faIcons.FaLinkedin size={iconSize} className={iconClassName} fill={iconFill} />;
+    }
+    else if (iconName === "FaLongArrowAltRight") {
+        return <faIcons.FaLongArrowAltRight size={iconSize} className={iconClassName} fill={iconFill} />
+    }
+    else if (iconName === "IoMdMail") {
+        return <ioIcons.IoMdMail size={iconSize} className={iconClassName} fill={iconFill} />
+    }
+    else if (iconName === "LuLibrary") {
+        return <luIcons.LuLibrary size={iconSize} className={iconClassName} fill={iconFill} />
     }
 }
 

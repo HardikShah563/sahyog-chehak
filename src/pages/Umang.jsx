@@ -1,3 +1,5 @@
+// importing from react
+import { useNavigate } from "react-router-dom";
 // impoting data
 import data from "../data.json";
 // importing icons
@@ -5,6 +7,7 @@ import { FaStar } from "react-icons/fa";
 
 export default function Umang() {
     const umang = data.umang;
+    const navigate = useNavigate();
 
     return (
         <>
@@ -97,7 +100,10 @@ export default function Umang() {
                 <div className="w-90 margin-a-a margin-block-20">
                     <h1 className="small-heading txt-ctr margin-block-20">Be a part of Umang today</h1>
                     <div className="flex justify-ctr">
-                        <button className="dark-button">Join Us Today</button>
+                        <button
+                            className="dark-button"
+                            onClick={() => { window.scrollTo(0, 0); navigate("/join-us") }}
+                        >Join Us Today</button>
                     </div>
                 </div>
                 <hr className="dark-hr" />

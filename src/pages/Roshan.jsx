@@ -1,5 +1,5 @@
 // importing from react
-import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 // importing stylesheets
 import "../style/whatwedo.css";
 // importing icons
@@ -9,10 +9,9 @@ import { FaStar } from "react-icons/fa6";
 import data from "../data.json";
 
 export default function Roshan() {
-    useEffect(() => {
-        // window.scrollTo(0, 0);
-    }, []);
     const roshan = data.roshan;
+    const navigate = useNavigate();
+
     return (
         <>
             {roshan.logo ? (
@@ -104,7 +103,10 @@ export default function Roshan() {
                     <div className="w-90 margin-a-a margin-block-20">
                         <h1 className="small-heading txt-ctr margin-block-20">Be a part of Roshan and help us create a world of thinkers!</h1>
                         <div className="flex justify-ctr">
-                            <button className="dark-button">Join Us Today</button>
+                            <button
+                                className="dark-button"
+                                onClick={() => { window.scrollTo(0, 0); navigate("/join-us") }}
+                            >Join Us Today</button>
                         </div>
                     </div>
                     <hr className="dark-hr" />

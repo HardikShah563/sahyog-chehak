@@ -20,6 +20,7 @@ import Umang from "../pages/Umang";
 
 // get involved
 import Finances from "../pages/Finances";
+import Join from "../pages/Join";
 
 const router = createBrowserRouter([
     {
@@ -62,6 +63,9 @@ const router = createBrowserRouter([
             }, {
                 path: "/finances",
                 element: <Finances />
+            }, {
+                path: "/join-us",
+                element: <Join />
             }, {
                 // your pages will go here, copy the syntax of <Home /> and follow the convention
             }, {

@@ -4,10 +4,6 @@ import data from "../data.json";
 import getIconFromIconName from "../config/icons";
 // importing stylesheets
 import "../style/donate.css";
-// importing icons
-import { GoHeartFill } from "react-icons/go";
-import { BiSolidDonateHeart } from "react-icons/bi";
-import { FaHandshakeSimple } from "react-icons/fa6";
 
 export default function JoinUs() {
     // the data for the join us section from the json file
@@ -27,9 +23,13 @@ export default function JoinUs() {
 
                 <div className="margin-block-50 flex justify-ctr gap-10">
                     {join.buttons.map((button) => (
-                        <div className={`${button.type}-button`}>
+                        <a 
+                            className={`${button.type}-button`}
+                            href={button.link}
+                            target="_blank"
+                        >
                             {button.text} {getIconFromIconName(button.icon)}
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>

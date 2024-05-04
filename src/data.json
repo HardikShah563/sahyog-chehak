@@ -55,11 +55,11 @@
                     },
                     {
                         "name": "Join Us",
-                        "link": "/"
+                        "link": "/join-us"
                     },
                     {
                         "name": "Partner With Us",
-                        "link": "/"
+                        "link": "/partner"
                     }
                 ]
             },
@@ -222,12 +222,14 @@
                 {
                     "text": "Volunteer",
                     "icon": "BiSolidDonateHeart",
-                    "type": "light"
+                    "type": "light",
+                    "link": "https://forms.gle/qctNQJr3r9nWAsHL7"
                 },
                 {
                     "text": "Partner With Us",
                     "icon": "FaHandshakeSimple",
-                    "type": "dark"
+                    "type": "dark",
+                    "link": ""
                 }
             ]
         }
@@ -834,11 +836,51 @@
     },
     "finances": {
         "title": "Finances",
-        "subTitle": "Chehak Trust is registered under the Bombay Public Trust Act, 1950 (Reg. No E-21112 – Mum) and under the Foreign Contributions Regulation Act for receipt of foreign donations (Registration No- 083781240)",
-        "reports": [
+        "subTitle": "Chehak Trust is registered under the Bombay Public Trust Act, 1950 (Reg. No E-21112 – Mum) and under the Foreign Contributions Regulation Act for receipt of foreign donations (Registration No- 083781240)"
+    },
+    "joinUs": {
+        "title": "Join Us In Our Cause",
+        "paragraph": "Join us in making a positive impact on the world by volunteering your time or partnering with us to create meaningful change together.",
+        "buttons": [
             {
-                "reportTitle": "",
-                "reportDriveLink": ""
+                "text": "Apply Now",
+                "icon": "FaLongArrowAltRight",
+                "type": "light",
+                "link": "https://forms.gle/qctNQJr3r9nWAsHL7"
+            },
+            {
+                "text": "Email Us",
+                "icon": "IoMdMail",
+                "type": "dark",
+                "link": "mailto:volunteer@sahyogchehak.org.in"
+            }
+        ],
+        "volunteerRole": [
+            {
+                "icon": "LuLibrary",
+                "title": "Volunteer with the Roshan Library",
+                "paragraph": "Volunteer in our vibrant library and support our eager and enthusiastic children as they discover their love for reading and realise their hidden potentials.",
+                "list": [
+                    "Help children learn to read",
+                    "Conduct story telling sessions",
+                    "Introduce children to the world of music",
+                    "Help create art and displays for the library",
+                    "Share you interests and passion with children through diverse activities"
+                ]
+            },
+            {
+                "icon": "",
+                "title": "Volunteer with the Sangharsh Center",
+                "paragraph": "Volunteer at the centre for children with disabilities and while helping children master basic skills you may discover a few hidden talents of your own.",
+                "list": [
+                    "Conduct music and dance sessions with children",
+                    "Exercise your artistic abilities and help teachers create teaching aids",
+                    "Join us and help make celebrations extra special at Sangharsh",
+                    "Teach computers skills",
+                    "Help children learn vocational skills",
+                    "Accompany children to vocational centres and help them develop independent living skills",
+                    "Assist parents and children access medical and therapeutic services"
+                ]
             }
         ]
     },
