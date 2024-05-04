@@ -49,6 +49,9 @@ function getIconFromIconName(iconName, iconSize, iconClassName, iconFill) {
     else if (iconName === "IoMdMail") {
         return <ioIcons.IoMdMail size={iconSize} className={iconClassName} fill={iconFill} />
     }
+    else if (iconName === "IoIosCall") {
+        return <ioIcons.IoIosCall size={iconSize} className={iconClassName} fill={iconFill} />
+    }
     else if (iconName === "LuLibrary") {
         return <luIcons.LuLibrary size={iconSize} className={iconClassName} fill={iconFill} />
     }

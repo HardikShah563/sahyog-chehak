@@ -928,7 +928,13 @@
         ]
     },
     "partnerWithUs": {
-        "title": ""
+        "title": "Partner With Us",
+        "paragraph": "Partnerships and collaborations have been invaluable in Sahyog's growth and have significantly contributed to strengthening and enriching Sahyog’s programmes. Through partnerships we have been able to reach out to more beneficiaries and deliver our programmes more effectively. We welcome partnerships with like-minded organisations with whom we can create meaningful impact.",
+        "getInTouch": "Get in touch with us to explore opportunities for partnership",
+        "contactDetails": {
+            "email": "sahyogchehak@gmail.com",
+            "phone": "+918419908564"
+        }
     },
     "donation": {
         "left": {
