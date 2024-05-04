@@ -27,10 +27,10 @@ export default function Navbar() {
                             navbar.logo
                         }
                         className="logo cur"
-                        onClick={() => {navigate("/")}}
+                        onClick={() => { setShowNavbar(false); navigate("/"); }}
                     ></img>
 
-                    <div className="w-100 flex justify-space-btween" onClick={() => {setShowNavbar(false)}}>
+                    <div className="w-100 flex justify-space-btween" onClick={() => { setShowNavbar(false) }}>
                         <div className={`nav-links ${showNavBar && "active"}`}>
                             {navbar.navigationLinks.map((nav) => (
                                 <div className="dropdown">

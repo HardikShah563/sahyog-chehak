@@ -56,7 +56,14 @@ export default function StoriesOfChange() {
                                     </div>
                                 )
                             }
-                            <h3 className="cur" onClick={() => { changeView(story.id) }}>
+                            
+                            <h3
+                                className="cur"
+                                onClick={() => {
+                                    !story.viewMore && window.scrollTo(0, 0);
+                                    changeView(story.id);
+                                }}
+                            >
                                 (Read {story.viewMore ? "Less" : "More"})
                             </h3>
                         </div>

@@ -39,7 +39,7 @@ export default function Team() {
                                     <div>
                                         <div className="margin-block-20">
                                             <h1 className="small-heading">{teamMember.title}</h1>
-                                            <p className="para-text">{teamMember.subTitle}</p>
+                                            <p className="para-text txt-ctr">{teamMember.subTitle}</p>
 
                                             {teamMember.email && (
                                                 <a href={`mailto:${teamMember.email}`}>({teamMember.email})</a>
