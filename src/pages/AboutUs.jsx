@@ -13,13 +13,16 @@ export default function AboutUs() {
                         </h1>
                         <div className="margin-block-50">
                             {section.paragraph.map((para) => (
-                                <div className="w-60 margin-a-a margin-block-50 para-text txt-justify">
-                                    <div className="margin-block-10 small-heading">
-                                        <b>{para.title && para.title}</b>
-                                    </div>
+                                <div className="w-60 margin-a-a para-text txt-justify">
+                                    {para.title && (
+                                        <div className="margin-block-10 small-heading">
+                                            <b>{para.title}</b>
+                                        </div>
+                                    )}
                                     <div className="font-normal">
                                         {para.text}
                                     </div>
+                                    <br />
                                 </div>
                             ))}
                         </div>
