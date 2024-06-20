@@ -39,6 +39,19 @@ export default function StoriesOfChange() {
                 <div className="w-90 margin-a-a grid-2">
                     {storyData.map((story) => (
                         <div className="getinvolved-div" key={story.id}>
+                            <div className="flex justify-ctr margin-block-20">
+                                {story.imageURL && (
+                                    <img
+                                        src={
+                                            process.env.PUBLIC_URL
+                                            + "/assets/"
+                                            + story.imageURL
+                                        }
+                                        alt={story.imageURL}
+                                        height={300}
+                                    />
+                                )}
+                            </div>
                             <h1 className="small-heading">
                                 {story.title}
                             </h1>
@@ -56,7 +69,7 @@ export default function StoriesOfChange() {
                                     </div>
                                 )
                             }
-                            
+
                             <h3
                                 className="cur"
                                 onClick={() => {
