@@ -24,18 +24,20 @@ export default function Team() {
                         <div className="team-members">
                             {t.array.map((teamMember, i) => (
                                 <div key={teamMember.imageURL} className="team-member">
-                                    <div>
-                                        <img
-                                            src={
-                                                process.env.PUBLIC_URL
-                                                + "/assets/team/"
-                                                + teamMember.imageURL
-                                            }
-                                            alt={teamMember.imageURL}
-                                            height={200}
-                                            width={200}
-                                        />
-                                    </div>
+                                    {teamMember.imageURL && (
+                                        <div>
+                                            <img
+                                                src={
+                                                    process.env.PUBLIC_URL
+                                                    + "/assets/team/"
+                                                    + teamMember.imageURL
+                                                }
+                                                alt={teamMember.imageURL}
+                                                height={200}
+                                                width={200}
+                                            />
+                                        </div>
+                                    )}
                                     <div>
                                         <div className="margin-block-20">
                                             <h1 className="small-heading">{teamMember.title}</h1>
