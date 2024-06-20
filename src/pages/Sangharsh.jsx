@@ -68,7 +68,9 @@ export default function Sangharsh() {
                     <h1 className="heading txt-ctr margin-block-20">{sangharsh.paragraph1.title}</h1>
                     <div className={`paragraph-div margin-block-10`}>
                         <div>
-                            <div className="para-text">{sangharsh.paragraph1.text}</div>
+                            <div className="para-text">{sangharsh.paragraph1.text1}</div>
+                            <br />
+                            <div className="para-text">{sangharsh.paragraph1.text2}</div>
                         </div>
                     </div>
                 </div>
@@ -94,7 +96,9 @@ export default function Sangharsh() {
                     <h1 className="heading txt-ctr margin-block-20">{sangharsh.paragraph2.title}</h1>
                     <div className={`paragraph-div margin-block-10`}>
                         <div>
-                            <div className="para-text">{sangharsh.paragraph2.text}</div>
+                            <div className="para-text">{sangharsh.paragraph2.text1}</div>
+                            <br />
+                            <div className="para-text">{sangharsh.paragraph2.text2}</div>
                         </div>
                     </div>
                 </div>
