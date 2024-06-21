@@ -8,14 +8,15 @@
 
 .partner-logos {
     width: 100%;
-    margin: 20px auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
 .partner-logo {
-    height: 50px;
+    height: 70px;
+    margin-block: 10px;
 }
 
 .team-members {

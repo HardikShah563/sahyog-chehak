@@ -771,9 +771,9 @@
                         "imageURL": "ruvina.jpg"
                     },
                     {
-                        "title": "Swati Gije",
+                        "title": "Swati Sakpal",
                         "subTitle": "Administration Head",
-                        "paragraph": "Swati Gije joined the team in 2008 and attends to Sahyog’s accounts-related and administrative tasks efficiently and briskly.  She has steadily developed her computer skills. Whether it is from banks, the auditor, or the Charity Commissioner’s Office, Swati is the one we depend upon for answers to our queries. Swati has completed her SYBCom and has picked up many skills on the job.",
+                        "paragraph": "Swati Sakpal joined the team in 2008 and attends to Sahyog’s accounts-related and administrative tasks efficiently and briskly.  She has steadily developed her computer skills. Whether it is from banks, the auditor, or the Charity Commissioner’s Office, Swati is the one we depend upon for answers to our queries. Swati has completed her SYBCom and has picked up many skills on the job.",
                         "email": "swati@sahyogchehak.org.in",
                         "imageURL": "swati.jpg"
                     },
@@ -818,13 +818,6 @@
                         "paragraph": "Zahida is an alumnus of the Sahyog School and completed Class 10 through National Open Schooling in 2006. As a mother of 2 young children, Zahida first worked from home, tutoring neighbourhood children. Once her children began to go to school, she decided to step out of the house and was drawn to the work carried out in Sahyog Sangharsh. She joined in 2014 and works with the older children, teaching them vocational and functional skills. Zahida’s firm and focused manner instills a confidence in the older girls and they feel comfortable sharing their personal concerns with her.",
                         "email": "zahida@sahyogchehak.org.in",
                         "imageURL": "zahida.jpg"
-                    },
-                    {
-                        "title": "Hina Shaikh",
-                        "subTitle": "Jr Prog Assistant",
-                        "paragraph": "Hina got acquainted with Sahyog in 2011 through the Umang program, she later joined the EIC center as a student volunteer and showed an interest in pursuing a career in working with children with disabilities. After the EIC center closed down she enrolled for Child Development Aid (CDA) Course-Ummeed Child Development Center in 2016. Hina worked with Muskaan ngo for a few years as a teacher before joining the Sangharsh team back in 2021. Hina teaches the primary section children. Her years of working outside the community has helped her develop a professional attitude and maturity in dealing with complex situations.",
-                        "email": "hina@sahyogchehak.org.in",
-                        "imageURL": "hina.jpg"
                     },
                     {
                         "title": "Saba khan",
@@ -890,12 +883,8 @@
                         "imageURL": "shankar.jpg"
                     },
                     {
-                        "title": "Swati Sakpal",
-                        "imageURL": "swatisakpal.jpg"
-                    },
-                    {
-                        "title": "Ganesh Karat",
-                        "imageURL": "ganesh.jpg"
+                        "title": "Bhupinder Kaur",
+                        "imageURL": "bhupinder.jpg"
                     }
                 ]
             }
@@ -933,20 +922,14 @@
         "subTitle": "",
         "partners": [
             {
-                "title": "Institutional Supporters",
-                "logoCount": 15,
+                "title": "Collaborations",
+                "logoCount": 16,
                 "logoInitial": "insti",
                 "logoExtension": ".png"
             },
             {
                 "title": "Partners",
-                "logoCount": 0,
-                "logoInitial": "part",
-                "logoExtension": ".png"
-            },
-            {
-                "title": "Collaborators",
-                "logoCount": 0,
+                "logoCount": 8,
                 "logoInitial": "part",
                 "logoExtension": ".png"
             }
