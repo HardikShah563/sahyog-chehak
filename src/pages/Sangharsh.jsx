@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 // importing stylesheets
 import "../style/whatwedo.css";
 // importing icons
-import { GiWingedSword } from "react-icons/gi";
 import { FaStar } from "react-icons/fa6";
 // importing data
 import data from "../data.json";
@@ -111,19 +110,22 @@ export default function Sangharsh() {
 
                 <div className="whatwedo-aims">
                     {sangharsh.aim.cards.map((card) => (
-                        <div className="txt-ctr margin-a-a">
-                            <img
-                                src={
-                                    process.env.PUBLIC_URL
-                                    + "/assets/"
-                                    + card.imageURL
-                                }
-                                alt={card.imageURL}
-                                height={200}
-                            />
-                            <h1 className="small-heading">
+                        <div className="whatwedo-aim-card txt-ctr">
+                            <div className="h-aim-card">
+                                <img
+                                    src={
+                                        process.env.PUBLIC_URL
+                                        + "/assets/"
+                                        + card.imageURL
+                                    }
+                                    alt={card.imageURL}
+                                    height={200}
+                                    className="margin-a-a"
+                                />
+                            </div>
+                            <h2 className="">
                                 {card.title}
-                            </h1>
+                            </h2>
                             <h4 className="w-80 margin-a-a margin-block-10">
                                 {card.subTitle}
                             </h4>

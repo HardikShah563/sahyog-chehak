@@ -55,9 +55,19 @@
 }
 
 .whatwedo-aims {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+}
+
+.whatwedo-aim-card {
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.h-aim-card {
+    height: 250px;
 }
 
 .footer-img {

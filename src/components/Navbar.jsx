@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 // importing stylesheet
 import "../style/navbar.css";
 // importing icons
-import getIconFromIconName from "../config/icons.js";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { MdKeyboardArrowDown } from "react-icons/md";
 // importing data

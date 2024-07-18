@@ -391,7 +391,7 @@
         "title": "",
         "highlights": [
             {
-                "h1": "4:1",
+                "h1": "5:1",
                 "text": "student teacher ratio"
             },
             {
@@ -491,23 +491,27 @@
             "cards": [
                 {
                     "imageURL": "sangharsh_aim1.png",
-                    "title": "Assessment",
+                    "title": "Assessment and Individual Education Plan",
                     "subTitle": "Children are professionally assessed for an accurate diagnosis of their disability"
                 },
                 {
                     "imageURL": "sangharsh_aim2.png",
-                    "title": "Special Education",
+                    "title": "Remediation & Prevocational",
                     "subTitle": "Based on their disabilities, we make a plan to teach them reading, math, and talking skills"
                 },
                 {
                     "imageURL": "sangharsh_aim3.png",
-                    "title": "Reintegration and Placements",
+                    "title": "Reintegration and Apprenticeship",
                     "subTitle": "Special schools and vocational/ employment generation programmes are identified for reintegration and placement"
                 },
                 {
                     "imageURL": "sangharsh_aim4.png",
-                    "title": "Occupational Therapy/ Physiotherapy",
+                    "title": "Disability entitlements",
                     "subTitle": "Children are referred to therapy centres to improve the functioning of their musculoskeletal system"
+                },
+                {
+                    "imageURL": "",
+                    "title": "Therapeutic Support"
                 }
             ]
         },
@@ -927,13 +931,13 @@
         "partners": [
             {
                 "title": "Collaborations",
-                "logoCount": 16,
+                "logoCount": 17,
                 "logoInitial": "insti",
                 "logoExtension": ".png"
             },
             {
                 "title": "Partners",
-                "logoCount": 8,
+                "logoCount": 7,
                 "logoInitial": "part",
                 "logoExtension": ".png"
             }

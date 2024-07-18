@@ -1,5 +1,4 @@
 // importing from react
-// importing from react
 import React from "react";
 import { RouterProvider } from "react-router-dom";
 // importing from config
