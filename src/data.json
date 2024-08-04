@@ -391,20 +391,20 @@
         "title": "",
         "highlights": [
             {
+                "h1": "327",
+                "text": "Person with disability reached"
+            },
+            {
+                "h1": "276",
+                "text": "Centre based interventions"
+            },
+            {
+                "h1": "90",
+                "text": "Reintegration Schools & Vocational Centres"
+            },
+            {
                 "h1": "5:1",
-                "text": "student teacher ratio"
-            },
-            {
-                "h1": "50+",
-                "text": "Students mainstreamed into special schools and vocational training"
-            },
-            {
-                "h1": "Women",
-                "text": "driven community"
-            },
-            {
-                "h1": "Therapeutic",
-                "text": "environment"
+                "text": "Student Teacher Ratio"
             }
         ],
         "paragraph1": {
@@ -510,8 +510,9 @@
                     "subTitle": "Children are referred to therapy centres to improve the functioning of their musculoskeletal system"
                 },
                 {
-                    "imageURL": "",
-                    "title": "Therapeutic Support"
+                    "imageURL": "medical-aid.png",
+                    "title": "Therapeutic Support",
+                    "subTitle": "Therapy, medical support, assisted devices, and remediation"
                 }
             ]
         },

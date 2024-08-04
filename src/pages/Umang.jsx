@@ -95,20 +95,6 @@ export default function Umang() {
                 </div>
             </div>
 
-            <div className="margin-block-50">
-                <hr className="dark-hr" />
-                <div className="w-90 margin-a-a margin-block-20">
-                    <h1 className="small-heading txt-ctr margin-block-20">Be a part of Umang today</h1>
-                    <div className="flex justify-ctr">
-                        <button
-                            className="dark-button"
-                            onClick={() => { window.scrollTo(0, 0); navigate("/join-us") }}
-                        >Join Us Today</button>
-                    </div>
-                </div>
-                <hr className="dark-hr" />
-            </div>
-
             <div className="about-us w-90 margin-block-50">
                 <h1 className="small-heading flex justify-ctr align-ctr txt-ctr">
                     <FaStar fill="#feb518" />
