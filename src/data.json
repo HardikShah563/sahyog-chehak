@@ -507,12 +507,12 @@
                 {
                     "imageURL": "sangharsh_aim4.png",
                     "title": "Disability entitlements",
-                    "subTitle": "Children are referred to therapy centres to improve the functioning of their musculoskeletal system"
+                    "subTitle": "Registration of disability card and linking them to avail government schemes"
                 },
                 {
                     "imageURL": "medical-aid.png",
                     "title": "Therapeutic Support",
-                    "subTitle": "Therapy, medical support, assisted devices, and remediation"
+                    "subTitle": "Therapy, medical support, assisted devices, and home-based support"
                 }
             ]
         },
@@ -931,15 +931,15 @@
         "subTitle": "",
         "partners": [
             {
-                "title": "Collaborations",
-                "logoCount": 17,
-                "logoInitial": "insti",
-                "logoExtension": ".png"
-            },
-            {
                 "title": "Partners",
                 "logoCount": 7,
                 "logoInitial": "part",
+                "logoExtension": ".png"
+            },
+            {
+                "title": "Collaborations",
+                "logoCount": 17,
+                "logoInitial": "insti",
                 "logoExtension": ".png"
             }
         ],
