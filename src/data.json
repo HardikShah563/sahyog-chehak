@@ -151,19 +151,19 @@
             "title": "Our Areas of Work",
             "areas": [
                 {
-                    "title": "Umang",
+                    "title": "Sahyog Umang",
                     "subTitle": "Empowering girls & women",
                     "imageURL": "area1.png",
                     "link": "/sahyog-umang"
                 },
                 {
-                    "title": "Sangharsh",
+                    "title": "Sahyog Sangharsh",
                     "subTitle": "Disability Intervension",
                     "imageURL": "area2.png",
                     "link": "/sahyog-sangharsh"
                 },
                 {
-                    "title": "Roshan",
+                    "title": "Sahyog Roshan",
                     "subTitle": "Enrichment Education",
                     "imageURL": "area3.png",
                     "link": "/sahyog-roshan"
