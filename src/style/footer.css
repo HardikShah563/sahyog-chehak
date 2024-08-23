@@ -76,6 +76,10 @@ hr {
     fill: var(--white);
 }
 
+.valueye-img {
+    width: 200px;
+}
+
 @media (max-width: 1000px) {
     .foot-section {
         min-width: 200px;

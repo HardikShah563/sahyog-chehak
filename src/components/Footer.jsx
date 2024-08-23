@@ -65,6 +65,22 @@ export default function Footer() {
                         © <span className="color-light">{(new Date().getFullYear())}</span>&nbsp;|&nbsp;<span className="color-light">Chehak Trust</span>&nbsp;All Rights Reserved
                     </div>
                 </div>
+
+                <div className="below-footer-links">
+                    <div>
+                        <h4 className="padding-10">Developed and powered by:</h4>
+                        <a href="https://www.valueye.in">
+                            <img
+                                src={
+                                    process.env.PUBLIC_URL
+                                    + "/assets/name.png"
+                                }
+                                alt=""
+                                className="valueye-img"
+                            />
+                        </a>
+                    </div>
+                </div>
             </footer>
         </>
     );
