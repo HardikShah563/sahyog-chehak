@@ -140,8 +140,8 @@ export default function Donation() {
             <div className="donation-box w-90 margin-block-50 flex">
                 <div className="donation-box-inner">
                     <div>
-                        <h1 className="txt-ctr heading">Contribute to the Cause</h1>
-                        <p className="para-text txt-ctr margin-block-20">Your donation to Sahyog Chehak supports our mission of caring for, nourishing, and protecting children while promoting cultural heritage.</p>
+                        <h1 className="txt-ctr heading">{donation.left.title}</h1>
+                        <p className="para-text txt-ctr margin-block-20">{donation.left.paragraph}</p>
                     </div>
 
                     <div className="donation-options margin-block-50">

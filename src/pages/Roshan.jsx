@@ -72,29 +72,19 @@ export default function Roshan() {
                     </div>
                 </div>
 
-                <div className="w-90 margin-a-a whatwedo-div between-para">
-                    {roshan.betweenParaImages.map((photo) => (
-                        <div>
-                            <div className="whatwedo-img">
-                                <img
-                                    src={
-                                        process.env.PUBLIC_URL +
-                                        `/assets/${photo.url}`
-                                    }
-                                    alt={photo.url}
-                                    className="img"
-                                />
-                            </div>
-                        </div>
-                    ))}
-                </div>
+            </div>
 
-                <div className="w-90 margin-a-a margin-block-20">
-                    <h1 className="heading txt-ctr margin-block-20">{roshan.paragraph2.title}</h1>
-                    <div className={`paragraph-div margin-block-10`}>
-                        <div>
-                            <div className="para-text">{roshan.paragraph2.text}</div>
-                        </div>
+            <div className="w-90 margin-a-a margin-block-50">
+                <h1 className="heading txt-ctr margin-block-20">{roshan.paragraph2.title}</h1>
+                <div className={`paragraph-div margin-block-10`}>
+                    <div>
+                        <div className="para-text">{roshan.paragraph2.text.map((text) => (
+                            <div>
+                                {text}
+                                <br />
+                                <br />
+                            </div>
+                        ))}</div>
                     </div>
                 </div>
             </div>
@@ -111,7 +101,7 @@ export default function Roshan() {
 
             <div className="margin-block-50">
                 <h1 className="heading txt-ctr">
-                    What we do?
+                    {roshan.photographs.title}
                 </h1>
 
                 <div className="w-90 margin-a-a whatwedo-div">
@@ -128,11 +118,13 @@ export default function Roshan() {
                                         className="img"
                                     />
                                 </div>
-                                <h3 className="whatwedo-label txt-ctr">
-                                    --&nbsp;
-                                    {photo.label}
-                                    &nbsp;--
-                                </h3>
+                                {photo.label && (
+                                    <h3 className="whatwedo-label txt-ctr">
+                                        --&nbsp;
+                                        {photo.label}
+                                        &nbsp;--
+                                    </h3>
+                                )}
                             </div>
                         </>
                     ))}

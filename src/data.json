@@ -6,7 +6,7 @@
         "logo": "logo-sahyog-small.png",
         "navigationLinks": [
             {
-                "name": "Who are we",
+                "name": "About Us",
                 "isDropdown": true,
                 "dropdown": [
                     {
@@ -24,7 +24,7 @@
                 ]
             },
             {
-                "name": "What we do",
+                "name": "Our Mission",
                 "isDropdown": true,
                 "dropdown": [
                     {
@@ -46,7 +46,7 @@
                 ]
             },
             {
-                "name": "Get Involved",
+                "name": "Participate",
                 "isDropdown": true,
                 "dropdown": [
                     {
@@ -64,7 +64,7 @@
                 ]
             },
             {
-                "name": "Latest",
+                "name": "News/Updates",
                 "isDropdown": true,
                 "dropdown": [
                     {
@@ -144,8 +144,8 @@
             ]
         },
         "about": {
-            "title": "An initiative of Chehak Trust committed to social change",
-            "paragraph": "Chehak Trust embodies a community-driven approach to fostering social transformation, particularly addressing the needs of women and children. Our core belief centres around the pivotal role of education as the catalyst for meaningful change"
+            "title": "An Initiative of Chehak Trust Committed to Social Change",
+            "paragraph": "Sahyog Chehak, an initiative by Chehak Trust, is dedicated to driving social transformation by focusing on the needs of women and children. We believe in a community-driven approach where education serves as the catalyst for meaningful and lasting change. By empowering individuals through education, we pave the way for a brighter, more equitable future for all."
         },
         "areasOfWork": {
             "title": "Our Areas of Work",
@@ -214,8 +214,8 @@
             "imageURL": "mission.png"
         },
         "joinUs": {
-            "title": "Join Us In Our Cause",
-            "paragraph": "Become a driving force for positive change by joining our esteemed group. Your valuable contribution, whether through volunteering your time or partnering with us, holds immense significance. Together, we can effect meaningful change and make a positive impact on the world. Join our mission, and let us collaboratively create a lasting difference.",
+            "title": "Transform Lives with Us",
+            "paragraph": "Become a driving force for positive change by joining Sahyog Chehak. Your contribution—whether through volunteering your time or partnering with us—makes a significant impact. By working together, we can create meaningful change and transform lives. Join our mission today and help us make a lasting difference in our communities.",
             "buttons": [
                 {
                     "text": "Volunteer",
@@ -532,17 +532,6 @@
             "title": "About Roshan",
             "text": "Roshan is a library programme for children, awakening in them the joy of reading. Set up in June 2016 as a community-based and a mobile library and through a library-in-school model launched in September 2017, we strive to take books and stories to as many children as possible in Narayan Nagar, Ghatkopar West. Through quiet reading, story telling sessions and book-based activities and events, Roshan encourages children to develop a love for language and a companionship with books."
         },
-        "betweenParaImages": [
-            {
-                "url": "roshan-para-1.png"
-            },
-            {
-                "url": "roshan-para-2.png"
-            },
-            {
-                "url": "roshan-para-3.png"
-            }
-        ],
         "whatWeDo": [
             {
                 "title": "Homebased Library",
@@ -567,34 +556,32 @@
         ],
         "paragraph2": {
             "title": "How we began",
-            "text": "Roshan Library began its innings in 2013, in the most unlikely of spaces: a room next to a butcher’s shop in a slum rehabilitation community in Goregaon. Over a period of three years, setting up a welcoming library with attractive books, conducting book-based activities, and carrying out outreach activities succeeded in the community understanding the purpose of a library as well as recognising the value books brought to the lives of their children. The day a few parents removed prized objects from their sole showcase and replaced them with books, we dared to believe that we had carved a special space for books in their hearts. In 2016, when Sahyog took a tough decision to exit the Goregaon community, we left knowing that the children coming to Roshan had built a strong and joyful relationship with books and reading was much more than an academic chore. The work of Bookworm Trust in Goa has inspired us to expand the scope of our work in Ghatkopar by starting a mobile library and planning the library-in-school model.  The Roshan Library programme has taken root and is growing steadily."
+            "text": [
+                "Roshan Library began its innings in 2013, in the most unlikely of spaces: a room next to a butcher's shop in a slum rehabilitation community in Goregaon. Over a period of three years, setting up a welcoming library with attractive books, conducting book-based activities, and carrying out outreach activities succeeded in the community understanding the purpose of a library as well as recognising the value books brought to the lives of their children.",
+                "The day a few parents removed prized objects from their sole showcase and replaced them with books, we dared to believe that we had carved a special space for books in their hearts. In 2016, when Sahyog took a tough decision to exit the Goregaon community, we left knowing that the children coming to Roshan had built a strong and joyful relationship with books and reading was much more than an academic chore.",
+                "The work of Bookworm Trust in Goa has inspired us to expand the scope of our work in Ghatkopar by starting a mobile library and planning the library-in-school model.  The Roshan Library programme has taken root and is growing steadily."
+            ]
         },
         "photographs": {
-            "title": "Highlights from Sanghash",
+            "title": "Highlights from Roshan",
             "images": [
                 {
-                    "url": "roshan1.png",
-                    "label": "Label 1"
+                    "url": "roshan1.png"
                 },
                 {
-                    "url": "roshan2.png",
-                    "label": "Label 2"
+                    "url": "roshan2.png"
                 },
                 {
-                    "url": "roshan3.png",
-                    "label": "Label 3"
+                    "url": "roshan3.png"
                 },
                 {
-                    "url": "roshan4.png",
-                    "label": "Label 4"
+                    "url": "roshan4.png"
                 },
                 {
-                    "url": "roshan5.png",
-                    "label": "Label 5"
+                    "url": "roshan5.png"
                 },
                 {
-                    "url": "roshan6.png",
-                    "label": "Label 6"
+                    "url": "roshan6.png"
                 }
             ]
         },
@@ -640,7 +627,11 @@
         ],
         "paragraph1": {
             "title": "About Umang",
-            "text": "Jhula, the life-skills programme, is the outcome of Sahyog’s experiences in education and community health and has been developed from a rights-based perspective. For adolescent girls growing up in underprivileged families, life is careworn as they shoulder myriad household responsibilities and mobility is largely restricted. The yearning to be free is buried deep.  The thrill of going up in a swing and coming down in a rush is a universal, unforgettable experience imbued with the feeling of freedom. We named the life-skills programme Jhula to symbolise this feeling of being free, care-free, free to explore and experience--the hallmark of adolescence. The three themes of Jhula: Jism (Body), Jahan (World) and Zindagi (Life), encompassed in 8   modules, address the various spaces, experiences and institutions that the girls we work with are likely to face. Jhula combines learning with practical work and community interaction to allow girls to step out of restricted spaces. It aims to give the girls knowledge, skills, and experiences that are otherwise inaccessible to them."
+            "text": [
+                "Sahyog Umang was born from our commitment to support young women in pursuing social sector careers. We recognized the dual benefit: these roles, though less financially rewarding, offer lifelong vocational opportunities and significant personal growth. Furthermore, having trained women professionals in the community fosters essential services and a progressive environment, inspiring more young women to embark on similar paths.",
+                "We initiated a one-year part-time training program that included life-skills training, perspective-building sessions, orientation to social sector careers, introductions to women professionals, and spoken-English lessons. Trainees also volunteered in Sahyog’s programs, gaining practical experience. Post-training, they were placed in NGOs for six months of hands-on experience. Through this journey, 200 girls completed their school-leaving exams, with about 100 transitioning to college. Many others pursued skills through various training courses, apprenticeships, and employment.",
+                "The impact was profound: none of the participants married before 18, and they valued the program for empowering them to make independent decisions, move around confidently, and express themselves freely."
+            ]
         },
         "betweenParaImages": [
             {
@@ -655,7 +646,62 @@
         ],
         "paragraph2": {
             "title": "How we began",
-            "text": "Sangharsh started in Jari Mari in 2003 to help kids with disabilities go to school and get support from their community. But in 2011, they moved to Kaju Pada because they saw that kids there needed help too. They realized that many kids in Kaju Pada couldn't easily get to Sangharsh in Jari Mari. So, they did a survey and found 45 kids with disabilities in Ashok Nagar. In 2013, they moved again to Narayan Nagar, a bigger place in Ghatkopar, to help even more kids. They just wanted to be closer to the kids who needed them most."
+            "text": [
+                "Our work with adolescent girls and young women from low-income communities revealed the critical need for both scholarship and mentorship to support secondary and higher education. Financial assistance helps ensure girls complete their education despite socio-economic challenges, while personalized guidance through mentorship fosters confident, well-rounded personalities.",
+                "In June 2017, we launched the Umang Scholarship-Mentorship Program under the Sahyog Umang umbrella, aiming to provide comprehensive support to young girls in the Narayan Nagar Community, covering Junior College, Secondary School, Graduation, and professional courses."
+            ]
+        },
+        "aim": {
+            "cards": [
+                {
+                    "imageURL": "umang-aim-1.png",
+                    "title": "Scholarship and Mentorship",
+                    "subTitle": "Financial aid and guidance for educational and personal growth."
+                },
+                {
+                    "imageURL": "umang-aim-2.png",
+                    "title": "Skill Development",
+                    "subTitle": "Vocational training for women to support themselves and their families."
+                },
+                {
+                    "imageURL": "umang-aim-3.png",
+                    "title": "Community Engagement",
+                    "subTitle": "Engaging students in community service to develop skills and responsibility."
+                }
+            ]
+        },
+        "whatwedo": {
+            "title": "What we do",
+            "data": [
+                {
+                    "title": "Mentoring",
+                    "text": "We are developing a platform to connect professionals who are passionate about mentoring young scholars, helping them with both educational and personal development. Mentoring takes place across all our programs, from the Scholarship-Mentorship Program to the Umang Skill Development Program."
+                },
+                {
+                    "title": "Volunteering",
+                    "text": "We encourage our students to volunteer in Sahyog’s community programs. Volunteering not only builds character and skills but also fosters a spirit of giving back to the community."
+                },
+                {
+                    "title": "Samagam",
+                    "text": "Launched in 2022, Samagam is an alumni group platform for students to exchange ideas and experiences, fostering peer bonding and motivation. These quarterly meetings at Sahyog community centers address concerns and fears with support from experts."
+                },
+                {
+                    "title": "Perspective Building Sessions",
+                    "text": "Our sessions aim to broaden scholars' horizons, covering social, gender, personality development, and mental health topics. These sessions help students develop critical thinking and engage with the broader world around them."
+                },
+                {
+                    "title": " Skill Development",
+                    "text": "Our Umang Skill Development Program offers short-term courses in Beauty, Cooking, Mehendi, and English Speaking. These courses are designed to fit within the participants' home responsibilities, allowing them to earn an income while managing their households."
+                },
+                {
+                    "title": " Entitlements & Job Placements",
+                    "text": "We educate women about various schemes and services available to them, supplementing their financial situation. Post-training, we assist them in finding job opportunities."
+                },
+                {
+                    "title": "Social Inclusion",
+                    "text": "Our programs emphasize social inclusion, encouraging participants to work together across community lines, fostering social support systems, and participating in gender sessions and community events."
+                }
+            ]
         },
         "photographs": {
             "title": "Highlights from Sanghash",
@@ -944,8 +990,8 @@
         "subTitle": "Chehak Trust is registered under the Bombay Public Trust Act, 1950 (Reg. No E-21112 – Mum) and under the Foreign Contributions Regulation Act for receipt of foreign donations (Registration No- 083781240)"
     },
     "joinUs": {
-        "title": "Join Us In Our Cause",
-        "paragraph": "Join us in making a positive impact on the world by volunteering your time or partnering with us to create meaningful change together.",
+        "title": "Transform Lives with Us",
+        "paragraph": "Become a driving force for positive change by joining Sahyog Chehak. Your contribution—whether through volunteering your time or partnering with us—makes a significant impact. By working together, we can create meaningful change and transform lives. Join our mission today and help us make a lasting difference in our communities.",
         "buttons": [
             {
                 "text": "Apply Now",
@@ -1000,8 +1046,8 @@
     },
     "donation": {
         "left": {
-            "title": "Popular Donation Options",
-            "paragraph": "",
+            "title": "Support Our Mission with Your Donation",
+            "paragraph": "Your donation to Sahyog Chehak helps us support programs that enrich the lives of children and women. Together, we can make a lasting impact and ensure a brighter future for the next generation.",
             "donationOptions": [
                 {
                     "title": "Educate"
@@ -1024,7 +1070,7 @@
             ]
         },
         "right": {
-            "title": "Flexible Donation Options"
+            "title": "Choose Your Impact"
         }
     }
 }

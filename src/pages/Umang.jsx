@@ -63,7 +63,13 @@ export default function Umang() {
                     <h1 className="heading txt-ctr margin-block-20">{umang.paragraph1.title}</h1>
                     <div className={`paragraph-div margin-block-10`}>
                         <div>
-                            <div className="para-text">{umang.paragraph1.text}</div>
+                            <div className="para-text">{umang.paragraph1.text.map((text) => (
+                                <div>
+                                    {text}
+                                    <br />
+                                    <br />
+                                </div>
+                            ))}</div>
                         </div>
                     </div>
                 </div>
@@ -89,7 +95,13 @@ export default function Umang() {
                     <h1 className="heading txt-ctr margin-block-20">{umang.paragraph2.title}</h1>
                     <div className={`paragraph-div margin-block-10`}>
                         <div>
-                            <div className="para-text">{umang.paragraph2.text}</div>
+                            <div className="para-text">{umang.paragraph2.text.map((text) => (
+                                <div>
+                                    {text}
+                                    <br />
+                                    <br />
+                                </div>
+                            ))}</div>
                         </div>
                     </div>
                 </div>
@@ -103,6 +115,59 @@ export default function Umang() {
                     &nbsp;&nbsp;
                     <FaStar fill="#feb518" />
                 </h1>
+            </div>
+
+            <div className="w-90 margin-a-a margin-block-50">
+                <h1 className="heading txt-ctr margin-block-50">
+                    {umang.aim.title}
+                </h1>
+
+                <div className="whatwedo-aims">
+                    {umang.aim.cards.map((card) => (
+                        <div className="whatwedo-aim-card txt-ctr">
+                            <div className="h-aim-card">
+                                <img
+                                    src={
+                                        process.env.PUBLIC_URL
+                                        + "/assets/"
+                                        + card.imageURL
+                                    }
+                                    alt={card.imageURL}
+                                    height={200}
+                                    className="margin-a-a"
+                                />
+                            </div>
+                            <h2 className="">
+                                {card.title}
+                            </h2>
+                            <h4 className="w-80 margin-a-a margin-block-10">
+                                {card.subTitle}
+                            </h4>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <div className="w-90 margin-a-a margin-block-20">
+                <h1 className="heading txt-ctr margin-block-20">
+                    {umang.whatwedo.title}
+                </h1>
+
+                <div className="margin-block-50">
+                    {umang.whatwedo.data.map((para) => (
+                        <div className="margin-block-10">
+                            {para.title && (
+                                <div className="margin-block-10 small-heading">
+                                    <b>{para.title}</b>
+                                </div>
+                            )}
+                            <div className="para-text font-normal">
+                                {para.text}
+                            </div>
+                            <br />
+                        </div>
+                    ))}
+                </div>
             </div>
 
             <div className="margin-block-50">
