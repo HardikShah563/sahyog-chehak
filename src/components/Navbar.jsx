@@ -39,7 +39,13 @@ export default function Navbar() {
                                     {nav.isDropdown && (
                                         <div className="dropdown-content">
                                             {nav.dropdown.map((dropdown) => (
-                                                <div onClick={() => { window.scrollTo(0, 0); navigate(dropdown.link) }}>{dropdown.name}</div>
+                                                <div>
+                                                    {dropdown.name && dropdown.link ? (
+                                                        <div onClick={() => { window.scrollTo(0, 0); navigate(dropdown.link) }}>{dropdown.name}</div>
+                                                    ) : (
+                                                        <a target="_blank" href={dropdown.a}>{dropdown.name}</a>
+                                                    )}
+                                                </div>
                                             ))}
                                         </div>
                                     )}

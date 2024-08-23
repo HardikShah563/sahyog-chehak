@@ -74,6 +74,10 @@
                     {
                         "name": "Stories of change",
                         "link": "/stories-of-change"
+                    },
+                    {
+                        "name": "Global Fund for Children",
+                        "a": "https://globalfundforchildren.org/story/unstoppable-tauseens-story-of-resilience/"
                     }
                 ]
             }
@@ -928,6 +932,9 @@
                     },
                     {
                         "title": "Bhupinder Kaur",
+                        "subTitle": "",
+                        "paragraph": "Bhupinder joined the Roshan team as a Program Assistant in October, inspired by community events at her local Gurudwara. Her initial interest in setting up a home library grew into a passion for working with children and books. Recognizing her dedication, the team provided training and guidance, helping her build confidence. Today, Bhupinder actively visits other home libraries in the community and independently leads promotional activities.",
+                        "email": "",
                         "imageURL": "bhupinder.jpg"
                     }
                 ]

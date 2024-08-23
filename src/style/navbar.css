@@ -106,6 +106,10 @@
     cursor: pointer;
 }
 
+.dropdown-content > div > div, .dropdown-content > div > a {
+    padding: 0px;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -210,6 +214,10 @@ a hr {
         border-left: 1px solid var(--white);
         border-radius: 0px;
         margin-left: 20px;
+    }
+
+    .dropdown-content > div > div, .dropdown-content > div > a {
+        color: var(--white);
     }
 
     .dropdown-block {
