@@ -306,7 +306,7 @@
             },
             {
                 "id": 8,
-                "imageURL": "",
+                "imageURL": "IAspireToBe.png",
                 "title": "I aspire to be?",
                 "short": "Hritik, born in Uttar Pradesh, faced early medical challenges resulting in physical and intellectual disabilities. Despite his struggles, his parents supported him lovingly. School life was marred by teasing, yet he cleared his 10th board exams with accommodations. College brought new challenges, leading to academic setbacks and loss of motivation.",
                 "full": [
@@ -319,7 +319,7 @@
             },
             {
                 "id": 9,
-                "imageURL": "",
+                "imageURL": "MeraWalaDance.png",
                 "title": "Mera wala dance",
                 "short": "Jaya joined the center in August 2023, residing with her parents, granny, and younger brother. Initially, her development seemed typical, but by age two, her limited communication raised concerns. Upon learning about the Sangharsh center, her parents hoped it could address her needs before entering mainstream schooling.",
                 "full": [
@@ -331,6 +331,7 @@
             },
             {
                 "id": 1,
+                "imageURL": "NishatStoryofChange.png",
                 "title": "Saira's Journey of Resilience and Redemption",
                 "short": "Saira, a 20-year-old girl living in Narayan Nagar Ghatkopar, faced significant challenges growing up. Orphaned at a young age, she lived with her grandmother, uncle, and aunt who were reluctant to take responsibility for her. Suffering from epilepsy and behavioral issues, she found solace in Sangharsh Disability Center she was enrolled in.",
                 "full": [
@@ -347,6 +348,7 @@
             },
             {
                 "id": 2,
+                "imageURL": "NishatStoryofChange.png",
                 "title": "Nishat's Story of Change",
                 "short": "Nishat ( name changed ) was born in her native village in Uttar Pradesh. She contracted double pneumonia at birth which resulted in convulsions and later an inability to walk. When she was about 6 yrs old, her family decided to migrate to Mumbai for better treatment.",
                 "full": [
@@ -361,26 +363,13 @@
             },
             {
                 "id": 3,
+                "imageURL": "SonalJourneytoIndependence.png",
                 "title": "Sonal's Journey to Independence",
                 "short": "Sonal, a young adult of 20 years, possesses a mischievous smile and a love for dressing up and dancing. She was enrolled in a local special school until she turned 18, she later joined Sangharsh disability centre, where she found a safe and supportive environment.  Sonal lost her father at a young age, her family consists of  her mother and two brothers. Being the only girl her family is very protective of her. Despite her struggles with basic literacy and money transactions, Sonal's independent spirit shines through in her personal grooming and attempts at home chores.",
                 "full": [
                     "Sonal, a young adult of 20 years, possesses a mischievous smile and a love for dressing up and dancing. She was enrolled in a local special school until she turned 18, she later joined Sangharsh disability centre, where she found a safe and supportive environment.  Sonal lost her father at a young age, her family consists of  her mother and two brothers. Being the only girl her family is very protective of her. Despite her struggles with basic literacy and money transactions, Sonal's independent spirit shines through in her personal grooming and attempts at home chores.",
                     "Supported by her mother, who herself was married young and taught Sonal household responsibilities early on, Sonal enjoys cooking, painting diyas, and making Rakhis. However, her trusting nature makes her vulnerable, prompting her family to be cautious about her interactions with strangers. To address this, Sangharsh worked with Sonal's on her personal safety skills through role plays, community visits, and engagement with her classmates.",
                     "The narrative underscores the need for societal efforts to create safe environments where individuals like Sonal can thrive without compromising their identities. By fostering awareness and understanding, communities can ensure that young adults with disabilities can participate fully and contribute meaningfully to society while providing peace of mind to their families."
-                ],
-                "viewMore": false
-            },
-            {
-                "id": 4,
-                "title": "Asma's Story of Change",
-                "short": "Asma (name changed) has an intellectual disability and is supported by her grandmother who works in a thread cutting unit. When Asma's father passed away, her mother remarried leaving Asma in the care of her grandmother who lived with Asma's uncle and aunt. The couple saw Asma as a liability and treated her shabbily.",
-                "full": [
-                    "Asma (name changed) has an intellectual disability and is supported by her grandmother who works in a thread cutting unit. When Asma’s father passed away, her mother remarried leaving Asma in the care of her grandmother who lived with Asma's uncle and aunt. The couple saw Asma as a liability and treated her shabbily.",
-                    "In December 2014, Asma's grandmother came to know about Sangharsh while watching them perform a street play in the community. Hopeful, she brought 16-year-old Asma to Sangharsh and enrolled her. When Asma began attending the centre she looked unkempt, was aggressive and unwilling to share things with others. She cried a lot as she missed her family and banged her hands against the walls. She would occasionally experience epileptic fits. She would get abusive and talk to herself at times.",
-                    "The Sangharsh team took her for assessment to Jai Vakeel, following which the psychiatrist recommended medicines for her aggressive behaviour and epilepsy. Currently, she is under the treatment of Dr. Shah (Consulting Psychiatrist at Sangharsh).",
-                    "Over the course of the last two years we have seen a dramatic change in Asma. She has calmed down considerably, is more understanding and looks happier. She comes to the centre regularly with a huge grin on her face. She is now eager to help others and enjoys learning.",
-                    "Asma has become confident and even surprised us by her ability to apply classroom teaching to real life situations. The children had been taken for an exposure visit to the local police station as part of the theme ‘Our Helpers’. They came to know about the functioning of the police station and were introduced to the police personnel on duty. Asma had been facing issues with her relatives. One night the family refused to let her and her grandmother into the house. Remembering the police station visit she decided to approach the police for assistance. She came across a police patrol car on her way and approached them for help. The Police personnel took her to the Police station, where she bravely shared what had happened with her. She was escorted back by two women constables to her uncle's place.  The constables warned the uncle and aunt about mistreating Asma and took a photograph of Asma, her Aunt and grandmother together. The constables assured Asma she could approach them anytime if a similar incident occured in future.",
-                    "The progress made by Asma made the team confident to integrate her in NADE’s (The National Association of Disabled Enterprises) vocational training centre She has been visiting NADE once a week for half a day since February 2016. At NADE she was trained in painting, plugging and paper bag making which have also helped in enhancing her capacity to sit in one place and concentrate on a given task. She has been able to travel quite well using public transport but needs to be escorted until the time she is able to undertake the journey independently.  Asma is now on the road to self-reliance."
                 ],
                 "viewMore": false
             }
