@@ -24,7 +24,7 @@ export default function SAM() {
                 </div>
 
                 <div className="margin-block-50">
-                    <div className="w-90 margin-a-a whatwedo-div between-para">
+                    {/* <div className="w-90 margin-a-a whatwedo-div between-para">
                         {sam.imageURL.map((photo) => (
                             <div>
                                 <div className="whatwedo-img">
@@ -40,7 +40,7 @@ export default function SAM() {
                                 </div>
                             </div>
                         ))}
-                    </div>
+                    </div> */}
 
                     <div className="w-90 margin-a-a margin-block-20">
                         <h1 className="heading txt-ctr margin-block-20">{sam.aboutUs.title}</h1>

@@ -48,13 +48,13 @@ const router = createBrowserRouter([
                 path: "/sahyog-roshan",
                 element: <Roshan />
             }, {
-                path: "/sahyog-mentorship-and-skill-building",
+                path: "/sahyog-scholarship-and-mentorship-program",
                 element: <SAM />
             }, {
                 path: "/sahyog-umang",
                 element: <Umang />
             }, {
-                path: "/about-us",
+                path: "/our-story",
                 element: <AboutUs />
             }, {
                 path: "/team",
