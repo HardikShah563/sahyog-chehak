@@ -1,140 +1,12 @@
-// importing from react
-import { useState } from "react";
 // importing stylesheets
 import "../style/donate.css";
 // importing icons
-import { MdError } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
 // importing data
 import data from "../data.json";
 
 export default function Donation() {
-    // the data for the donation section from the json file
     const donation = data.donation;
-
-    const [formData, setFormData] = useState({
-        name: "",
-        nameError: "",
-        phone: "",
-        phoneError: "",
-        email: "",
-        emailError: "",
-        amount: 0,
-        amountError: "",
-        paymentType: "",
-        paymentTypeError: "",
-    });
-
-    function handleChange(event) {
-        const { name, value } = event.target;
-        setFormData(prevFormData => {
-            return {
-                ...prevFormData,
-                [name]: value,
-            }
-        });
-    }
-
-    function contactCheck() {
-        if (!formData.nameError) {
-            setFormData(prevFormData => {
-                return {
-                    ...prevFormData,
-                    nameError: "Name cannot be empty"
-                }
-            });
-        }
-        if (!formData.phoneError) {
-            setFormData(prevFormData => {
-                return {
-                    ...prevFormData,
-                    phoneError: "Phone Number cannot be empty"
-                }
-            });
-        }
-        if (formData.phoneError.length != 10) {
-            setFormData(prevFormData => {
-                return {
-                    ...prevFormData,
-                    phoneError: "Length should be 10 digits long"
-                }
-            });
-        }
-        if (!formData.emailError) {
-            setFormData(prevFormData => {
-                return {
-                    ...prevFormData,
-                    emailError: "Email cannot be empty"
-                }
-            });
-        }
-    }
-
-    function amountCheck() { }
-
-    function paymentCheck() { }
-
-    const [step, setStep] = useState(1);
-
-    function stepShow() {
-        switch (step) {
-            case 1:
-                return (
-                    <>
-                        <div className="input-div">
-                            <div className="label">Name</div>
-                            <input
-                                className={`input ${formData.nameError && "error-border"}`}
-                                type="text"
-                                name="name"
-                                id="name"
-                                required
-                                value={formData.name}
-                                onChange={handleChange}
-                            />
-                            {formData.nameError && <div className="error">{formData.nameError}</div>}
-                        </div>
-
-                        <div className="input-div">
-                            <div className="label">Phone Number</div>
-                            <input
-                                className={`input ${formData.phoneError && "error-border"}`}
-                                type="number" s
-                                name="phone"
-                                id="phone"
-                                required
-                                value={formData.phone}
-                                onChange={handleChange}
-                            />
-                            {formData.phoneError && <div className="error">{formData.phoneError}</div>}
-                        </div>
-
-                        <div className="input-div">
-                            <div className="label">E-mail</div>
-                            <input
-                                className={`input ${formData.emailError && "error-border"}`}
-                                type="email"
-                                name="email"
-                                id="email"
-                                required
-                                value={formData.email}
-                                onChange={handleChange}
-                            />
-                            {formData.emailError && <div className="error">{formData.emailError}</div>}
-                        </div>
-
-                        <div className="input-div">
-                            <div className="submit-btn flex gap-5 align-ctr">
-                                Proceed Further <IoIosArrowForward />
-                            </div>
-                        </div>
-                    </>
-                );
-        }
-    }
-
-    console.log(formData);
-
     return (
         <>
             <div className="donation-box w-90 margin-block-50 flex">
@@ -156,42 +28,59 @@ export default function Donation() {
                     </div>
                 </div>
 
-                <div className="donation-box-inner">
+                <div className="donation-box-inner h-full">
                     <h1 className="txt-ctr heading">{donation.right.title}</h1>
 
-                    <div className="donation-form margin-block-20">
-                        <div className="stages flex">
-                            <div className="flex align-ctr gap-10 cur">
-                                <div className="donation-arrow txt-ctr">
-                                    <b>1</b>
-                                </div>
-                                <b>Contact</b>
-                            </div>
+                    <br />
+                    <br />
 
-                            <IoIosArrowForward size={20} />
+                    <div className="donation-form margin-block-20 h-full">
+                        <h1 className="small-heading txt-ctr">
+                            {donation.right.bankDetails.heading}
+                        </h1>
 
-                            <div className="flex align-ctr gap-10 cur">
-                                <div className="donation-arrow txt-ctr">
-                                    <b>2</b>
-                                </div>
-                                <b>Amount</b>
-                            </div>
+                        <hr className="bg-hr margin-block-20" />
 
-                            <IoIosArrowForward size={20} />
+                        <div className="flex flex-col justify-ctr gap-10 txt-left h-full w-80 margin-a-a">
+                            <h1 className="normal-para-text text-left">
+                                Bank Name: 
+                                <br />
+                                <b>
+                                    {donation.right.bankDetails.details.bankName}
+                                </b>,
+                            </h1>
 
-                            <div className="flex align-ctr gap-10 cur">
-                                <div className="donation-arrow txt-ctr">
-                                    <b>3</b>
-                                </div>
-                                <b>Payment</b>
-                            </div>
+                            <h1 className="normal-para-text text-left">
+                                Branch Name: 
+                                <br />
+                                <b>
+                                    {donation.right.bankDetails.details.bankBranch}
+                                </b>
+                            </h1>
+                            <h1 className="normal-para-text text-left">
+                                A/C Number:
+                                <br />
+                                <b>
+                                    {donation.right.bankDetails.details.accountNumber}
+                                </b>
+                            </h1>
+                            <h1 className="normal-para-text text-left">
+                                IFSC Code:
+                                <br />
+                                <b>
+                                    {donation.right.bankDetails.details.ifsc}
+                                </b>
+                            </h1>
+                            <h1 className="normal-para-text text-left">
+                                {donation.right.bankDetails.closingStatement}
+                            </h1>
                         </div>
 
                         <hr className="bg-hr margin-block-20" />
 
-                        <form>
-                            {stepShow(step)}
-                        </form>
+                        <div className="para-text txt-ctr">
+                            ! Thank you for your donations !
+                        </div>
                     </div>
                 </div>
             </div>

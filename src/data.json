@@ -24,7 +24,7 @@
                 ]
             },
             {
-                "name": "Our Progress",
+                "name": "Our Programs",
                 "isDropdown": true,
                 "dropdown": [
                     {
@@ -738,6 +738,7 @@
         "sections": [
             {
                 "title": "How We Began",
+                "subTitle": "",
                 "paragraph": [
                     {
                         "title": "",
@@ -762,8 +763,26 @@
                 ]
             },
             {
-                "title": "",
-                "paragraph": []
+                "title": "Areas of Work",
+                "subTitle": "At Sahyog Chehak Trust, our efforts focus on these key areas:",
+                "paragraph": [
+                    {
+                        "title": "Inclusive Education:",
+                        "text": "Through Sahyog Sangharsh, we support children and young adults with disabilities by providing specialized education, therapy, and skill-building to help them integrate into schools and workplaces."
+                    },
+                    {
+                        "title": "Promoting Literacy:",
+                        "text": "Sahyog Roshan encourages a love for reading among children through storytelling, quiet reading, and library-based activities."
+                    },
+                    {
+                        "title": "Educational Support and Mentorship:",
+                        "text": "Sahyog Scholarship-Mentorship Program offers financial assistance and personalized mentorship to students from low-income communities, empowering them to complete their education and develop life skills."
+                    },
+                    {
+                        "title": "Empowering Women:",
+                        "text": "Sahyog Umang trains young women for careers in the social sector through life skills development, perspective-building, and hands-on experience, fostering independence and confidence."
+                    }
+                ]
             }
         ]
     },
@@ -1073,7 +1092,17 @@
             ]
         },
         "right": {
-            "title": "Choose Your Impact"
+            "title": "Choose Your Impact",
+            "bankDetails": {
+                "heading": "Bank Details for fund trasfer are as follows:",
+                "details": {
+                    "bankName": "The SVC Co-operative Bank Ltd",
+                    "bankBranch": "Vakola",
+                    "accountNumber": "102605130000545",
+                    "ifsc": "SVCB0000026"
+                },
+                "closingStatement": "8OG Certificate will be provided."
+            }
         }
     }
 }

@@ -30,6 +30,10 @@ li {
     list-style-type: none;
 }
 
+.w-fit {
+    width: fit-content;
+}
+
 .w-100 {
     width: 100%;
 }
@@ -48,6 +52,10 @@ li {
 
 .w-90 {
     width: 90%;
+}
+
+.h-full {
+    height: 100%;
 }
 
 .margin-a-a {
@@ -127,6 +135,10 @@ li {
     gap: 20px;
 }
 
+.txt-left {
+    text-align: left;
+}
+
 .txt-ctr {
     text-align: center;
 }
@@ -150,6 +162,11 @@ li {
 .small-heading {
     font-size: 24px;
     color: var(--secondary-dark);
+}
+
+.normal-para-text {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .para-text {
@@ -223,7 +240,6 @@ li {
 
 .light-button {
     border: 1.5px solid var(--secondary-dark);
-    /* background-color: var(--secondary-light); */
 }
 
 .light-button:hover {
@@ -236,7 +252,8 @@ li {
     border: 2px solid var(--secondary-light);
 }
 
-.dark-button:hover, .dark-button:active {
+.dark-button:hover,
+.dark-button:active {
     background-color: var(--secondary-light-hover);
 }
 

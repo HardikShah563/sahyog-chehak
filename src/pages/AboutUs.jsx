@@ -11,6 +11,9 @@ export default function AboutUs() {
                         <h1 className="big-heading txt-ctr">
                             {section.title}
                         </h1>
+                        <h1 className="small-heading txt-ctr">
+                            {section.subTitle}
+                        </h1>
                         <div className="margin-block-50">
                             {section.paragraph.map((para) => (
                                 <div className="w-60 margin-a-a para-text txt-justify">
