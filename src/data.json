@@ -36,12 +36,12 @@
                         "link": "/sahyog-roshan"
                     },
                     {
-                        "name": "Sahyog Scholarship Mentorship Program",
-                        "link": "/sahyog-scholarship-and-mentorship-program"
-                    },
-                    {
                         "name": "Sahyog Umang",
                         "link": "/sahyog-umang"
+                    },
+                    {
+                        "name": "Sahyog Jhula",
+                        "link": "/sahyog-jhula"
                     }
                 ]
             },
@@ -74,6 +74,10 @@
                     {
                         "name": "Global Fund for Children",
                         "a": "https://globalfundforchildren.org/story/unstoppable-tauseens-story-of-resilience/"
+                    },
+                    {
+                        "name": "News Coverage",
+                        "link": "/news-coverage"
                     }
                 ]
             }
@@ -587,23 +591,6 @@
         },
         "footerURL": "roshan_footer.png"
     },
-    "scholarship_mentorship": {
-        "title": "Sahyog Scholarship and Mentorship Program (SAM)",
-        "imageURL": [
-            "sam1.png",
-            "sam2.png",
-            "sam3.png"
-        ],
-        "aboutUs": {
-            "title": "",
-            "paragraph": [
-                "At Sahyog, we recognize that both scholarship and mentorship are essential for supporting the secondary and higher education of girls from low-income communities. Financial assistance ensures that, despite socio-economic challenges, girls can complete their education and pursue further studies. Personalized mentorship, meanwhile, provides crucial guidance to help them overcome academic and personal hurdles, fostering the development of confident, well-rounded individuals.",
-                "Since June 2017, our Scholarship-Mentorship Program has been supporting a cohort of 25 girls from the Narayan Nagar community. This includes 10 girls in Junior College, 12 in Secondary School, and 3 pursuing higher education or professional courses. For our Junior College students, we have partnered with Mentor Together, a program specializing in mentorship since 2009.",
-                "Currently, we select deserving students from the local community each year. In addition to financial assistance provided through sponsors, our program emphasizes holistic development for them. We offer workshops and courses on vital skills, such as spoken English, digital literacy, mental well-being, gender issues, and career exploration. These efforts ensure our students are not only supported financially but are also equipped to face personal and academic challenges, helping them grow into confident and capable individuals."
-            ]
-        },
-        "footerURL": "sam_footer.png"
-    },
     "umang": {
         "logo": "",
         "title": "Umang",
@@ -667,6 +654,24 @@
                     "imageURL": "umang-aim-3.png",
                     "title": "Community Engagement",
                     "subTitle": "Engaging students in community service to develop skills and responsibility."
+                }
+            ]
+        },
+        "scholarship_mentorship": {
+            "title": "Sahyog Scholarship and Mentorship Program (SAM)",
+            "highlight": "Since 2003 Sangharsh has reached out to over 250 children with Disability",
+            "data": [
+                {
+                    "title": "",
+                    "text": "At Sahyog, we recognize that both scholarship and mentorship are essential for supporting the secondary and higher education of girls from low-income communities. Financial assistance ensures that, despite socio-economic challenges, girls can complete their education and pursue further studies. Personalized mentorship, meanwhile, provides crucial guidance to help them overcome academic and personal hurdles, fostering the development of confident, well-rounded individuals."
+                },
+                {
+                    "title": "",
+                    "text": "Since June 2017, our Scholarship-Mentorship Program has been supporting a cohort of 25 girls from the Narayan Nagar community. This includes 10 girls in Junior College, 12 in Secondary School, and 3 pursuing higher education or professional courses. For our Junior College students, we have partnered with Mentor Together, a program specializing in mentorship since 2009."
+                },
+                {
+                    "title": "",
+                    "text": "Currently, we select deserving students from the local community each year. In addition to financial assistance provided through sponsors, our program emphasizes holistic development for them. We offer workshops and courses on vital skills, such as spoken English, digital literacy, mental well-being, gender issues, and career exploration. These efforts ensure our students are not only supported financially but are also equipped to face personal and academic challenges, helping them grow into confident and capable individuals."
                 }
             ]
         },
@@ -734,57 +739,85 @@
         },
         "footerURL": "umang_footer.png"
     },
-    "aboutUs": {
-        "sections": [
+    "jhula": {
+        "logo": "logo-jhula.png",
+        "title": "",
+        "image": "jhula-main.png",
+        "highlights": [
             {
-                "title": "How We Began",
-                "subTitle": "",
-                "paragraph": [
-                    {
-                        "title": "",
-                        "text": "The idea of Sahyog, a community-based model of education, germinated when two of the founding members, Neha Madhiwalla and Padma Deosthali, were doing research among the women in slum pockets of Jari Mari, Andheri-Kurla."
-                    },
-                    {
-                        "title": "",
-                        "text": "A large number of the girls had dropped out of elementary education because of poverty, inadequate number of secondary schools in the neighbourhood, and social strictures applied to adolescent girls. A population even more vulnerable than adolescent girls were children with disabilities for whom there were no educational resources; their vulnerability further compounded by their parents’ ignorance about such resources or inability to access them. This led to the decision to create community-based alternatives for the education of girl dropouts and out-of-school children with disabilities."
-                    },
-                    {
-                        "title": "",
-                        "text": "What started on June 5, 2000, in Jari Mari, as a daily four-hour class with 20 out-of-school adolescent girls and one teacher, grew into Sahyog School—a non-formal school offering elementary and secondary education through the National Institute of Open Schooling as well as Sahyog Jhula, a life skills programme. The second Sahyog School was set up in 2002, almost 20 kilometres away from Jari Mari, in a slum rehabilitation project at Dindoshi, Goregaon East to where several of the school girls had been relocated. In the same year, Sahyog Sangharsh, a centre  for the education and rehabilitation of children with disabilities was started in the Jari Mari community. By 2010, more than 800 girls had passed through the portals of Sahyog School and 100 children through Sahyog Sangharsh."
-                    },
-                    {
-                        "title": "",
-                        "text": "Many girls appeared for the Class 10 exam due to the dedication of their teachers, the perseverance of their families, and their own conviction. Many did not due to early marriages, family circumstances, and change in residence. But going to and through a Sahyog School, taught them to walk with their heads held high and look people straight in the eye."
-                    },
-                    {
-                        "title": "",
-                        "text": "With the girls in both communities successfully overcoming external and internal barriers to access mainstream educational institutions, we were confronted with a heartening reality that challenged our core work of educating adolescent girl dropouts. It was time to move beyond the Sahyog Schools. Bestowed with and bolstered by the EdelGive Social Innovation Honour in 2010, we were ready to build anew on the strong foundation established by the community-based model of education. Sahyog Umang, Sahyog Roshan and Sahyog Sankalp are testimony to that."
-                    }
-                ]
+                "h1": "20,000+ girls",
+                "text": "Empowered through the Tejaswini programme across Maharashtra"
             },
             {
-                "title": "Areas of Work",
-                "subTitle": "At Sahyog Chehak Trust, our efforts focus on these key areas:",
-                "paragraph": [
-                    {
-                        "title": "Inclusive Education:",
-                        "text": "Through Sahyog Sangharsh, we support children and young adults with disabilities by providing specialized education, therapy, and skill-building to help them integrate into schools and workplaces."
-                    },
-                    {
-                        "title": "Promoting Literacy:",
-                        "text": "Sahyog Roshan encourages a love for reading among children through storytelling, quiet reading, and library-based activities."
-                    },
-                    {
-                        "title": "Educational Support and Mentorship:",
-                        "text": "Sahyog Scholarship-Mentorship Program offers financial assistance and personalized mentorship to students from low-income communities, empowering them to complete their education and develop life skills."
-                    },
-                    {
-                        "title": "Empowering Women:",
-                        "text": "Sahyog Umang trains young women for careers in the social sector through life skills development, perspective-building, and hands-on experience, fostering independence and confidence."
-                    }
-                ]
+                "h1": "1200 girls",
+                "text": "Trained in life-skills across BMC schools"
+            },
+            {
+                "h1": "50 Blocks",
+                "text": "Covered across rural and urban Maharashtra"
+            },
+            {
+                "h1": "7 Community Organisations",
+                "text": "Trained through ToT workshops between 2012-2015"
             }
-        ]
+        ],
+        "highlight": "664 girls have undergone the Jhula Life Skills Programme",
+        "paragraph1": {
+            "title": "About Jhula",
+            "text1": "Jhula, the life-skills programme, is the outcome of Sahyog's experiences in education and community health and has been developed from a rights-based perspective. For adolescent girls growing up in underprivileged families, life is careworn as they shoulder myriad household responsibilities and mobility is largely restricted. The yearning to be free is buried deep.",
+            "text2": "The thrill of going up in a swing and coming down in a rush is a universal, unforgettable experience imbued with the feeling of freedom. We named the life-skills programme Jhula to symbolise this feeling of being free, care-free, free to explore and experience--the hallmark of adolescence.",
+            "text3": "The three themes of Jhula: Jism (Body), Jahan (World), and Zindagi (Life), encompassed in 8 modules, address the various spaces, experiences, and institutions that the girls we work with are likely to face. Jhula combines learning with practical work and community interaction to allow girls to step out of restricted spaces. It aims to give the girls knowledge, skills, and experiences that are otherwise inaccessible to them."
+        },
+        "aim": {
+            "cards": [
+                {
+                    "imageURL": "jhula-aim-1.png",
+                    "title": "Empower",
+                    "subTitle": "Build knowledge and confidence among adolescent girls"
+                },
+                {
+                    "imageURL": "jhula-aim-2.png",
+                    "title": "Engage",
+                    "subTitle": "Encourage freedom of thought and self-expression"
+                },
+                {
+                    "imageURL": "jhula-aim-3.png",
+                    "title": "Explore",
+                    "subTitle": "Connect girls with community and real-world experiences"
+                },
+                {
+                    "imageURL": "jhula-aim-4.png",
+                    "title": "Equip",
+                    "subTitle": "Provide life-skills for informed decisions and future opportunities"
+                }
+            ]
+        },
+        "methodology": {
+            "title": "Methodology",
+            "para": "Jhula uses research-based content, group-building exercises, stories, songs, and games to engage adolescent girls. Each session lasts up to 2 hours and is designed to enhance knowledge, reflective skills, and motivation for action."
+        },
+        "scope": {
+            "title": "Scope",
+            "para": "Jhula is implemented in both formal and informal settings, including schools, vocational training centres, and community-based after-school programmes across Mumbai suburbs like Jari Mari, Mankhurd, Ghatkopar, Govandi, and Dindoshi."
+        },
+        "photographs": {
+            "title": "Highlights from Jhula",
+            "images": [
+                {
+                    "url": "jhula1.png",
+                    "label": ""
+                },
+                {
+                    "url": "jhula2.png",
+                    "label": ""
+                },
+                {
+                    "url": "jhula3.png",
+                    "label": ""
+                }
+            ]
+        },
+        "footerURL": "jhula_footer.png"
     },
     "team": {
         "teamArray": [

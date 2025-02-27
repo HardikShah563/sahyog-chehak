@@ -1,6 +1,6 @@
+// importing router
 import { createBrowserRouter } from "react-router-dom";
-// importing components
-import Navbar from "../components/Navbar";
+
 // importing pages
 import Layout from "../pages/Layout";
 import Home from "../pages/Home";
@@ -15,8 +15,8 @@ import Partners from "../pages/Partners";
 // what we do pages
 import Sangharsh from "../pages/Sangharsh";
 import Roshan from "../pages/Roshan";
-import SAM from "../pages/SAM";
 import Umang from "../pages/Umang";
+import Jhula from "../pages/Jhula";
 
 // get involved
 import Finances from "../pages/Finances";
@@ -40,16 +40,13 @@ const router = createBrowserRouter([
                 element: <Donate />
             }, {
                 path: "/sahyog-jhula",
-                element: <Sangharsh />
+                element: <Jhula />
             }, {
                 path: "/sahyog-sangharsh",
                 element: <Sangharsh />
             }, {
                 path: "/sahyog-roshan",
                 element: <Roshan />
-            }, {
-                path: "/sahyog-scholarship-and-mentorship-program",
-                element: <SAM />
             }, {
                 path: "/sahyog-umang",
                 element: <Umang />

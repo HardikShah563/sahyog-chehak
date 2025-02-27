@@ -150,6 +150,38 @@ export default function Umang() {
 
             <div className="w-90 margin-a-a margin-block-20">
                 <h1 className="heading txt-ctr margin-block-20">
+                    {umang.scholarship_mentorship.title}
+                </h1>
+
+                <div className="about-us w-90 margin-block-50">
+                    <h1 className="small-heading flex justify-ctr align-ctr txt-ctr">
+                        <FaStar fill="#feb518" />
+                        &nbsp;&nbsp;
+                        {umang.scholarship_mentorship.highlight}
+                        &nbsp;&nbsp;
+                        <FaStar fill="#feb518" />
+                    </h1>
+                </div>
+
+                <div className="margin-block-50">
+                    {umang.scholarship_mentorship.data.map((para) => (
+                        <div className="margin-block-10">
+                            {para.title && (
+                                <div className="margin-block-10 small-heading">
+                                    <b>{para.title}</b>
+                                </div>
+                            )}
+                            <div className="para-text font-normal">
+                                {para.text}
+                            </div>
+                            <br />
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <div className="w-90 margin-a-a margin-block-20">
+                <h1 className="heading txt-ctr margin-block-20">
                     {umang.whatwedo.title}
                 </h1>
 
