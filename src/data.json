@@ -50,8 +50,12 @@
                 "isDropdown": true,
                 "dropdown": [
                     {
-                        "name": "Finances",
-                        "link": "/finances"
+                        "name": "Annual Reports",
+                        "link": "/reports"
+                    },
+                    {
+                        "name": "Financial Reports",
+                        "link": "/reports"
                     },
                     {
                         "name": "Join Us",
@@ -72,12 +76,16 @@
                         "link": "/stories-of-change"
                     },
                     {
+                        "name": "News Coverage",
+                        "link": "/news-coverage"
+                    },
+                    {
                         "name": "Global Fund for Children",
                         "a": "https://globalfundforchildren.org/story/unstoppable-tauseens-story-of-resilience/"
                     },
                     {
-                        "name": "News Coverage",
-                        "link": "/news-coverage"
+                        "name": "Creative Corner",
+                        "link": "/"
                     }
                 ]
             }
@@ -379,6 +387,58 @@
             }
         ]
     },
+    "aboutUs": {
+        "sections": [
+            {
+                "title": "How We Began",
+                "subTitle": "",
+                "paragraph": [
+                    {
+                        "title": "",
+                        "text": "The idea of Sahyog, a community-based model of education, germinated when two of the founding members, Neha Madhiwalla and Padma Deosthali, were doing research among the women in slum pockets of Jari Mari, Andheri-Kurla."
+                    },
+                    {
+                        "title": "",
+                        "text": "A large number of the girls had dropped out of elementary education because of poverty, inadequate number of secondary schools in the neighbourhood, and social strictures applied to adolescent girls. A population even more vulnerable than adolescent girls were children with disabilities for whom there were no educational resources; their vulnerability further compounded by their parents’ ignorance about such resources or inability to access them. This led to the decision to create community-based alternatives for the education of girl dropouts and out-of-school children with disabilities."
+                    },
+                    {
+                        "title": "",
+                        "text": "What started on June 5, 2000, in Jari Mari, as a daily four-hour class with 20 out-of-school adolescent girls and one teacher, grew into Sahyog School—a non-formal school offering elementary and secondary education through the National Institute of Open Schooling as well as Sahyog Jhula, a life skills programme. The second Sahyog School was set up in 2002, almost 20 kilometres away from Jari Mari, in a slum rehabilitation project at Dindoshi, Goregaon East to where several of the school girls had been relocated. In the same year, Sahyog Sangharsh, a centre  for the education and rehabilitation of children with disabilities was started in the Jari Mari community. By 2010, more than 800 girls had passed through the portals of Sahyog School and 100 children through Sahyog Sangharsh."
+                    },
+                    {
+                        "title": "",
+                        "text": "Many girls appeared for the Class 10 exam due to the dedication of their teachers, the perseverance of their families, and their own conviction. Many did not due to early marriages, family circumstances, and change in residence. But going to and through a Sahyog School, taught them to walk with their heads held high and look people straight in the eye."
+                    },
+                    {
+                        "title": "",
+                        "text": "With the girls in both communities successfully overcoming external and internal barriers to access mainstream educational institutions, we were confronted with a heartening reality that challenged our core work of educating adolescent girl dropouts. It was time to move beyond the Sahyog Schools. Bestowed with and bolstered by the EdelGive Social Innovation Honour in 2010, we were ready to build anew on the strong foundation established by the community-based model of education. Sahyog Umang, Sahyog Roshan and Sahyog Sankalp are testimony to that."
+                    }
+                ]
+            },
+            {
+                "title": "Areas of Work",
+                "subTitle": "At Sahyog Chehak Trust, our efforts focus on these key areas:",
+                "paragraph": [
+                    {
+                        "title": "Inclusive Education:",
+                        "text": "Through Sahyog Sangharsh, we support children and young adults with disabilities by providing specialized education, therapy, and skill-building to help them integrate into schools and workplaces."
+                    },
+                    {
+                        "title": "Promoting Literacy:",
+                        "text": "Sahyog Roshan encourages a love for reading among children through storytelling, quiet reading, and library-based activities."
+                    },
+                    {
+                        "title": "Educational Support and Mentorship:",
+                        "text": "Sahyog Scholarship-Mentorship Program offers financial assistance and personalized mentorship to students from low-income communities, empowering them to complete their education and develop life skills."
+                    },
+                    {
+                        "title": "Empowering Women:",
+                        "text": "Sahyog Umang trains young women for careers in the social sector through life skills development, perspective-building, and hands-on experience, fostering independence and confidence."
+                    }
+                ]
+            }
+        ]
+    },
     "sangharsh": {
         "logo": "logo-sangharsh.png",
         "title": "",
@@ -596,20 +656,16 @@
         "title": "Umang",
         "highlights": [
             {
-                "h1": "4:1",
-                "text": "student teacher ratio"
+                "h1": "235",
+                "text": "Scholarship Provided"
             },
             {
                 "h1": "50+",
-                "text": "Students mainstreamed into special schools and vocational training"
+                "text": "Perspective Sessions"
             },
             {
-                "h1": "Women",
-                "text": "driven community"
-            },
-            {
-                "h1": "Therapeutic",
-                "text": "environment"
+                "h1": "600+",
+                "text": "Women in Vocational Courses"
             }
         ],
         "paragraph1": {
@@ -672,8 +728,27 @@
                 {
                     "title": "",
                     "text": "Currently, we select deserving students from the local community each year. In addition to financial assistance provided through sponsors, our program emphasizes holistic development for them. We offer workshops and courses on vital skills, such as spoken English, digital literacy, mental well-being, gender issues, and career exploration. These efforts ensure our students are not only supported financially but are also equipped to face personal and academic challenges, helping them grow into confident and capable individuals."
+                },
+                {
+                    "title": "",
+                    "text": "Initiated in June 2017, this programme supports young girls by providing financial assistance and one-to-one mentorship for both academic and personal development."
                 }
-            ]
+            ],
+            "list": {
+                "heading": "Scholarship Impact Details:",
+                "listItems": [
+                    "Ness and Deloitte Scholarship: 25",
+                    "WTW Scholarship: 26",
+                    "Adani Scholarship: 16",
+                    "Bajaj Scholarship: 37",
+                    "Citco Scholarship: 12",
+                    "G2A Scholarship: 45",
+                    "Bajaj Scholarship (second instance): 33",
+                    "Ness Scholarship: 26",
+                    "Individual Donors: 15",
+                    "Total Scholarships Provided: 235"
+                ]
+            }
         },
         "whatwedo": {
             "title": "What we do",
@@ -684,7 +759,7 @@
                 },
                 {
                     "title": "Volunteering",
-                    "text": "We encourage our students to volunteer in Sahyog’s community programs. Volunteering not only builds character and skills but also fosters a spirit of giving back to the community."
+                    "text": "We encourage our students to volunteer in Sahyog's community programs. Volunteering not only builds character and skills but also fosters a spirit of giving back to the community."
                 },
                 {
                     "title": "Samagam",
@@ -692,11 +767,17 @@
                 },
                 {
                     "title": "Perspective Building Sessions",
-                    "text": "Our sessions aim to broaden scholars' horizons, covering social, gender, personality development, and mental health topics. These sessions help students develop critical thinking and engage with the broader world around them."
+                    "text": "We conduct regular sessions covering topics such as social awareness, gender issues, personality development, and mental health."
                 },
                 {
-                    "title": " Skill Development",
-                    "text": "Our Umang Skill Development Program offers short-term courses in Beauty, Cooking, Mehendi, and English Speaking. These courses are designed to fit within the participants' home responsibilities, allowing them to earn an income while managing their households."
+                    "title": "Women's Skill Development Program (2017-23)",
+                    "text": "This programme equips women with practical vocational skills to help them achieve economic independence in a supportive environment. In collaboration with Shrimad Rajchandra Love & Care Foundation, the following free training courses are offered:",
+                    "data": [
+                        "Basic Parlour Course: 191 enrollees",
+                        "Spoken English Course: 179 enrollees",
+                        "Mehendi Course: 197 enrollees",
+                        "Cooking Course: 60 enrollees"
+                    ]
                 },
                 {
                     "title": " Entitlements & Job Placements",
@@ -977,13 +1058,6 @@
                         "paragraph": "Shankar joined the Sangharsh team in June 2023, taking on the role of Outreach Coordinator. With a background in grassroots organizations such as Asha Mahila Sanstha MDACS project, FPA, and Niramaya Health Foundation, he brings a wealth of experience in community outreach. Shankar has played a pivotal role in facilitating sessions with ANC and PNC workers on Early Childhood Disability Identification & Sensitization, fostering strong liaisons with government agencies. His dynamic leadership has been evident in spearheading outreach efforts in the newly operational community centers in Ghatkopar and Kurla. Through consistent engagement, he has strengthened relationships with existing stakeholders within these communities. We are confident that his expertise will enhance the visibility of Sahyog and establish crucial linkages for all our community programs.",
                         "email": "",
                         "imageURL": "shankar.jpg"
-                    },
-                    {
-                        "title": "Bhupinder Kaur",
-                        "subTitle": "Program assistant, Roshan",
-                        "paragraph": "Bhupinder joined the Roshan team as a Program Assistant in October, inspired by community events at her local Gurudwara. Her initial interest in setting up a home library grew into a passion for working with children and books. Recognizing her dedication, the team provided training and guidance, helping her build confidence. Today, Bhupinder actively visits other home libraries in the community and independently leads promotional activities.",
-                        "email": "",
-                        "imageURL": "bhupinder.jpg"
                     }
                 ]
             }
@@ -1041,7 +1115,7 @@
         ]
     },
     "finances": {
-        "title": "Finances",
+        "title": "Reports",
         "subTitle": "Chehak Trust is registered under the Bombay Public Trust Act, 1950 (Reg. No E-21112 – Mum) and under the Foreign Contributions Regulation Act for receipt of foreign donations (Registration No- 083781240)"
     },
     "joinUs": {
@@ -1052,7 +1126,7 @@
                 "text": "Apply Now",
                 "icon": "FaLongArrowAltRight",
                 "type": "light",
-                "link": "https://forms.gle/qctNQJr3r9nWAsHL7"
+                "link": "https://docs.google.com/forms/d/1fUgjzZnFNyeSyP7HLMdV1MOH4xLwNYjcoOIQgK7KyVc/viewform?chromeless=1&edit_requested=true"
             },
             {
                 "text": "Email Us",

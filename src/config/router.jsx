@@ -60,7 +60,7 @@ const router = createBrowserRouter([
                 path: "/partners&supporters",
                 element: <Partners />
             }, {
-                path: "/finances",
+                path: "/reports",
                 element: <Finances />
             }, {
                 path: "/join-us",

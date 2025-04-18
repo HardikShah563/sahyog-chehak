@@ -118,6 +118,10 @@ li {
     flex-wrap: wrap;
 }
 
+.grid {
+    display: grid;
+}
+
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -194,6 +198,14 @@ li {
 .para-50 {
     width: 50%;
     margin-inline: auto;
+}
+
+.list {
+    list-style-type: disc;
+}
+
+.list .list-item {
+    margin-block: 5px;
 }
 
 .color-light {

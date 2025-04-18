@@ -163,7 +163,7 @@ export default function Umang() {
                     </h1>
                 </div>
 
-                <div className="margin-block-50">
+                <div>
                     {umang.scholarship_mentorship.data.map((para) => (
                         <div className="margin-block-10">
                             {para.title && (
@@ -178,6 +178,15 @@ export default function Umang() {
                         </div>
                     ))}
                 </div>
+
+                <p className="para-text">{umang.scholarship_mentorship.list.heading}</p>
+                <ul className="list">
+                    {umang.scholarship_mentorship.list.listItems.map((li) => (
+                        <li className="list list-item font-normal">
+                            {li}
+                        </li>
+                    ))}
+                </ul>
             </div>
 
             <div className="w-90 margin-a-a margin-block-20">
@@ -196,6 +205,14 @@ export default function Umang() {
                             <div className="para-text font-normal">
                                 {para.text}
                             </div>
+                            {para.data && <ul className="list">
+                                <br />
+                                {para.data && para.data.map((paragraph) => (
+                                    <li className="list list-item para-text font-normal">
+                                        {paragraph}
+                                    </li>
+                                ))}
+                            </ul>}
                             <br />
                         </div>
                     ))}
