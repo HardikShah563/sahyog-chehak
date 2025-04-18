@@ -23,6 +23,7 @@ import Finances from "../pages/Finances";
 import Join from "../pages/Join";
 import StoriesOfChange from "../pages/StoriesOfChange";
 import Partner from "../pages/Partner";
+import NewsCoverage from "../pages/NewsCoverage";
 
 const router = createBrowserRouter([
     {
@@ -71,6 +72,9 @@ const router = createBrowserRouter([
             }, {
                 path: "/partner-with-us",
                 element: <Partner />
+            }, {
+                path: "/news-coverage",
+                element: <NewsCoverage />
             }, {
                 // your pages will go here, copy the syntax of <Home /> and follow the convention
             }, {

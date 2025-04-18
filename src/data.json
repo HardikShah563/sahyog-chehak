@@ -80,12 +80,8 @@
                         "link": "/news-coverage"
                     },
                     {
-                        "name": "Global Fund for Children",
-                        "a": "https://globalfundforchildren.org/story/unstoppable-tauseens-story-of-resilience/"
-                    },
-                    {
                         "name": "Creative Corner",
-                        "link": "/"
+                        "link": "/creative-corner"
                     }
                 ]
             }
@@ -1113,6 +1109,11 @@
                 "imageTitle": ""
             }
         ]
+    },
+    "news": {
+        "title": "News/Coverage",
+        "subTitle": "",
+        "data": []
     },
     "finances": {
         "title": "Reports",
